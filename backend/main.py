@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 
 from dotenv import load_dotenv
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 
 # Make `backend.*` imports resolvable regardless of launch directory.
@@ -48,13 +48,26 @@ app.add_middleware(
     expose_headers=["X-Demo-Mode"],
 )
 
+MAX_REQUEST_BYTES = 1_048_576  # 1 MB maximum payload
+
+
 @app.middleware("http")
-async def add_security_headers(request, call_next):
+async def security_and_limit_middleware(request: Request, call_next):
+    # Guard against oversized payloads causing memory exhaustion
+    content_length = request.headers.get("content-length")
+    if content_length and int(content_length) > MAX_REQUEST_BYTES:
+        from fastapi.responses import JSONResponse
+        return JSONResponse(
+            status_code=413,
+            content={"detail": "Payload too large. Maximum allowed size is 1MB."},
+        )
+
     response = await call_next(request)
     response.headers["X-Content-Type-Options"] = "nosniff"
     response.headers["X-Frame-Options"] = "DENY"
     response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
     response.headers["Permissions-Policy"] = "camera=(), microphone=(), geolocation=()"
+    response.headers["X-XSS-Protection"] = "1; mode=block"
     return response
 
 

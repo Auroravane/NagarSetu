@@ -1,44 +1,59 @@
-"""
-Simple in-memory sliding window rate limiter for FastAPI endpoints.
-Protects sensitive and resource-heavy routes (e.g. /api/chat) from abuse.
-"""
-
-from collections import defaultdict
+import os
 import time
-from typing import Dict, List, Tuple
+from typing import Dict, List
 from fastapi import HTTPException, Request, status
+
+# Comma-separated list of trusted proxy IPs/subnets (e.g. cloudflare, load balancers)
+TRUSTED_PROXIES = {
+    ip.strip()
+    for ip in os.getenv("TRUSTED_PROXIES", "127.0.0.1,::1").split(",")
+    if ip.strip()
+}
+MAX_TRACKED_CLIENTS = 5000
 
 
 class SlidingWindowRateLimiter:
     """
     In-memory rate limiter tracking timestamps per client key.
-    Note: In multi-worker deployments with separate process memory,
-    rate limits are local per worker process.
+    Hardened against:
+    1. X-Forwarded-For spoofing: only trusted proxy IPs can provide forwarded client IPs.
+    2. Unbounded memory exhaustion: bounded maximum tracked client keys with auto-pruning.
     """
 
     def __init__(self, requests_limit: int = 30, window_seconds: int = 60):
         self.requests_limit = requests_limit
         self.window_seconds = window_seconds
-        self._history: Dict[str, List[float]] = defaultdict(list)
+        self._history: Dict[str, List[float]] = {}
 
     def _get_key(self, request: Request) -> str:
-        # Prefer forwarded client IP if behind proxy, fallback to client host
-        forwarded = request.headers.get("x-forwarded-for")
-        if forwarded:
-            ip = forwarded.split(",")[0].strip()
-        elif request.client:
-            ip = request.client.host
-        else:
-            ip = "unknown"
-        return ip
+        peer_host = request.client.host if request.client else "unknown"
+
+        # Only trust X-Forwarded-For if direct peer is an explicitly trusted proxy
+        if peer_host in TRUSTED_PROXIES or "*" in TRUSTED_PROXIES:
+            forwarded = request.headers.get("x-forwarded-for")
+            if forwarded:
+                client_candidate = forwarded.split(",")[0].strip()
+                if client_candidate:
+                    return client_candidate
+
+        return peer_host
 
     def check(self, request: Request) -> None:
         key = self._get_key(request)
         now = time.time()
         window_start = now - self.window_seconds
 
-        # Prune older entries
-        timestamps = [ts for ts in self._history[key] if ts > window_start]
+        # Bounded cleanup to prevent memory exhaustion attack
+        if len(self._history) > MAX_TRACKED_CLIENTS:
+            stale_keys = [
+                k for k, timestamps in self._history.items()
+                if not timestamps or timestamps[-1] <= window_start
+            ]
+            for sk in stale_keys:
+                del self._history[sk]
+
+        # Prune older entries for current client
+        timestamps = [ts for ts in self._history.get(key, []) if ts > window_start]
         if len(timestamps) >= self.requests_limit:
             self._history[key] = timestamps
             raise HTTPException(

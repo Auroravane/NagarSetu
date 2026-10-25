@@ -54,7 +54,10 @@ def call_gemini(system: str, prompt: str) -> str:
         system_instruction=system,
         generation_config={"response_mime_type": "application/json"},
     )
-    resp = model.generate_content(prompt)
+    resp = model.generate_content(
+        prompt,
+        request_options={"timeout": 15.0},
+    )
     return resp.text
 
 
