@@ -334,15 +334,23 @@ export default function SignInPreview() {
 
               <AnimatePresence>
                 {errorMessage && (
-                  <motion.p
+                  <motion.div
                     role="alert"
                     initial={{ opacity: 0, y: 4 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0 }}
                     className="rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm leading-5 text-red-800"
                   >
-                    {errorMessage}
-                  </motion.p>
+                    <span>{errorMessage}</span>
+                    {errorMessage.toLowerCase().includes("incorrect") && (
+                      <span className="block mt-1 text-xs text-red-700">
+                        Don&apos;t have an account yet?{" "}
+                        <Link href="/signup" className="font-semibold underline">
+                          Sign up here
+                        </Link>
+                      </span>
+                    )}
+                  </motion.div>
                 )}
               </AnimatePresence>
             </form>

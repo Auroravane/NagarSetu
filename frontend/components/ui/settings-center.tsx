@@ -753,12 +753,21 @@ export function SettingsCenter({
             <div className="mb-5 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800" role="alert">
               {error}
               {(error.includes("sign in") || error.includes("session has expired")) && (
-                <Link
-                  className="ml-2 font-semibold underline"
-                  href={`/signin?next=${encodeURIComponent(`/?settings=${option}`)}`}
-                >
-                  Sign in
-                </Link>
+                <span className="ml-2">
+                  <Link
+                    className="font-semibold underline hover:text-red-950"
+                    href={`/signin?next=${encodeURIComponent(`/?settings=${option}`)}`}
+                  >
+                    Sign in
+                  </Link>
+                  <span className="mx-1 text-slate-400">or</span>
+                  <Link
+                    className="font-semibold underline hover:text-red-950"
+                    href="/signup"
+                  >
+                    Create account
+                  </Link>
+                </span>
               )}
             </div>
           )}
