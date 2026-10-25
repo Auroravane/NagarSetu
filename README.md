@@ -73,6 +73,11 @@ NagarSetu is composed of three primary layers:
 - Groq or Gemini-based LLM generation
 - RAG verification and scope-gating logic
 
+##Workflow
+
+[![Architecture diagram of auroravane/nagarsetu](https://gitdiagram.com/auroravane/nagarsetu/diagram.png)](https://gitdiagram.com/auroravane/nagarsetu?utm_source=readme&utm_medium=picture)
+
+
 ## Repository Structure
 
 ```text
