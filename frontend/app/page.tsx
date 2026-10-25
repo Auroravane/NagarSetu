@@ -9,6 +9,7 @@ import {
   LogOut,
   Menu,
   MessageSquare,
+  User,
   X,
 } from "lucide-react";
 import { ChatPanel } from "@/components/ChatPanel";
@@ -189,31 +190,43 @@ export default function Home() {
               </span>
             )}
 
-            {/* Auth button (Sign In / Sign Out) */}
+            {/* Auth button (User Email when signed in / Sign In when signed out) */}
             {mounted && (
-              <button
-                type="button"
-                onClick={handleAuthAction}
-                className={cn(
-                  "inline-flex h-8 items-center gap-2 rounded-lg border px-3 text-sm font-medium transition-colors",
-                  user
-                    ? "border-slate-200 text-slate-600 hover:border-red-200 hover:bg-red-50 hover:text-red-600"
-                    : "border-brand-200 bg-brand-50 text-brand-700 hover:border-brand-300 hover:bg-brand-100"
-                )}
-                aria-label={user ? "Sign out" : "Sign in"}
-              >
-                {user ? (
-                  <>
+              user ? (
+                <div className="flex items-center gap-1.5 sm:gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setActiveSetting("profile")}
+                    className="inline-flex h-8 items-center gap-2 rounded-lg border border-slate-200 bg-white px-2.5 py-1 text-xs font-semibold text-slate-800 shadow-sm transition hover:border-brand-200 hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-700"
+                    title={`Signed in as ${user.email}. Click to view profile settings.`}
+                    aria-label={`Signed in as ${user.email}. Click to view profile settings.`}
+                  >
+                    <User aria-hidden="true" className="h-3.5 w-3.5 text-brand-700" />
+                    <span className="max-w-[130px] truncate sm:max-w-[200px] md:max-w-[260px]">
+                      {user.email}
+                    </span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={handleAuthAction}
+                    className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-slate-200 text-slate-500 transition hover:border-red-200 hover:bg-red-50 hover:text-red-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-700"
+                    title="Sign out"
+                    aria-label="Sign out"
+                  >
                     <LogOut aria-hidden="true" className="h-4 w-4" />
-                    <span className="hidden sm:inline">Sign Out</span>
-                  </>
-                ) : (
-                  <>
-                    <LogIn aria-hidden="true" className="h-4 w-4" />
-                    <span className="hidden sm:inline">Sign In</span>
-                  </>
-                )}
-              </button>
+                  </button>
+                </div>
+              ) : (
+                <button
+                  type="button"
+                  onClick={handleAuthAction}
+                  className="inline-flex h-8 items-center gap-2 rounded-lg border border-brand-200 bg-brand-50 px-3 text-sm font-medium text-brand-700 transition hover:border-brand-300 hover:bg-brand-100"
+                  aria-label="Sign in"
+                >
+                  <LogIn aria-hidden="true" className="h-4 w-4" />
+                  <span className="hidden sm:inline">Sign In</span>
+                </button>
+              )
             )}
 
             <button
