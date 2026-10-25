@@ -14,10 +14,8 @@ import pickle
 from dataclasses import dataclass
 from pathlib import Path
 
-import chromadb
 import numpy as np
 from rank_bm25 import BM25Okapi
-from sentence_transformers import SentenceTransformer
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
@@ -51,15 +49,19 @@ class Chunk:
 
 
 # --- Lazy singletons: heavy models load once per process ---
-_embedder: SentenceTransformer | None = None
+_embedder = None
 _collection = None
 _bm25: BM25Okapi | None = None
 _chunk_meta: dict | None = None
 
 
-def _get_embedder() -> SentenceTransformer:
+def _get_embedder():
     global _embedder
     if _embedder is None:
+        import torch
+        # Cap PyTorch CPU threads to 1 to reduce memory spikes on low-RAM containers
+        torch.set_num_threads(1)
+        from sentence_transformers import SentenceTransformer
         _embedder = SentenceTransformer("all-MiniLM-L6-v2")
     return _embedder
 
@@ -67,6 +69,7 @@ def _get_embedder() -> SentenceTransformer:
 def _get_collection():
     global _collection
     if _collection is None:
+        import chromadb
         client = chromadb.PersistentClient(path=str(CHROMA_PATH))
         _collection = client.get_collection("procedures")
     return _collection
