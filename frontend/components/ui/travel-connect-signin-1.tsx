@@ -115,7 +115,7 @@ export default function SignInPreview() {
       !requestedDestination.startsWith("//")
         ? requestedDestination
         : "/";
-    router.push(destination);
+    window.location.href = destination;
   };
 
   const handleTwoFactorSubmit = async (event: FormEvent<HTMLFormElement>) => {

@@ -670,7 +670,9 @@ export function AuthComponent({
                 <GlassButton
                   type="button"
                   size="sm"
-                  onClick={() => router.push("/")}
+                  onClick={() => {
+                    window.location.href = "/";
+                  }}
                 >
                   Open NagarSetu
                   <ArrowRight className="h-4 w-4" aria-hidden="true" />
