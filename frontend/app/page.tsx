@@ -5,6 +5,7 @@ import Image from "next/image";
 import {
   ClipboardList,
   Github,
+  LogIn,
   LogOut,
   Menu,
   MessageSquare,
@@ -19,6 +20,7 @@ import {
 } from "@/components/ui/settings-sidebar-accordion";
 import { SettingsCenter } from "@/components/ui/settings-center";
 import { DEMO_MODE, getSessionId } from "@/lib/api";
+import { getCurrentAccount, signOut } from "@/lib/auth";
 import type { ChatResponse, Language } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
@@ -70,8 +72,14 @@ export default function Home() {
     typeof window !== "undefined" ? getSessionId() : ""
   );
 
+  const [user, setUser] = useState<{ full_name?: string; email?: string } | null>(null);
+
   useEffect(() => {
     setMounted(true);
+
+    getCurrentAccount()
+      .then((account) => setUser(account))
+      .catch(() => setUser(null));
 
     const requestedSetting = new URLSearchParams(
       window.location.search
@@ -93,10 +101,18 @@ export default function Home() {
     []
   );
 
-  // Redirect to the sign-in page.
-  // Connect your authentication logout function here if required.
-  const handleSignOut = () => {
-    window.location.href = "/signin";
+  const handleAuthAction = async () => {
+    if (user) {
+      try {
+        await signOut();
+      } catch {
+        // Continue redirecting on error
+      }
+      setUser(null);
+      window.location.href = "/signin";
+    } else {
+      window.location.href = "/signin";
+    }
   };
 
   const showGithub = mounted && !DEMO_MODE;
@@ -173,16 +189,32 @@ export default function Home() {
               </span>
             )}
 
-            {/* Sign Out button */}
-            <button
-              type="button"
-              onClick={handleSignOut}
-              className="inline-flex h-8 items-center gap-2 rounded-lg border border-slate-200 px-3 text-sm font-medium text-slate-600 transition-colors hover:border-red-200 hover:bg-red-50 hover:text-red-600"
-              aria-label="Sign out"
-            >
-              <LogOut aria-hidden="true" className="h-4 w-4" />
-              <span className="hidden sm:inline">Sign Out</span>
-            </button>
+            {/* Auth button (Sign In / Sign Out) */}
+            {mounted && (
+              <button
+                type="button"
+                onClick={handleAuthAction}
+                className={cn(
+                  "inline-flex h-8 items-center gap-2 rounded-lg border px-3 text-sm font-medium transition-colors",
+                  user
+                    ? "border-slate-200 text-slate-600 hover:border-red-200 hover:bg-red-50 hover:text-red-600"
+                    : "border-brand-200 bg-brand-50 text-brand-700 hover:border-brand-300 hover:bg-brand-100"
+                )}
+                aria-label={user ? "Sign out" : "Sign in"}
+              >
+                {user ? (
+                  <>
+                    <LogOut aria-hidden="true" className="h-4 w-4" />
+                    <span className="hidden sm:inline">Sign Out</span>
+                  </>
+                ) : (
+                  <>
+                    <LogIn aria-hidden="true" className="h-4 w-4" />
+                    <span className="hidden sm:inline">Sign In</span>
+                  </>
+                )}
+              </button>
+            )}
 
             <button
               type="button"

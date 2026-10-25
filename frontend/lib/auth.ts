@@ -242,3 +242,10 @@ export async function getLoginHistory(): Promise<LoginEvent[]> {
   const response = await authRequest<{ history: LoginEvent[] }>("/login-history");
   return response.history;
 }
+
+export async function signOut(): Promise<void> {
+  await authRequest<{ ok: boolean }>("/logout", {
+    method: "POST",
+  });
+}
+

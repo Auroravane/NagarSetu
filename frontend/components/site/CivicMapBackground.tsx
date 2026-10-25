@@ -7,9 +7,10 @@ export function CivicMapBackground() {
   const prefersReducedMotion = useReducedMotion();
   const { scrollYProgress } = useScroll();
 
-  // Subtle scroll-linked pan & gentle scale across the page scroll
-  const translateY = useTransform(scrollYProgress, [0, 1], ["0%", "-6%"]);
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 1.05]);
+  // Parallax scroll that reveals the top of the map at the top of the page (header),
+  // and smoothly scrolls all the way to reveal the bottom of the map at the footer.
+  // The map container is taller than the viewport so we can translate from top (0%) down to bottom (-100% + viewport).
+  const y = useTransform(scrollYProgress, [0, 1], ["0%", "-50%"]);
 
   return (
     <div
@@ -18,11 +19,11 @@ export function CivicMapBackground() {
       className="pointer-events-none fixed inset-0 z-0 overflow-hidden bg-[#e9f9fc]"
     >
       <motion.div
-        className="civic-map-zoom absolute inset-0"
+        className="civic-map-zoom absolute inset-x-0 top-0 h-[200vh] w-full"
         style={
           prefersReducedMotion
-            ? { scale: 1, translateY: "0%" }
-            : { scale, translateY }
+            ? { y: "0%" }
+            : { y }
         }
       >
         <Image
@@ -31,7 +32,7 @@ export function CivicMapBackground() {
           fill
           priority
           sizes="100vw"
-          className="object-cover object-center opacity-70 mix-blend-multiply"
+          className="object-cover object-top opacity-75 mix-blend-multiply"
         />
       </motion.div>
       <div className="absolute inset-0 bg-gradient-to-br from-white/50 via-white/60 to-sky-50/45" />
