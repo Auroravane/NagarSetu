@@ -122,30 +122,54 @@ def validate_procedure_and_step(procedure_id: str, step_number: int | None = Non
             )
 
 
+def _ensure_session_sqlite(session_id: str, language: str = "en") -> None:
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.execute("PRAGMA foreign_keys = ON")
+        conn.executescript(SQLITE_SCHEMA)
+        conn.execute(
+            "INSERT OR IGNORE INTO sessions (session_id, language) VALUES (?, ?)",
+            (session_id, language),
+        )
+
+
 def ensure_session(session_id: str, language: str = "en") -> None:
     if is_postgres():
-        db_url = os.environ["DATABASE_URL"]
-        with psycopg.connect(db_url) as conn:
-            _init_pg(conn)
-            with conn.cursor() as cur:
-                cur.execute(
-                    """
-                    INSERT INTO sessions (session_id, language) 
-                    VALUES (%s, %s)
-                    ON CONFLICT (session_id) DO NOTHING
-                    """,
-                    (session_id, language),
-                )
-            conn.commit()
-    else:
-        DB_PATH.parent.mkdir(parents=True, exist_ok=True)
-        with sqlite3.connect(DB_PATH) as conn:
-            conn.execute("PRAGMA foreign_keys = ON")
-            conn.executescript(SQLITE_SCHEMA)
-            conn.execute(
-                "INSERT OR IGNORE INTO sessions (session_id, language) VALUES (?, ?)",
-                (session_id, language),
-            )
+        try:
+            db_url = os.environ["DATABASE_URL"].strip("'\"")
+            with psycopg.connect(db_url) as conn:
+                _init_pg(conn)
+                with conn.cursor() as cur:
+                    cur.execute(
+                        """
+                        INSERT INTO sessions (session_id, language) 
+                        VALUES (%s, %s)
+                        ON CONFLICT (session_id) DO NOTHING
+                        """,
+                        (session_id, language),
+                    )
+                conn.commit()
+            return
+        except Exception:
+            pass
+    _ensure_session_sqlite(session_id, language)
+
+
+def _upsert_progress_sqlite(principal_id: str, procedure_id: str, step_number: int, completed: bool) -> None:
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.execute("PRAGMA foreign_keys = ON")
+        conn.executescript(SQLITE_SCHEMA)
+        conn.execute(
+            """
+            INSERT INTO progress (session_id, procedure_id, step_number, completed, completed_at)
+            VALUES (?, ?, ?, ?, CASE WHEN ? THEN CURRENT_TIMESTAMP ELSE NULL END)
+            ON CONFLICT(session_id, procedure_id, step_number)
+            DO UPDATE SET completed = excluded.completed,
+                          completed_at = excluded.completed_at
+            """,
+            (principal_id, procedure_id, step_number, completed, completed),
+        )
 
 
 def upsert_progress(
@@ -158,36 +182,26 @@ def upsert_progress(
     ensure_session(principal_id)
 
     if is_postgres():
-        db_url = os.environ["DATABASE_URL"]
-        with psycopg.connect(db_url) as conn:
-            _init_pg(conn)
-            with conn.cursor() as cur:
-                cur.execute(
-                    """
-                    INSERT INTO progress (session_id, procedure_id, step_number, completed, completed_at)
-                    VALUES (%s, %s, %s, %s, CASE WHEN %s THEN CURRENT_TIMESTAMP ELSE NULL END)
-                    ON CONFLICT (session_id, procedure_id, step_number)
-                    DO UPDATE SET completed = EXCLUDED.completed,
-                                  completed_at = EXCLUDED.completed_at
-                    """,
-                    (principal_id, procedure_id, step_number, completed, completed),
-                )
-            conn.commit()
-    else:
-        DB_PATH.parent.mkdir(parents=True, exist_ok=True)
-        with sqlite3.connect(DB_PATH) as conn:
-            conn.execute("PRAGMA foreign_keys = ON")
-            conn.executescript(SQLITE_SCHEMA)
-            conn.execute(
-                """
-                INSERT INTO progress (session_id, procedure_id, step_number, completed, completed_at)
-                VALUES (?, ?, ?, ?, CASE WHEN ? THEN CURRENT_TIMESTAMP ELSE NULL END)
-                ON CONFLICT(session_id, procedure_id, step_number)
-                DO UPDATE SET completed = excluded.completed,
-                              completed_at = excluded.completed_at
-                """,
-                (principal_id, procedure_id, step_number, completed, completed),
-            )
+        try:
+            db_url = os.environ["DATABASE_URL"].strip("'\"")
+            with psycopg.connect(db_url) as conn:
+                _init_pg(conn)
+                with conn.cursor() as cur:
+                    cur.execute(
+                        """
+                        INSERT INTO progress (session_id, procedure_id, step_number, completed, completed_at)
+                        VALUES (%s, %s, %s, %s, CASE WHEN %s THEN CURRENT_TIMESTAMP ELSE NULL END)
+                        ON CONFLICT (session_id, procedure_id, step_number)
+                        DO UPDATE SET completed = EXCLUDED.completed,
+                                      completed_at = EXCLUDED.completed_at
+                        """,
+                        (principal_id, procedure_id, step_number, completed, completed),
+                    )
+                conn.commit()
+            return
+        except Exception:
+            pass
+    _upsert_progress_sqlite(principal_id, procedure_id, step_number, completed)
 
 
 def get_progress(principal_id: str, procedure_id: str) -> tuple[list[int], int]:
@@ -195,28 +209,34 @@ def get_progress(principal_id: str, procedure_id: str) -> tuple[list[int], int]:
     validate_procedure_and_step(procedure_id)
 
     if is_postgres():
-        db_url = os.environ["DATABASE_URL"]
-        with psycopg.connect(db_url) as conn:
-            _init_pg(conn)
-            with conn.cursor() as cur:
-                cur.execute(
-                    """
-                    SELECT step_number, completed FROM progress 
-                    WHERE session_id = %s AND procedure_id = %s ORDER BY step_number ASC
-                    """,
-                    (principal_id, procedure_id),
-                )
-                rows = cur.fetchall()
-    else:
-        DB_PATH.parent.mkdir(parents=True, exist_ok=True)
-        with sqlite3.connect(DB_PATH) as conn:
-            conn.execute("PRAGMA foreign_keys = ON")
-            conn.executescript(SQLITE_SCHEMA)
-            rows = conn.execute(
-                "SELECT step_number, completed FROM progress "
-                "WHERE session_id = ? AND procedure_id = ? ORDER BY step_number ASC",
-                (principal_id, procedure_id),
-            ).fetchall()
+        try:
+            db_url = os.environ["DATABASE_URL"].strip("'\"")
+            with psycopg.connect(db_url) as conn:
+                _init_pg(conn)
+                with conn.cursor() as cur:
+                    cur.execute(
+                        """
+                        SELECT step_number, completed FROM progress 
+                        WHERE session_id = %s AND procedure_id = %s ORDER BY step_number ASC
+                        """,
+                        (principal_id, procedure_id),
+                    )
+                    rows = cur.fetchall()
+            completed = [r[0] for r in rows if r[1]]
+            configured_total = SUPPORTED_PROCEDURES[procedure_id]["max_steps"]
+            return completed, configured_total
+        except Exception:
+            pass
+
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.execute("PRAGMA foreign_keys = ON")
+        conn.executescript(SQLITE_SCHEMA)
+        rows = conn.execute(
+            "SELECT step_number, completed FROM progress "
+            "WHERE session_id = ? AND procedure_id = ? ORDER BY step_number ASC",
+            (principal_id, procedure_id),
+        ).fetchall()
 
     completed = [r[0] for r in rows if r[1]]
     configured_total = SUPPORTED_PROCEDURES[procedure_id]["max_steps"]
