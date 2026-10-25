@@ -31,20 +31,24 @@ def test_client():
 
 def test_rate_limiting_enforced(test_client: TestClient):
     """Enforces 429 Too Many Requests after exceeding window limit."""
-    payload = {
-        "session_id": "test-ratelimit-sess",
-        "message": "water connection",
-        "language": "en",
-    }
-    # Limit is 30 in rate_limit.py
-    for _ in range(30):
-        res = test_client.post("/api/chat", json=payload)
-        assert res.status_code in (200, 503)
+    original_limit = chat_limiter.requests_limit
+    chat_limiter.requests_limit = 5
+    try:
+        payload = {
+            "session_id": "test-ratelimit-sess",
+            "message": "water connection",
+            "language": "en",
+        }
+        for _ in range(5):
+            res = test_client.post("/api/chat", json=payload)
+            assert res.status_code in (200, 503)
 
-    # 31st request must trigger 429
-    blocked = test_client.post("/api/chat", json=payload)
-    assert blocked.status_code == 429
-    assert "Too many requests" in blocked.json()["detail"]
+        # 6th request must trigger 429
+        blocked = test_client.post("/api/chat", json=payload)
+        assert blocked.status_code == 429
+        assert "Too many requests" in blocked.json()["detail"]
+    finally:
+        chat_limiter.requests_limit = original_limit
 
 
 def test_oversized_message_rejected(test_client: TestClient):
