@@ -77,7 +77,7 @@ NagarSetu is composed of three primary layers:
 
 [![Architecture diagram of auroravane/nagarsetu](https://gitdiagram.com/auroravane/nagarsetu/diagram.png)](https://gitdiagram.com/auroravane/nagarsetu?utm_source=readme&utm_medium=picture)
 
-
+[![Architecture diagram](https://gitdiagram.com/diagram-badge.svg)](https://gitdiagram.com/auroravane/nagarsetu?utm_source=readme&utm_medium=badge)
 ## Repository Structure
 
 ```text
