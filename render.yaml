@@ -14,7 +14,7 @@ services:
       - key: ENVIRONMENT
         value: production
       - key: CORS_ORIGINS
-        value: "https://*.pages.dev,http://localhost:3000,http://127.0.0.1:3000"
+        value: "https://nagarsetu.pages.dev,http://localhost:3000,http://127.0.0.1:3000"
       - key: LOG_LEVEL
         value: INFO
       - key: DATABASE_URL

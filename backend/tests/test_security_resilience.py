@@ -78,12 +78,41 @@ def test_scope_refusal_for_political_or_out_of_scope_query(test_client: TestClie
 
 
 def test_security_headers_present(test_client: TestClient):
-    """Confirms secure HTTP response headers on API endpoints."""
+    """Confirms secure HTTP response headers on API endpoints and /health liveness."""
     res = test_client.get("/api/health")
     assert res.status_code == 200
     assert res.headers.get("X-Content-Type-Options") == "nosniff"
     assert res.headers.get("X-Frame-Options") == "DENY"
     assert "strict-origin" in res.headers.get("Referrer-Policy", "")
+
+    # Also test /health alias
+    alias_res = test_client.get("/health")
+    assert alias_res.status_code == 200
+    assert alias_res.json() == {"ok": True}
+
+
+def test_cors_production_origin_and_disallowed_origin(test_client: TestClient):
+    """Verifies that configured production origin receives credentialed CORS and disallowed origin does not."""
+    # Production origin
+    res_allowed = test_client.options(
+        "/api/auth/me",
+        headers={
+            "Origin": "https://nagarsetu.pages.dev",
+            "Access-Control-Request-Method": "GET",
+        },
+    )
+    assert res_allowed.headers.get("access-control-allow-origin") == "https://nagarsetu.pages.dev"
+    assert res_allowed.headers.get("access-control-allow-credentials") == "true"
+
+    # Disallowed origin
+    res_disallowed = test_client.options(
+        "/api/auth/me",
+        headers={
+            "Origin": "https://malicious-site.example.com",
+            "Access-Control-Request-Method": "GET",
+        },
+    )
+    assert res_disallowed.headers.get("access-control-allow-origin") is None
 
 
 def test_bm25_out_of_bounds_rejection(monkeypatch: pytest.MonkeyPatch):

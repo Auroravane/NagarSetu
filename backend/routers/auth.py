@@ -268,6 +268,19 @@ def _secure_cookie() -> bool:
     return os.getenv("ENVIRONMENT", "development").strip().lower() == "production"
 
 
+def _cookie_samesite() -> Literal["lax", "none"]:
+    configured = os.getenv("AUTH_COOKIE_SAMESITE")
+    if configured:
+        val = configured.strip().lower()
+        if val in {"lax", "none"}:
+            return val  # type: ignore[return-value]
+    # In production with cross-origin frontend (pages.dev -> onrender.com),
+    # SameSite=None; Secure is required for cookies to be sent across origins.
+    if _secure_cookie():
+        return "none"
+    return "lax"
+
+
 def _set_session_cookie(response: Response, token: str) -> None:
     response.set_cookie(
         key=SESSION_COOKIE,
@@ -275,7 +288,7 @@ def _set_session_cookie(response: Response, token: str) -> None:
         max_age=int(SESSION_LIFETIME.total_seconds()),
         httponly=True,
         secure=_secure_cookie(),
-        samesite="lax",
+        samesite=_cookie_samesite(),
         path="/",
     )
 
@@ -907,7 +920,7 @@ def logout(
         key=SESSION_COOKIE,
         httponly=True,
         secure=_secure_cookie(),
-        samesite="lax",
+        samesite=_cookie_samesite(),
         path="/",
     )
     return {"ok": True}

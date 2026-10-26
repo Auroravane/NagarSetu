@@ -77,11 +77,14 @@ export function ChecklistCard({ checklist, sources, onProgressChange }: Checklis
     (step) => step.verified === false || !step.fee
   );
   const isMock = sources.some((source) => source.source_url === "MOCK");
-  const lastVerified = new Date().toLocaleDateString("en-GB", {
-    day: "numeric",
-    month: "short",
-    year: "numeric",
-  });
+  const VERIFIED_DATES: Record<string, string> = {
+    chandigarh_trade_license: "8 Oct 2026 (Demo dataset)",
+    water_connection: "8 Oct 2026 (Demo dataset)",
+    property_tax: "8 Oct 2026 (Demo dataset)",
+  };
+  const lastVerified =
+    VERIFIED_DATES[checklist.procedure_id] ||
+    (isMock ? "Unverified (Demo fixture)" : "Awaiting departmental audit");
 
   return (
     <div ref={cardRef} className="space-y-4">
