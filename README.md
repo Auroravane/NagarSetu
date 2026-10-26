@@ -3,6 +3,7 @@
 NagarSetu is a civic procedure navigation platform that helps citizens find, understand, and complete public-service workflows such as trade licenses, water connections, and property tax procedures. It combines a modern web frontend with a FastAPI backend and a retrieval-augmented generation (RAG) layer grounded in official municipal and civic documents.
 
 The app is designed to be checklist-first, source-aware, and transparent about when it is operating in demo mode or using retrieved evidence.
+For the visual technology-stack overview, see [TECH_STACK_ICONS.md](./TECH_STACK_ICONS.md).
 
 ## Why NagarSetu?
 
