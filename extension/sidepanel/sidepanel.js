@@ -272,7 +272,7 @@ function renderChatResponse(response) {
       `<div class="msg-badge badge-official">Official Verified Checklist (${Math.round(response.checklist.confidence * 100)}% Grounded)</div>
        <p><strong>${escapeHtml(response.checklist.procedure_name)}</strong></p>
        <p>${escapeHtml(response.checklist.summary)}</p>
-       <p>✅ Generated <strong>${stepsCount} actionable steps</strong> with official citations. View the step-by-step checklist in the <strong>Saved Checklist</strong> tab.</p>
+       <p><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 4px;"><path d="M20 6 9 17l-5-5"/></svg>Generated <strong>${stepsCount} actionable steps</strong> with official citations. View the step-by-step checklist in the <strong>Saved Checklist</strong> tab.</p>
        <button id="btnViewChecklistNow" class="btn btn-secondary" style="margin-top: 8px;">Open Checklist (${stepsCount} steps)</button>`,
       "official"
     );
@@ -385,7 +385,7 @@ function renderAnalysisResult(analysis, pageData) {
     const reqCard = document.createElement("div");
     reqCard.className = "analysis-card";
     reqCard.innerHTML = `
-      <h4>📋 Key Requirements Extracted</h4>
+      <h4><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 5px;"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M15 2H9a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1Z"/><path d="m9 14 2 2 4-4"/></svg>Key Requirements Extracted</h4>
       <ul>${analysis.keyRequirements.map((r) => `<li>${escapeHtml(r)}</li>`).join("")}</ul>
     `;
     container.appendChild(reqCard);
@@ -395,7 +395,7 @@ function renderAnalysisResult(analysis, pageData) {
     const dCard = document.createElement("div");
     dCard.className = "analysis-card";
     dCard.innerHTML = `
-      <h4>⏳ Deadlines & Timeframes</h4>
+      <h4><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 5px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Deadlines & Timeframes</h4>
       <ul>${analysis.deadlines.map((d) => `<li>${escapeHtml(d)}</li>`).join("")}</ul>
     `;
     container.appendChild(dCard);
@@ -405,7 +405,7 @@ function renderAnalysisResult(analysis, pageData) {
     const ambCard = document.createElement("div");
     ambCard.className = "analysis-card";
     ambCard.innerHTML = `
-      <h4>⚠️ Ambiguities / Unclear Points</h4>
+      <h4><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 5px;"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>Ambiguities / Unclear Points</h4>
       <ul>${analysis.ambiguities.map((a) => `<li>${escapeHtml(a)}</li>`).join("")}</ul>
     `;
     container.appendChild(ambCard);
@@ -461,9 +461,9 @@ async function renderChecklistView(checklist, sources = []) {
       </div>
       <p class="step-desc">${escapeHtml(step.description)}</p>
       <div class="step-meta">
-        <span>🕒 ${escapeHtml(step.processing_time || "N/A")}</span>
-        <span>💰 ${escapeHtml(step.fee || "₹0")}</span>
-        ${stepSource ? `<span title="Official verified source">📜 Verified Source</span>` : ""}
+        <span><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -1px; margin-right: 3px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>${escapeHtml(step.processing_time || "N/A")}</span>
+        <span><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -1px; margin-right: 3px;"><path d="M6 3h12"/><path d="M6 8h12"/><path d="m6 13 8.5 8"/><path d="M6 13h3a4 4 0 0 0 0-8"/></svg>${escapeHtml(step.fee || "₹0")}</span>
+        ${stepSource ? `<span title="Official verified source"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -1px; margin-right: 3px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Verified Source</span>` : ""}
       </div>
     `;
 

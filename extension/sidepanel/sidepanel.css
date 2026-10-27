@@ -53,7 +53,18 @@ body {
 }
 
 .brand-icon {
-  font-size: 22px;
+  width: 32px;
+  height: 32px;
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg-primary {
+  color: var(--primary);
 }
 
 .brand-title {
