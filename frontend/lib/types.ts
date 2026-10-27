@@ -32,6 +32,10 @@ export interface SourceRef {
   chunk_id: string;
   source_url: string;
   snippet: string;
+  title?: string;
+  department?: string;
+  jurisdiction?: string;
+  last_verified?: string;
 }
 
 export interface ChatResponse {

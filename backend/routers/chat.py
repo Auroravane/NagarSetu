@@ -102,12 +102,16 @@ def chat(req: ChatRequest, request: Request):
             detail="LLM returned an invalid checklist. Retry or use Demo Mode.",
         )
 
-    # 5. Assemble response per §7
+    # 5. Assemble response per §7 with Phase Three evidence metadata
     sources = [
         SourceRef(
             chunk_id=c.chunk_id,
             source_url=c.source_url,
             snippet=c.text[:200],
+            title=c.section_title or c.procedure_name,
+            department=c.department,
+            jurisdiction=c.jurisdiction,
+            last_verified=c.last_verified,
         )
         for c in chunks
     ]

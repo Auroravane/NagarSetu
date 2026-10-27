@@ -83,10 +83,15 @@ def test_chat_contract_with_stub_llm():
     for step in cl["steps"]:
         assert step.get("source_chunk_ids"), "step missing source_chunk_ids (§6.2)"
         assert "verified" in step
-    # Sources reference the retrieved chunks
+    # Sources reference the retrieved chunks with metadata
     assert len(body["sources"]) >= 1
     assert any(s["chunk_id"].startswith("chandigarh_trade_license")
                for s in body["sources"])
+    first_src = body["sources"][0]
+    assert "source_url" in first_src
+    assert "snippet" in first_src
+    assert "jurisdiction" in first_src
+
 
 
 def test_chat_validation_error():

@@ -46,6 +46,8 @@ class Chunk:
     doc_type: str
     language: str
     jurisdiction: str
+    last_verified: str | None = None
+
 
 
 # --- Lazy singletons: heavy models load once per process ---
@@ -113,6 +115,7 @@ def _to_chunk(chunk_id: str, text: str, metadata: dict) -> Chunk:
         doc_type=full.get("doc_type", "unknown"),
         language=full.get("language", "en"),
         jurisdiction=full.get("jurisdiction", ""),
+        last_verified=full.get("last_verified"),
     )
 
 

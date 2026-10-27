@@ -27,8 +27,20 @@ export function SourcePopover({ chunkId, sources }: SourcePopoverProps) {
         </button>
       </PopoverTrigger>
       <PopoverContent className="w-80 text-left">
-        <p className="text-xs leading-relaxed text-slate-700">{source.snippet}</p>
-        <p className="mt-2 text-[11px] text-slate-500">{source.chunk_id}</p>
+        {source.title && (
+          <h4 className="text-xs font-semibold text-slate-900">{source.title}</h4>
+        )}
+        {(source.department || source.jurisdiction) && (
+          <div className="mt-1 flex flex-wrap gap-1 text-[10px] text-slate-500">
+            {source.department && <span className="rounded bg-slate-100 px-1.5 py-0.5">{source.department}</span>}
+            {source.jurisdiction && <span className="rounded bg-slate-100 px-1.5 py-0.5">{source.jurisdiction}</span>}
+          </div>
+        )}
+        <p className="mt-2 text-xs leading-relaxed text-slate-700">{source.snippet}</p>
+        <div className="mt-2 flex items-center justify-between text-[11px] text-slate-500">
+          <span className="font-mono text-[10px] text-slate-400">{source.chunk_id}</span>
+          {source.last_verified && <span>Verified: {source.last_verified}</span>}
+        </div>
         {source.source_url && source.source_url !== "MOCK" ? (
           <a
             href={source.source_url}
@@ -41,7 +53,7 @@ export function SourcePopover({ chunkId, sources }: SourcePopoverProps) {
           </a>
         ) : (
           <p className="mt-2 text-[11px] italic text-slate-500">
-            Mock source (official doc unavailable at build time)
+            Official doc verification pending / Demo fixture
           </p>
         )}
       </PopoverContent>

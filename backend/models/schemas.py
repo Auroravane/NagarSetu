@@ -81,11 +81,15 @@ class ChatRequest(BaseModel):
 
 
 class SourceRef(BaseModel):
-    """An entry in the /api/chat 'sources' array. §7."""
+    """An entry in the /api/chat 'sources' array. §7 with Phase Three evidence metadata."""
 
     chunk_id: str
     source_url: str
     snippet: str
+    title: Optional[str] = None
+    department: Optional[str] = None
+    jurisdiction: Optional[str] = None
+    last_verified: Optional[str] = None
 
 
 class ChatResponse(BaseModel):
