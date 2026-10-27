@@ -77,7 +77,7 @@ async def security_and_limit_middleware(request: Request, call_next):
 @app.get("/api/health")
 def health() -> dict:
     """Liveness probe."""
-    return {"ok": True, "status": "healthy"}
+    return {"ok": True}
 
 
 @app.get("/ready")
