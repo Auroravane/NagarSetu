@@ -1,0 +1,1293 @@
+[
+  {
+    "procedureId": "atal_pension_yojana_apy",
+    "name": "Atal Pension Yojana (APY) Guaranteed Pension",
+    "keywords": [
+      "guaranteed",
+      "atal pension yojana (apy) guaranteed pension",
+      "apy",
+      "yojana",
+      "pension",
+      "atal"
+    ]
+  },
+  {
+    "procedureId": "auto_taxi_contract_carriage_permit",
+    "name": "Contract Carriage Auto-Rickshaw & Taxi Permit",
+    "keywords": [
+      "taxi",
+      "autorickshaw",
+      "contract",
+      "auto",
+      "contract carriage auto-rickshaw & taxi permit",
+      "carriage",
+      "permit"
+    ]
+  },
+  {
+    "procedureId": "ayushman_bharat_pmjay_health_card",
+    "name": "Ayushman Bharat PM-JAY Golden Health Card",
+    "keywords": [
+      "pmjay",
+      "health",
+      "bharat",
+      "ayushman bharat pm-jay golden health card",
+      "golden",
+      "card",
+      "ayushman"
+    ]
+  },
+  {
+    "procedureId": "birth_certificate_registration",
+    "name": "Birth Certificate Registration & Download",
+    "keywords": [
+      "birth certificate registration & download",
+      "birth",
+      "download",
+      "registration",
+      "certificate"
+    ]
+  },
+  {
+    "procedureId": "boiler_registration_inspection",
+    "name": "Industrial Boiler Registration & Renewal",
+    "keywords": [
+      "boiler",
+      "inspection",
+      "industrial boiler registration & renewal",
+      "renewal",
+      "registration",
+      "industrial"
+    ]
+  },
+  {
+    "procedureId": "building_plan_approval_sanction",
+    "name": "Residential Building Plan Approval (Naksha Sanction)",
+    "keywords": [
+      "plan",
+      "residential",
+      "sanction",
+      "naksha",
+      "building",
+      "approval",
+      "residential building plan approval (naksha sanction)"
+    ]
+  },
+  {
+    "procedureId": "bulk_water_tanker_supply",
+    "name": "Emergency Potable Water Tanker Booking",
+    "keywords": [
+      "emergency potable water tanker booking",
+      "bulk",
+      "water",
+      "emergency",
+      "supply",
+      "tanker",
+      "booking",
+      "potable"
+    ]
+  },
+  {
+    "procedureId": "caste_category_certificate_sc_st_obc",
+    "name": "Caste Certificate (SC / ST / OBC / EWS)",
+    "keywords": [
+      "category",
+      "caste",
+      "caste certificate (sc / st / obc / ews)",
+      "obc",
+      "certificate"
+    ]
+  },
+  {
+    "procedureId": "chandigarh_trade_license",
+    "name": "Trade License \u2014 Chandigarh Municipal Corporation",
+    "keywords": [
+      "municipal",
+      "license",
+      "trade",
+      "chandigarh",
+      "trade license \u2014 chandigarh municipal corporation",
+      "corporation"
+    ]
+  },
+  {
+    "procedureId": "character_antecedents_police_certificate",
+    "name": "Police Clearance Certificate (PCC) for Employment",
+    "keywords": [
+      "clearance",
+      "antecedents",
+      "police clearance certificate (pcc) for employment",
+      "character",
+      "employment",
+      "certificate",
+      "police"
+    ]
+  },
+  {
+    "procedureId": "cinematograph_theatre_license",
+    "name": "Cinema Hall & Multiplex Exhibition License",
+    "keywords": [
+      "hall",
+      "cinema hall & multiplex exhibition license",
+      "license",
+      "theatre",
+      "cinematograph",
+      "multiplex",
+      "exhibition",
+      "cinema"
+    ]
+  },
+  {
+    "procedureId": "clinical_establishment_registration",
+    "name": "Clinical Establishment Registration (Clinics & Diagnostic Labs)",
+    "keywords": [
+      "clinics",
+      "establishment",
+      "clinical establishment registration (clinics & diagnostic labs)",
+      "labs",
+      "clinical",
+      "registration",
+      "diagnostic"
+    ]
+  },
+  {
+    "procedureId": "commercial_property_misuse_regularization",
+    "name": "Property Misuse Regularization & Penalty Clearance",
+    "keywords": [
+      "clearance",
+      "property misuse regularization & penalty clearance",
+      "penalty",
+      "regularization",
+      "property",
+      "commercial",
+      "misuse"
+    ]
+  },
+  {
+    "procedureId": "commercial_vehicle_fitness_certificate",
+    "name": "Commercial Vehicle Annual Fitness Certificate (FC)",
+    "keywords": [
+      "vehicle",
+      "annual",
+      "commercial vehicle annual fitness certificate (fc)",
+      "fitness",
+      "commercial",
+      "certificate"
+    ]
+  },
+  {
+    "procedureId": "community_hall_park_booking",
+    "name": "Municipal Community Centre & Park Booking",
+    "keywords": [
+      "hall",
+      "municipal",
+      "park",
+      "municipal community centre & park booking",
+      "community",
+      "booking",
+      "centre"
+    ]
+  },
+  {
+    "procedureId": "contract_labour_principal_registration",
+    "name": "Contract Labour Principal Employer Registration",
+    "keywords": [
+      "employer",
+      "contract labour principal employer registration",
+      "contract",
+      "labour",
+      "registration",
+      "principal"
+    ]
+  },
+  {
+    "procedureId": "dead_animal_carcass_removal",
+    "name": "Carcass and Dead Animal Removal Service",
+    "keywords": [
+      "dead",
+      "carcass and dead animal removal service",
+      "service",
+      "animal",
+      "carcass",
+      "removal"
+    ]
+  },
+  {
+    "procedureId": "death_certificate_issuance",
+    "name": "Death Certificate Issuance & Cremation Record",
+    "keywords": [
+      "record",
+      "death certificate issuance & cremation record",
+      "cremation",
+      "issuance",
+      "certificate",
+      "death"
+    ]
+  },
+  {
+    "procedureId": "demarcation_land_boundaries",
+    "name": "Official Land Boundary Demarcation (Nishandehi)",
+    "keywords": [
+      "official land boundary demarcation (nishandehi)",
+      "boundary",
+      "official",
+      "demarcation",
+      "land",
+      "nishandehi",
+      "boundaries"
+    ]
+  },
+  {
+    "procedureId": "dependent_freedom_fighter_certificate",
+    "name": "Freedom Fighter Dependent / Ward Certificate",
+    "keywords": [
+      "dependent",
+      "freedom",
+      "ward",
+      "fighter",
+      "freedom fighter dependent / ward certificate",
+      "certificate"
+    ]
+  },
+  {
+    "procedureId": "disability_pension_scheme",
+    "name": "Divyangjan Disability Monthly Pension",
+    "keywords": [
+      "divyangjan",
+      "divyangjan disability monthly pension",
+      "pension",
+      "monthly",
+      "scheme",
+      "disability"
+    ]
+  },
+  {
+    "procedureId": "domestic_borewell_drilling_permission",
+    "name": "Borewell Drilling & Groundwater Extraction NOC",
+    "keywords": [
+      "borewell",
+      "groundwater",
+      "permission",
+      "drilling",
+      "borewell drilling & groundwater extraction noc",
+      "extraction",
+      "domestic"
+    ]
+  },
+  {
+    "procedureId": "domestic_septic_tank_cleaning_booking",
+    "name": "Mechanical Septic Tank Emptying (FSSM)",
+    "keywords": [
+      "emptying",
+      "mechanical septic tank emptying (fssm)",
+      "mechanical",
+      "domestic",
+      "cleaning",
+      "septic",
+      "booking",
+      "tank",
+      "fssm"
+    ]
+  },
+  {
+    "procedureId": "domestic_sewerage_connection",
+    "name": "New Underground Sewerage Connection",
+    "keywords": [
+      "new underground sewerage connection",
+      "underground",
+      "connection",
+      "domestic",
+      "sewerage"
+    ]
+  },
+  {
+    "procedureId": "driving_license_renewal_online",
+    "name": "Driving License Renewal (Online Faceless Service)",
+    "keywords": [
+      "faceless",
+      "driving",
+      "driving license renewal (online faceless service)",
+      "license",
+      "service",
+      "renewal",
+      "online"
+    ]
+  },
+  {
+    "procedureId": "duplicate_registration_certificate_rc",
+    "name": "Duplicate Registration Certificate (Lost RC / Form 26)",
+    "keywords": [
+      "duplicate",
+      "form",
+      "lost",
+      "registration",
+      "duplicate registration certificate (lost rc / form 26)",
+      "certificate"
+    ]
+  },
+  {
+    "procedureId": "electricity_load_enhancement",
+    "name": "Electricity Load Enhancement / Reduction",
+    "keywords": [
+      "enhancement",
+      "reduction",
+      "load",
+      "electricity load enhancement / reduction",
+      "electricity"
+    ]
+  },
+  {
+    "procedureId": "encumbrance_certificate_property",
+    "name": "Encumbrance Certificate (EC) for Property",
+    "keywords": [
+      "encumbrance",
+      "encumbrance certificate (ec) for property",
+      "certificate",
+      "property"
+    ]
+  },
+  {
+    "procedureId": "excise_temporary_liquor_permit",
+    "name": "Temporary Event Liquor Serving Permit (L-50 / P-10)",
+    "keywords": [
+      "event",
+      "serving",
+      "temporary event liquor serving permit (l-50 / p-10)",
+      "excise",
+      "permit",
+      "temporary",
+      "liquor"
+    ]
+  },
+  {
+    "procedureId": "e_aadhaar_demographic_biometric_update",
+    "name": "Aadhaar Card Demographic & Biometric Update",
+    "keywords": [
+      "aadhaar card demographic & biometric update",
+      "biometric",
+      "aadhaar",
+      "update",
+      "card",
+      "demographic"
+    ]
+  },
+  {
+    "procedureId": "e_shram_unorganized_worker_card",
+    "name": "e-Shram Card for Unorganized Workers",
+    "keywords": [
+      "e-shram card for unorganized workers",
+      "unorganized",
+      "shram",
+      "worker",
+      "workers",
+      "card",
+      "eshram"
+    ]
+  },
+  {
+    "procedureId": "factory_license_registration",
+    "name": "Factory License under Factories Act 1948",
+    "keywords": [
+      "factory license under factories act 1948",
+      "factory",
+      "license",
+      "factories",
+      "registration",
+      "1948"
+    ]
+  },
+  {
+    "procedureId": "faulty_water_meter_testing",
+    "name": "Testing and Replacement of Faulty Water Meter",
+    "keywords": [
+      "water",
+      "replacement",
+      "testing",
+      "testing and replacement of faulty water meter",
+      "meter",
+      "faulty"
+    ]
+  },
+  {
+    "procedureId": "fire_safety_noc_commercial",
+    "name": "Commercial Fire Safety NOC",
+    "keywords": [
+      "safety",
+      "commercial fire safety noc",
+      "noc",
+      "fire",
+      "commercial"
+    ]
+  },
+  {
+    "procedureId": "freehold_conversion_leasehold_property",
+    "name": "Conversion of Leasehold Property to Freehold",
+    "keywords": [
+      "conversion",
+      "conversion of leasehold property to freehold",
+      "leasehold",
+      "property",
+      "freehold"
+    ]
+  },
+  {
+    "procedureId": "fssai_food_license",
+    "name": "FSSAI Food Business Registration & License",
+    "keywords": [
+      "business",
+      "license",
+      "fssai",
+      "food",
+      "fssai food business registration & license"
+    ]
+  },
+  {
+    "procedureId": "funeral_antyeshti_assistance_scheme",
+    "name": "Antyeshti Sahayata / Financial Funeral Assistance",
+    "keywords": [
+      "assistance",
+      "sahayata",
+      "antyeshti",
+      "funeral",
+      "financial",
+      "antyeshti sahayata / financial funeral assistance",
+      "scheme"
+    ]
+  },
+  {
+    "procedureId": "health_trade_eating_house_license",
+    "name": "Health Trade License (Restaurants, Cafes & Bakeries)",
+    "keywords": [
+      "house",
+      "cafes",
+      "health",
+      "eating",
+      "license",
+      "trade",
+      "bakeries",
+      "restaurants",
+      "health trade license (restaurants, cafes & bakeries)"
+    ]
+  },
+  {
+    "procedureId": "heritage_building_alteration_noc",
+    "name": "Heritage Building Renovation & Alteration Clearance",
+    "keywords": [
+      "heritage building renovation & alteration clearance",
+      "heritage",
+      "alteration",
+      "noc",
+      "clearance",
+      "renovation",
+      "building"
+    ]
+  },
+  {
+    "procedureId": "high_security_registration_plate_hsrp",
+    "name": "High Security Registration Plate (HSRP) & Color Sticker",
+    "keywords": [
+      "high security registration plate (hsrp) & color sticker",
+      "plate",
+      "sticker",
+      "color",
+      "registration",
+      "security",
+      "hsrp",
+      "high"
+    ]
+  },
+  {
+    "procedureId": "hypothecation_addition_removal_hp",
+    "name": "Vehicle Loan Hypothecation Removal (HP Termination / Form 35)",
+    "keywords": [
+      "vehicle loan hypothecation removal (hp termination / form 35)",
+      "loan",
+      "addition",
+      "termination",
+      "form",
+      "hypothecation",
+      "vehicle",
+      "removal"
+    ]
+  },
+  {
+    "procedureId": "income_certificate_annual",
+    "name": "Income Certificate for Scholarships & Welfare",
+    "keywords": [
+      "scholarships",
+      "annual",
+      "welfare",
+      "income certificate for scholarships & welfare",
+      "income",
+      "certificate"
+    ]
+  },
+  {
+    "procedureId": "international_driving_permit_idp",
+    "name": "International Driving Permit (IDP)",
+    "keywords": [
+      "driving",
+      "idp",
+      "international driving permit (idp)",
+      "international",
+      "permit"
+    ]
+  },
+  {
+    "procedureId": "ladli_girl_child_financial_incentive",
+    "name": "Beti Bachao / Ladli Kanya Financial Incentive Scheme",
+    "keywords": [
+      "beti bachao / ladli kanya financial incentive scheme",
+      "bachao",
+      "incentive",
+      "kanya",
+      "beti",
+      "girl",
+      "financial",
+      "ladli",
+      "child",
+      "scheme"
+    ]
+  },
+  {
+    "procedureId": "land_use_change_clu_permission",
+    "name": "Change of Land Use (CLU) Permission",
+    "keywords": [
+      "permission",
+      "change",
+      "land",
+      "change of land use (clu) permission",
+      "clu",
+      "use"
+    ]
+  },
+  {
+    "procedureId": "learners_driving_license_sarathi",
+    "name": "Learner's Driving License (LL) Online Test",
+    "keywords": [
+      "driving",
+      "sarathi",
+      "test",
+      "license",
+      "learners",
+      "online",
+      "learner's driving license (ll) online test"
+    ]
+  },
+  {
+    "procedureId": "marriage_registration_certificate",
+    "name": "Marriage Registration & Certificate (Special / Hindu Marriage Act)",
+    "keywords": [
+      "special",
+      "hindu",
+      "registration",
+      "marriage",
+      "marriage registration & certificate (special / hindu marriage act)",
+      "certificate"
+    ]
+  },
+  {
+    "procedureId": "msme_udyam_registration",
+    "name": "MSME Udyam Registration Certificate",
+    "keywords": [
+      "msme udyam registration certificate",
+      "udyam",
+      "msme",
+      "registration"
+    ]
+  },
+  {
+    "procedureId": "name_change_gazette_notification",
+    "name": "Name Change Official Gazette Notification",
+    "keywords": [
+      "change",
+      "name",
+      "official",
+      "notification",
+      "gazette",
+      "name change official gazette notification"
+    ]
+  },
+  {
+    "procedureId": "national_family_benefit_scheme_nfbs",
+    "name": "National Family Benefit Scheme (NFBS)",
+    "keywords": [
+      "nfbs",
+      "national family benefit scheme (nfbs)",
+      "national",
+      "family",
+      "benefit",
+      "scheme"
+    ]
+  },
+  {
+    "procedureId": "noc_property_sale_transfer",
+    "name": "No Objection Certificate (NOC) for Property Sale / Conveyance",
+    "keywords": [
+      "conveyance",
+      "no objection certificate (noc) for property sale / conveyance",
+      "noc",
+      "transfer",
+      "sale",
+      "property",
+      "objection"
+    ]
+  },
+  {
+    "procedureId": "non_encumbrance_minority_certificate",
+    "name": "Religious / Linguistic Minority Community Certificate",
+    "keywords": [
+      "encumbrance",
+      "minority",
+      "religious",
+      "religious / linguistic minority community certificate",
+      "non",
+      "community",
+      "linguistic",
+      "certificate"
+    ]
+  },
+  {
+    "procedureId": "occupancy_completion_certificate",
+    "name": "Building Completion & Occupancy Certificate (OC)",
+    "keywords": [
+      "building completion & occupancy certificate (oc)",
+      "occupancy",
+      "building",
+      "completion",
+      "certificate"
+    ]
+  },
+  {
+    "procedureId": "old_age_pension_scheme",
+    "name": "Old Age Pension Scheme (NSAP / Vridha Pension)",
+    "keywords": [
+      "old age pension scheme (nsap / vridha pension)",
+      "nsap",
+      "old",
+      "vridha",
+      "pension",
+      "scheme",
+      "age"
+    ]
+  },
+  {
+    "procedureId": "packaged_commodity_packer_registration",
+    "name": "Legal Metrology Packaged Commodities (LMPC) Registration",
+    "keywords": [
+      "packer",
+      "lmpc",
+      "commodity",
+      "packaged",
+      "legal",
+      "legal metrology packaged commodities (lmpc) registration",
+      "registration",
+      "metrology",
+      "commodities"
+    ]
+  },
+  {
+    "procedureId": "permanent_driving_license_dl",
+    "name": "Permanent Driving License & Automated Track Test",
+    "keywords": [
+      "driving",
+      "track",
+      "test",
+      "license",
+      "automated",
+      "permanent driving license & automated track test",
+      "permanent"
+    ]
+  },
+  {
+    "procedureId": "pet_shop_dog_breeding_license",
+    "name": "Pet Shop & Dog Breeding Establishment License",
+    "keywords": [
+      "pet",
+      "breeding",
+      "pet shop & dog breeding establishment license",
+      "license",
+      "shop",
+      "establishment",
+      "dog"
+    ]
+  },
+  {
+    "procedureId": "pm_awas_yojana_urban_housing",
+    "name": "PM Awas Yojana (PMAY-Urban) Housing Subsidy",
+    "keywords": [
+      "pmayurban",
+      "yojana",
+      "awas",
+      "housing",
+      "pm awas yojana (pmay-urban) housing subsidy",
+      "urban",
+      "subsidy"
+    ]
+  },
+  {
+    "procedureId": "pm_kisan_samman_nidhi",
+    "name": "PM-KISAN Samman Nidhi (Farmer Financial Benefit)",
+    "keywords": [
+      "benefit",
+      "samman",
+      "pmkisan",
+      "kisan",
+      "nidhi",
+      "farmer",
+      "pm-kisan samman nidhi (farmer financial benefit)",
+      "financial"
+    ]
+  },
+  {
+    "procedureId": "pm_matru_vandana_yojana_pmvvy",
+    "name": "Pradhan Mantri Matru Vandana Yojana (PMMVY) Maternity Benefit",
+    "keywords": [
+      "pmvvy",
+      "mantri",
+      "pradhan mantri matru vandana yojana (pmmvy) maternity benefit",
+      "pradhan",
+      "matru",
+      "yojana",
+      "maternity",
+      "benefit",
+      "vandana",
+      "pmmvy"
+    ]
+  },
+  {
+    "procedureId": "pm_svanidhi_street_vendor_microloan",
+    "name": "PM SVANidhi Micro-Credit Loan for Street Vendors",
+    "keywords": [
+      "street",
+      "vendor",
+      "loan",
+      "vendors",
+      "pm svanidhi micro-credit loan for street vendors",
+      "svanidhi",
+      "microloan",
+      "microcredit"
+    ]
+  },
+  {
+    "procedureId": "pm_ujjwala_yojana_free_lpg",
+    "name": "Pradhan Mantri Ujjwala Yojana (PMUY) Free LPG Connection",
+    "keywords": [
+      "mantri",
+      "pradhan mantri ujjwala yojana (pmuy) free lpg connection",
+      "pradhan",
+      "pmuy",
+      "yojana",
+      "connection",
+      "ujjwala",
+      "lpg",
+      "free"
+    ]
+  },
+  {
+    "procedureId": "png_piped_gas_connection",
+    "name": "Domestic Piped Natural Gas (PNG) Connection",
+    "keywords": [
+      "piped",
+      "natural",
+      "domestic piped natural gas (png) connection",
+      "connection",
+      "domestic",
+      "gas",
+      "png"
+    ]
+  },
+  {
+    "procedureId": "pollution_under_control_certificate_puc",
+    "name": "Pollution Under Control (PUC) Certificate Online",
+    "keywords": [
+      "puc",
+      "pollution",
+      "control",
+      "pollution under control (puc) certificate online",
+      "online",
+      "under",
+      "certificate"
+    ]
+  },
+  {
+    "procedureId": "post_matric_scholarship_sc_st_obc",
+    "name": "Post-Matric Scholarship for SC/ST/OBC Students",
+    "keywords": [
+      "scholarship",
+      "postmatric",
+      "post",
+      "students",
+      "post-matric scholarship for sc/st/obc students",
+      "obc",
+      "matric",
+      "scstobc"
+    ]
+  },
+  {
+    "procedureId": "property_deed_certified_copy",
+    "name": "Certified Copy of Registered Sale / Title Deed",
+    "keywords": [
+      "copy",
+      "certified",
+      "deed",
+      "title",
+      "certified copy of registered sale / title deed",
+      "sale",
+      "property",
+      "registered"
+    ]
+  },
+  {
+    "procedureId": "property_mutation_transfer",
+    "name": "Property Mutation (Transfer of Title in Revenue Records)",
+    "keywords": [
+      "records",
+      "property mutation (transfer of title in revenue records)",
+      "mutation",
+      "revenue",
+      "transfer",
+      "property",
+      "title"
+    ]
+  },
+  {
+    "procedureId": "property_tax",
+    "name": "Property Tax Payment \u2014 Chandigarh Municipal Corporation",
+    "keywords": [
+      "tax",
+      "municipal",
+      "payment",
+      "property tax payment \u2014 chandigarh municipal corporation",
+      "chandigarh",
+      "property",
+      "corporation"
+    ]
+  },
+  {
+    "procedureId": "property_tax_self_assessment",
+    "name": "Property Tax Self-Assessment & Annual Return Filing",
+    "keywords": [
+      "selfassessment",
+      "self",
+      "tax",
+      "assessment",
+      "annual",
+      "property tax self-assessment & annual return filing",
+      "property",
+      "return",
+      "filing"
+    ]
+  },
+  {
+    "procedureId": "property_valuation_circle_rate_certificate",
+    "name": "Property Valuation Certificate (Circle Rate Assessment)",
+    "keywords": [
+      "valuation",
+      "rate",
+      "assessment",
+      "property valuation certificate (circle rate assessment)",
+      "property",
+      "circle",
+      "certificate"
+    ]
+  },
+  {
+    "procedureId": "public_hydrant_drinking_water_installation",
+    "name": "Public Water Hydrant / Standpost Sanction",
+    "keywords": [
+      "standpost",
+      "installation",
+      "hydrant",
+      "water",
+      "sanction",
+      "public",
+      "public water hydrant / standpost sanction",
+      "drinking"
+    ]
+  },
+  {
+    "procedureId": "rainwater_harvesting_rebate",
+    "name": "Rainwater Harvesting System Certification & Property Tax Rebate",
+    "keywords": [
+      "rebate",
+      "system",
+      "rainwater",
+      "certification",
+      "harvesting",
+      "property",
+      "rainwater harvesting system certification & property tax rebate"
+    ]
+  },
+  {
+    "procedureId": "ration_card_new_application",
+    "name": "New Ration Card (APL / BPL / NFSA / Antyodaya)",
+    "keywords": [
+      "new ration card (apl / bpl / nfsa / antyodaya)",
+      "ration",
+      "nfsa",
+      "application",
+      "new",
+      "antyodaya",
+      "card"
+    ]
+  },
+  {
+    "procedureId": "rc_ownership_transfer_vehicle",
+    "name": "Vehicle Registration Transfer of Ownership (Form 29 & 30)",
+    "keywords": [
+      "vehicle registration transfer of ownership (form 29 & 30)",
+      "transfer",
+      "form",
+      "ownership",
+      "vehicle"
+    ]
+  },
+  {
+    "procedureId": "residence_domicile_certificate",
+    "name": "Domicile / Permanent Resident Certificate (PRC)",
+    "keywords": [
+      "residence",
+      "domicile / permanent resident certificate (prc)",
+      "domicile",
+      "resident",
+      "permanent",
+      "certificate"
+    ]
+  },
+  {
+    "procedureId": "road_tax_annual_lifetime_payment",
+    "name": "Motor Vehicle Road Tax Payment (Online Vahan)",
+    "keywords": [
+      "tax",
+      "vehicle",
+      "payment",
+      "annual",
+      "road",
+      "motor vehicle road tax payment (online vahan)",
+      "vahan",
+      "online",
+      "lifetime",
+      "motor"
+    ]
+  },
+  {
+    "procedureId": "rooftop_solar_net_metering",
+    "name": "Rooftop Solar Net Metering Connection",
+    "keywords": [
+      "rooftop",
+      "metering",
+      "solar",
+      "net",
+      "connection",
+      "rooftop solar net metering connection"
+    ]
+  },
+  {
+    "procedureId": "scrapped_vehicle_certificate_deposit",
+    "name": "Registered Vehicle Scrappage Certificate of Deposit (CoD)",
+    "keywords": [
+      "scrappage",
+      "scrapped",
+      "registered vehicle scrappage certificate of deposit (cod)",
+      "certificate",
+      "deposit",
+      "registered",
+      "vehicle"
+    ]
+  },
+  {
+    "procedureId": "senior_citizen_identity_card",
+    "name": "Senior Citizen Identity Card",
+    "keywords": [
+      "citizen",
+      "senior",
+      "identity",
+      "card",
+      "senior citizen identity card"
+    ]
+  },
+  {
+    "procedureId": "shops_establishment_act",
+    "name": "Shops & Commercial Establishments Registration (Gumasta)",
+    "keywords": [
+      "shops & commercial establishments registration (gumasta)",
+      "gumasta",
+      "establishments",
+      "shops",
+      "establishment",
+      "commercial",
+      "act"
+    ]
+  },
+  {
+    "procedureId": "signage_advertisement_permission",
+    "name": "Commercial Signboard & Outdoor Advertisement Permission",
+    "keywords": [
+      "advertisement",
+      "permission",
+      "signage",
+      "commercial signboard & outdoor advertisement permission",
+      "commercial",
+      "outdoor",
+      "signboard"
+    ]
+  },
+  {
+    "procedureId": "solid_waste_debris_removal_service",
+    "name": "Construction & Demolition (C&D) Debris Removal",
+    "keywords": [
+      "debris",
+      "waste",
+      "demolition",
+      "construction & demolition (c&d) debris removal",
+      "construction",
+      "service",
+      "solid",
+      "removal"
+    ]
+  },
+  {
+    "procedureId": "special_choice_registration_number_auction",
+    "name": "VIP / Fancy Vehicle Registration Number E-Auction",
+    "keywords": [
+      "choice",
+      "vip / fancy vehicle registration number e-auction",
+      "special",
+      "number",
+      "auction",
+      "fancy",
+      "registration",
+      "eauction",
+      "vehicle"
+    ]
+  },
+  {
+    "procedureId": "stamp_duty_refund_unexecuted_deed",
+    "name": "Refund of Unused / Spoiled E-Stamp Paper Duty",
+    "keywords": [
+      "estamp",
+      "duty",
+      "refund",
+      "unused",
+      "deed",
+      "stamp",
+      "paper",
+      "refund of unused / spoiled e-stamp paper duty",
+      "spoiled",
+      "unexecuted"
+    ]
+  },
+  {
+    "procedureId": "stand_up_india_sc_st_women_loan",
+    "name": "Stand-Up India Loan for SC/ST and Women Entrepreneurs",
+    "keywords": [
+      "women",
+      "loan",
+      "stand",
+      "entrepreneurs",
+      "scst",
+      "stand-up india loan for sc/st and women entrepreneurs",
+      "india",
+      "standup"
+    ]
+  },
+  {
+    "procedureId": "stray_animal_nuisance_complaint",
+    "name": "Stray Cattle & Dog Animal Birth Control (ABC) Request",
+    "keywords": [
+      "cattle",
+      "request",
+      "birth",
+      "stray cattle & dog animal birth control (abc) request",
+      "control",
+      "nuisance",
+      "animal",
+      "complaint",
+      "stray"
+    ]
+  },
+  {
+    "procedureId": "street_light_complaint_redressal",
+    "name": "Street Light Repair & New Pole Installation",
+    "keywords": [
+      "repair",
+      "installation",
+      "street",
+      "light",
+      "pole",
+      "redressal",
+      "complaint",
+      "street light repair & new pole installation"
+    ]
+  },
+  {
+    "procedureId": "street_vendor_vending_certificate",
+    "name": "Street Vendor Vending Certificate & ID Card",
+    "keywords": [
+      "vending",
+      "street",
+      "vendor",
+      "street vendor vending certificate & id card",
+      "card",
+      "certificate"
+    ]
+  },
+  {
+    "procedureId": "subdivision_plot_amalgamation",
+    "name": "Sub-Division and Amalgamation of Plots",
+    "keywords": [
+      "sub-division and amalgamation of plots",
+      "plot",
+      "plots",
+      "subdivision",
+      "amalgamation"
+    ]
+  },
+  {
+    "procedureId": "survival_member_legal_heir_certificate",
+    "name": "Legal Heir / Surviving Member Certificate",
+    "keywords": [
+      "heir",
+      "surviving",
+      "member",
+      "survival",
+      "legal heir / surviving member certificate",
+      "legal",
+      "certificate"
+    ]
+  },
+  {
+    "procedureId": "tenant_police_verification",
+    "name": "Tenant & Domestic Worker Police Verification",
+    "keywords": [
+      "tenant & domestic worker police verification",
+      "verification",
+      "domestic",
+      "worker",
+      "tenant",
+      "police"
+    ]
+  },
+  {
+    "procedureId": "trade_union_registration",
+    "name": "Trade Union Registration under Trade Unions Act",
+    "keywords": [
+      "union",
+      "unions",
+      "trade",
+      "registration",
+      "trade union registration under trade unions act"
+    ]
+  },
+  {
+    "procedureId": "tree_pruning_removal_permission",
+    "name": "Tree Pruning and Dangerous Branch Removal Permission",
+    "keywords": [
+      "permission",
+      "tree",
+      "dangerous",
+      "tree pruning and dangerous branch removal permission",
+      "pruning",
+      "branch",
+      "removal"
+    ]
+  },
+  {
+    "procedureId": "unemployed_youth_registration",
+    "name": "Employment Exchange Registration for Jobseekers",
+    "keywords": [
+      "unemployed",
+      "youth",
+      "employment exchange registration for jobseekers",
+      "exchange",
+      "jobseekers",
+      "registration",
+      "employment"
+    ]
+  },
+  {
+    "procedureId": "unique_disability_id_udid",
+    "name": "Unique Disability ID (UDID) & Disability Certificate",
+    "keywords": [
+      "udid",
+      "unique",
+      "unique disability id (udid) & disability certificate",
+      "disability"
+    ]
+  },
+  {
+    "procedureId": "vehicle_noc_interstate_transfer",
+    "name": "Vehicle No Objection Certificate (NOC) for Inter-State Transfer",
+    "keywords": [
+      "noc",
+      "transfer",
+      "vehicle no objection certificate (noc) for inter-state transfer",
+      "interstate",
+      "objection",
+      "vehicle"
+    ]
+  },
+  {
+    "procedureId": "vintage_motor_vehicle_registration",
+    "name": "Vintage Motor Vehicle Special Registration (50+ Years)",
+    "keywords": [
+      "years",
+      "motor",
+      "special",
+      "vintage",
+      "vintage motor vehicle special registration (50+ years)",
+      "registration",
+      "vehicle"
+    ]
+  },
+  {
+    "procedureId": "water_connection",
+    "name": "New Water Connection \u2014 Punjab / Chandigarh",
+    "keywords": [
+      "water",
+      "connection",
+      "new water connection \u2014 punjab / chandigarh",
+      "chandigarh",
+      "punjab"
+    ]
+  },
+  {
+    "procedureId": "water_sewerage_rebate_vacant_property",
+    "name": "Water & Sewerage Charge Waiver for Vacant Property",
+    "keywords": [
+      "water",
+      "rebate",
+      "water & sewerage charge waiver for vacant property",
+      "charge",
+      "vacant",
+      "property",
+      "waiver",
+      "sewerage"
+    ]
+  },
+  {
+    "procedureId": "weighing_scale_verification_stamping",
+    "name": "Commercial Weighing Scale Verification & Stamping",
+    "keywords": [
+      "scale",
+      "verification",
+      "commercial weighing scale verification & stamping",
+      "weighing",
+      "commercial",
+      "stamping"
+    ]
+  },
+  {
+    "procedureId": "widow_destitute_women_pension",
+    "name": "Widow & Destitute Women Pension Scheme",
+    "keywords": [
+      "women",
+      "widow & destitute women pension scheme",
+      "widow",
+      "pension",
+      "destitute",
+      "scheme"
+    ]
+  }
+]

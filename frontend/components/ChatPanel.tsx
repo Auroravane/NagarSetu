@@ -251,7 +251,10 @@ export function ChatPanel({
         <PromptInput
           value={input}
           onChange={setInput}
-          placeholder="Describe what you need to do..."
+          onSubmitSuggestion={(suggestion) => {
+            void handleSubmit(undefined, suggestion);
+          }}
+          placeholder="Describe what you need to do (e.g. birth certificate, trade license, water connection)..."
           disabled={loading}
         />
         <p className="mt-2 text-center text-[11px] text-slate-500">{DISCLAIMER}</p>
