@@ -1,0 +1,86 @@
+{
+  "procedure_name": "Certified Copy of Registered Sale / Title Deed",
+  "procedure_id": "property_deed_certified_copy",
+  "summary": "Procuring legally admissible certified copies of registered title deeds from government registration records.",
+  "estimated_total_time": "2–4 working days",
+  "estimated_total_cost": "₹100 – ₹250 search & copying fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Identify registration details",
+      "description": "Find registration document number, book number, volume number, and exact registration date.",
+      "documents_needed": [
+        "Registration details from previous receipt"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 minutes",
+      "official_link": "https://igrsup.gov.in",
+      "source_chunk_ids": [
+        "property_deed_certified_copy__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Apply online or at Sub-Registrar counter",
+      "description": "Fill certified copy requisition form specifying purpose (court, bank loan, title verification).",
+      "documents_needed": [
+        "Applicant ID proof"
+      ],
+      "fee": "₹100 – ₹250",
+      "processing_time": "1 day",
+      "official_link": "https://igrsup.gov.in",
+      "source_chunk_ids": [
+        "property_deed_certified_copy__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Sub-registrar record retrieval",
+      "description": "Record keeper retrieves original volume record from record room or digital repository.",
+      "documents_needed": [
+        "Archival file lookup"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://igrsup.gov.in",
+      "source_chunk_ids": [
+        "property_deed_certified_copy__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Affixing official seal and signature",
+      "description": "Sub-Registrar stamps 'Certified True Copy' with official holographic seal.",
+      "documents_needed": [
+        "Certified stamped copy"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://igrsup.gov.in",
+      "source_chunk_ids": [
+        "property_deed_certified_copy__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Collection / Digital download",
+      "description": "Download digitally signed PDF or collect certified physical copy from delivery counter.",
+      "documents_needed": [
+        "Certified Title Deed PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://igrsup.gov.in",
+      "source_chunk_ids": [
+        "property_deed_certified_copy__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,86 @@
+{
+  "procedure_name": "High Security Registration Plate (HSRP) & Color Sticker",
+  "procedure_id": "high_security_registration_plate_hsrp",
+  "summary": "Mandatory tamper-proof aluminum number plate with chromium hologram and laser-etched serial code.",
+  "estimated_total_time": "4–7 working days for fitment",
+  "estimated_total_cost": "₹350 – ₹450 (Two-wheeler) / ₹800 – ₹1,100 (Four-wheeler)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Book online on BookMyHSRP portal",
+      "description": "Enter vehicle registration number, chassis number (last 5 digits), and engine number.",
+      "documents_needed": [
+        "RC smart card details"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 minutes",
+      "official_link": "https://bookmyhsrp.com",
+      "source_chunk_ids": [
+        "high_security_registration_plate_hsrp__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Choose fitment location",
+      "description": "Select preferred authorized automobile dealership or opt for home doorstep installation service.",
+      "documents_needed": [
+        "Fitment date and time slot"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 minutes",
+      "official_link": "https://bookmyhsrp.com",
+      "source_chunk_ids": [
+        "high_security_registration_plate_hsrp__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Pay government approved fee",
+      "description": "Make online payment for laser-etched front/rear plates and fuel color sticker (blue/orange/green).",
+      "documents_needed": [
+        "Payment receipt"
+      ],
+      "fee": "₹350 – ₹1,100",
+      "processing_time": "Immediate",
+      "official_link": "https://bookmyhsrp.com",
+      "source_chunk_ids": [
+        "high_security_registration_plate_hsrp__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Fitment by technician",
+      "description": "Technician removes old non-standard plates and affixes HSRP plates using non-reusable snap locks.",
+      "documents_needed": [
+        "HSRP fitment with snap locks"
+      ],
+      "fee": "₹0",
+      "processing_time": "15 minutes",
+      "official_link": "https://bookmyhsrp.com",
+      "source_chunk_ids": [
+        "high_security_registration_plate_hsrp__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Automatic Vahan status update",
+      "description": "Technician scans laser barcode; Parivahan Vahan portal automatically updates HSRP compliance status.",
+      "documents_needed": [
+        "Vahan HSRP updated status"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://bookmyhsrp.com",
+      "source_chunk_ids": [
+        "high_security_registration_plate_hsrp__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

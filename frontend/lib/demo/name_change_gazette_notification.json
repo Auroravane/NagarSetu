@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Name Change Official Gazette Notification",
+  "procedure_id": "name_change_gazette_notification",
+  "summary": "Legally binding change of personal name published in the Official Government Gazette for passport and educational records.",
+  "estimated_total_time": "20–30 working days",
+  "estimated_total_cost": "₹1,100 – ₹1,500 government gazette printing fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Sworn name change affidavit",
+      "description": "Execute affidavit before Judicial Magistrate or Notary stating old name, new name, and father's name.",
+      "documents_needed": [
+        "Notarized name change affidavit"
+      ],
+      "fee": "₹100",
+      "processing_time": "1 day",
+      "official_link": "https://egazette.gov.in",
+      "source_chunk_ids": [
+        "name_change_gazette_notification__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Publish newspaper advertisements",
+      "description": "Publish short name change notice in two prominent local daily newspapers (one English, one Hindi/regional).",
+      "documents_needed": [
+        "Original newspaper cuttings"
+      ],
+      "fee": "₹500 – ₹1,000",
+      "processing_time": "2 days",
+      "official_link": "https://egazette.gov.in",
+      "source_chunk_ids": [
+        "name_change_gazette_notification__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Prepare Gazette Proforma & CD",
+      "description": "Draft official proforma and burn MS Word soft copy onto a compact disc (CD).",
+      "documents_needed": [
+        "Hardcopy proforma",
+        "Softcopy CD with certificate"
+      ],
+      "fee": "₹100",
+      "processing_time": "1 day",
+      "official_link": "https://egazette.gov.in",
+      "source_chunk_ids": [
+        "name_change_gazette_notification__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Submit dossier to Controller of Publications",
+      "description": "Submit complete file with fee receipt via registered post or at Civil Lines Delhi counter.",
+      "documents_needed": [
+        "Application packet",
+        "Fee challan via Bharatkosh"
+      ],
+      "fee": "₹1,100 – ₹1,500",
+      "processing_time": "1 day",
+      "official_link": "https://egazette.gov.in",
+      "source_chunk_ids": [
+        "name_change_gazette_notification__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Download e-Gazette notification",
+      "description": "Download published Gazette notification from egazette.gov.in to update Passport, Aadhaar, and Bank.",
+      "documents_needed": [
+        "e-Gazette extract PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "15–20 days",
+      "official_link": "https://egazette.gov.in",
+      "source_chunk_ids": [
+        "name_change_gazette_notification__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

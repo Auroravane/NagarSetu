@@ -1,0 +1,88 @@
+{
+  "procedure_name": "International Driving Permit (IDP)",
+  "procedure_id": "international_driving_permit_idp",
+  "summary": "Official multilingual booklet permitting Indian driving license holders to drive motor vehicles in 150+ foreign countries.",
+  "estimated_total_time": "2–4 working days",
+  "estimated_total_cost": "₹1,000 statutory fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Valid passport and foreign visa",
+      "description": "Ensure applicant holds valid Indian passport, international travel visa, and confirmed flight ticket.",
+      "documents_needed": [
+        "Valid Passport",
+        "Visa copy",
+        "Air ticket"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "international_driving_permit_idp__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Medical Form 1A certification",
+      "description": "Medical practitioner certifies physical and vision fitness for international driving.",
+      "documents_needed": [
+        "Medical Form 1A signed by doctor"
+      ],
+      "fee": "₹100",
+      "processing_time": "Same day",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "international_driving_permit_idp__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Apply on Parivahan Sarathi",
+      "description": "Select countries of transit, upload domestic DL, passport, visa, and pay statutory fee.",
+      "documents_needed": [
+        "Valid Indian Driving License"
+      ],
+      "fee": "₹1,000",
+      "processing_time": "15 minutes",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "international_driving_permit_idp__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Document verification at RTO",
+      "description": "RTO officer verifies original passport and domestic driving license.",
+      "documents_needed": [
+        "Original documents"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "international_driving_permit_idp__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Collect IDP booklet",
+      "description": "Receive multi-language International Driving Permit booklet valid for 1 year.",
+      "documents_needed": [
+        "IDP Booklet document"
+      ],
+      "fee": "₹0",
+      "processing_time": "Next working day",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "international_driving_permit_idp__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

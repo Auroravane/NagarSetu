@@ -1,0 +1,72 @@
+{
+  "procedure_name": "Stray Cattle & Dog Animal Birth Control (ABC) Request",
+  "procedure_id": "stray_animal_nuisance_complaint",
+  "summary": "Request for relocation of aggressive stray cattle to gaushalas, or vaccination/sterilization of community dogs under ABC rules.",
+  "estimated_total_time": "24 hours for cattle; 3–5 days for ABC dog sterilization",
+  "estimated_total_cost": "₹0 (Municipal Public Service)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Register complaint on citizen app",
+      "description": "Select 'Stray Animal Issue', upload photograph of animal group, and provide exact street landmark.",
+      "documents_needed": [
+        "Location photograph",
+        "Colony address"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 minutes",
+      "official_link": "https://mcc.chandigarh.gov.in/animal-services",
+      "source_chunk_ids": [
+        "stray_animal_nuisance_complaint__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Cattle catching squad dispatch",
+      "description": "Specialized vehicle equipped with hydraulic ramp impounds stray cattle and transports them to municipal gaushala.",
+      "documents_needed": [
+        "Impounding log"
+      ],
+      "fee": "₹0",
+      "processing_time": "24 hours",
+      "official_link": "https://mcc.chandigarh.gov.in/animal-services",
+      "source_chunk_ids": [
+        "stray_animal_nuisance_complaint__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Animal Birth Control (ABC) process for dogs",
+      "description": "Registered animal welfare NGO captures dogs humanely, performs spaying/neutering, rabies vaccination, ear notching, and releases them back into original territory.",
+      "documents_needed": [
+        "ABC surgical log"
+      ],
+      "fee": "₹0",
+      "processing_time": "3–5 days",
+      "official_link": "https://mcc.chandigarh.gov.in/animal-services",
+      "source_chunk_ids": [
+        "stray_animal_nuisance_complaint__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Confirmation SMS",
+      "description": "Complainant receives resolution alert with photograph of cleared area.",
+      "documents_needed": [
+        "Closure confirmation"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/animal-services",
+      "source_chunk_ids": [
+        "stray_animal_nuisance_complaint__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

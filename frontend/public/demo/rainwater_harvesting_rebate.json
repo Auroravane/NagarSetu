@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Rainwater Harvesting System Certification & Property Tax Rebate",
+  "procedure_id": "rainwater_harvesting_rebate",
+  "summary": "Certification of functional rainwater harvesting pits to claim up to 10% annual rebate on property tax.",
+  "estimated_total_time": "14–20 working days",
+  "estimated_total_cost": "₹0 application fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Construct RWH pit per bylaws",
+      "description": "Ensure recharge pit, filtration bed, and desilting chamber conform to municipal engineering specifications.",
+      "documents_needed": [
+        "Construction bills",
+        "Photographs of pit"
+      ],
+      "fee": "Varies",
+      "processing_time": "5–7 days",
+      "official_link": "https://mcc.chandigarh.gov.in/rwh-rebate",
+      "source_chunk_ids": [
+        "rainwater_harvesting_rebate__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Apply for RWH certificate",
+      "description": "Submit online application with property tax assessment number and plumber completion certificate.",
+      "documents_needed": [
+        "Property tax bill",
+        "Plumbing certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://mcc.chandigarh.gov.in/rwh-rebate",
+      "source_chunk_ids": [
+        "rainwater_harvesting_rebate__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Site inspection by junior engineer",
+      "description": "JE inspects catchment slope, filter media, and injection well to confirm operational status.",
+      "documents_needed": [
+        "JE inspection sheet"
+      ],
+      "fee": "₹0",
+      "processing_time": "7 days",
+      "official_link": "https://mcc.chandigarh.gov.in/rwh-rebate",
+      "source_chunk_ids": [
+        "rainwater_harvesting_rebate__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Issuance of RWH Compliance Certificate",
+      "description": "Executive Engineer approves certificate valid for 3 financial years.",
+      "documents_needed": [
+        "RWH Certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://mcc.chandigarh.gov.in/rwh-rebate",
+      "source_chunk_ids": [
+        "rainwater_harvesting_rebate__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Automatic tax rebate linkage",
+      "description": "Rebate automatically applied as deduction in annual property tax bill.",
+      "documents_needed": [
+        "Updated tax demand notice"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/rwh-rebate",
+      "source_chunk_ids": [
+        "rainwater_harvesting_rebate__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

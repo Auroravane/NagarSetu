@@ -1,0 +1,72 @@
+{
+  "procedure_name": "Mechanical Septic Tank Emptying (FSSM)",
+  "procedure_id": "domestic_septic_tank_cleaning_booking",
+  "summary": "Safe, mechanized desludging of residential septic tanks by authorized vacuum suction tankers.",
+  "estimated_total_time": "24–48 hours",
+  "estimated_total_cost": "₹1,000 – ₹2,500 per tanker trip",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Online slot booking",
+      "description": "Select residential location and estimate tank volume on municipal septage portal.",
+      "documents_needed": [
+        "Address proof",
+        "Contact number"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 minutes",
+      "official_link": "https://mcc.chandigarh.gov.in/fssm",
+      "source_chunk_ids": [
+        "domestic_septic_tank_cleaning_booking__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Pay government approved tariff",
+      "description": "Avoid illegal private dumpers by paying fixed municipal desludging fee.",
+      "documents_needed": [
+        "Payment receipt"
+      ],
+      "fee": "₹1,000 – ₹2,500",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/fssm",
+      "source_chunk_ids": [
+        "domestic_septic_tank_cleaning_booking__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Vacuum tanker dispatch",
+      "description": "GPS-tracked vacuum truck arrives with safety equipment and flexible suction hoses.",
+      "documents_needed": [
+        "Tanker dispatch notice"
+      ],
+      "fee": "₹0",
+      "processing_time": "24 hours",
+      "official_link": "https://mcc.chandigarh.gov.in/fssm",
+      "source_chunk_ids": [
+        "domestic_septic_tank_cleaning_booking__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Safe disposal at Sewage Treatment Plant (STP)",
+      "description": "Waste transported to certified treatment facility; citizen receives scientific disposal receipt.",
+      "documents_needed": [
+        "Disposal acknowledgement"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/fssm",
+      "source_chunk_ids": [
+        "domestic_septic_tank_cleaning_booking__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Conversion of Leasehold Property to Freehold",
+  "procedure_id": "freehold_conversion_leasehold_property",
+  "summary": "Legal transformation of 99-year municipal/housing board leased property into absolute private freehold ownership.",
+  "estimated_total_time": "30–45 working days",
+  "estimated_total_cost": "Prescribed conversion fee based on plot size & circle rate",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Clear annual ground rent arrears",
+      "description": "Obtain no-dues receipt for ground rent and municipal service maintenance charges.",
+      "documents_needed": [
+        "No dues receipt"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://estateoffice.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "freehold_conversion_leasehold_property__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit application with chain of title",
+      "description": "Upload original lease deed, all GPA/agreement chain documents, and architectural compliance affidavit.",
+      "documents_needed": [
+        "Original lease deed",
+        "Chain agreements",
+        "Building non-violation affidavit"
+      ],
+      "fee": "₹1,000",
+      "processing_time": "2 days",
+      "official_link": "https://estateoffice.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "freehold_conversion_leasehold_property__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Building violation inspection",
+      "description": "Junior engineer inspects site to confirm absence of unapproved additional floors or misuse of residential premises.",
+      "documents_needed": [
+        "Inspection report"
+      ],
+      "fee": "₹0",
+      "processing_time": "14 days",
+      "official_link": "https://estateoffice.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "freehold_conversion_leasehold_property__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Demand note payment",
+      "description": "Estate office generates conversion demand notice; pay through RTGS or demand draft.",
+      "documents_needed": [
+        "Payment confirmation"
+      ],
+      "fee": "Calculated by formula",
+      "processing_time": "7 days",
+      "official_link": "https://estateoffice.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "freehold_conversion_leasehold_property__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Execution of Freehold Conveyance Deed",
+      "description": "Sign and register Conveyance Deed before Sub-Registrar, granting permanent absolute ownership.",
+      "documents_needed": [
+        "Registered Conveyance Deed"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://estateoffice.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "freehold_conversion_leasehold_property__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

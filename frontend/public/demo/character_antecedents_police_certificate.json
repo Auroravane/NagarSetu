@@ -1,0 +1,73 @@
+{
+  "procedure_name": "Police Clearance Certificate (PCC) for Employment",
+  "procedure_id": "character_antecedents_police_certificate",
+  "summary": "Verification certifying individual has no active criminal convictions, arrest warrants, or pending FIRs.",
+  "estimated_total_time": "7–10 working days",
+  "estimated_total_cost": "₹200 – ₹500 fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Submit online verification request",
+      "description": "Enter personal biographical history, previous 5 years addresses, and employer requisition letter.",
+      "documents_needed": [
+        "Aadhaar",
+        "Passport",
+        "Employer letter"
+      ],
+      "fee": "₹200",
+      "processing_time": "1 day",
+      "official_link": "https://chandigarhpolice.gov.in",
+      "source_chunk_ids": [
+        "character_antecedents_police_certificate__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Crime database cross-checking",
+      "description": "Police records branch verifies applicant against CCTNS (Crime and Criminal Tracking Network).",
+      "documents_needed": [
+        "CCTNS query check"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://chandigarhpolice.gov.in",
+      "source_chunk_ids": [
+        "character_antecedents_police_certificate__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Local police station enquiry",
+      "description": "Local beat constable verifies applicant character from two reputable neighborhood references.",
+      "documents_needed": [
+        "Two neighbor reference statements"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://chandigarhpolice.gov.in",
+      "source_chunk_ids": [
+        "character_antecedents_police_certificate__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Download Police Clearance Certificate",
+      "description": "Download digitally stamped Character Verification Certificate with validity QR code.",
+      "documents_needed": [
+        "PCC document PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://chandigarhpolice.gov.in",
+      "source_chunk_ids": [
+        "character_antecedents_police_certificate__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

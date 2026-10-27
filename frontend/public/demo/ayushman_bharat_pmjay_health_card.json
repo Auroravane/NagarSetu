@@ -1,0 +1,87 @@
+{
+  "procedure_name": "Ayushman Bharat PM-JAY Golden Health Card",
+  "procedure_id": "ayushman_bharat_pmjay_health_card",
+  "summary": "Cashless secondary and tertiary hospitalization cover of up to ₹5,00,000 per family per year at empaneled hospitals.",
+  "estimated_total_time": "Instant to 24 hours",
+  "estimated_total_cost": "₹0 (Completely Free of Cost)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Check eligibility on portal",
+      "description": "Search name or ration card number on National Beneficiary portal (SECC list or state NFSA database).",
+      "documents_needed": [
+        "Ration card number",
+        "Aadhaar number"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 minutes",
+      "official_link": "https://beneficiary.nha.gov.in",
+      "source_chunk_ids": [
+        "ayushman_bharat_pmjay_health_card__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Aadhaar e-KYC authentication",
+      "description": "Perform face-authentication via mobile app or biometric scan at Ayushman Mitra hospital kiosk.",
+      "documents_needed": [
+        "Aadhaar linked mobile OTP / Biometrics"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 minutes",
+      "official_link": "https://beneficiary.nha.gov.in",
+      "source_chunk_ids": [
+        "ayushman_bharat_pmjay_health_card__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Family member matching",
+      "description": "Verify relationships and link dependent family members.",
+      "documents_needed": [
+        "Ration card / Family register"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 minutes",
+      "official_link": "https://beneficiary.nha.gov.in",
+      "source_chunk_ids": [
+        "ayushman_bharat_pmjay_health_card__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Instant Ayushman Card download",
+      "description": "Download official PVC Ayushman Bharat card with PM-JAY unique ID.",
+      "documents_needed": [
+        "Ayushman Card PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://beneficiary.nha.gov.in",
+      "source_chunk_ids": [
+        "ayushman_bharat_pmjay_health_card__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Cashless hospital admission",
+      "description": "Show card at any empanelled public or private hospital for cashless treatment up to ₹5,00,000.",
+      "documents_needed": [
+        "Ayushman Card"
+      ],
+      "fee": "Cashless treatment",
+      "processing_time": "Immediate",
+      "official_link": "https://beneficiary.nha.gov.in",
+      "source_chunk_ids": [
+        "ayushman_bharat_pmjay_health_card__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

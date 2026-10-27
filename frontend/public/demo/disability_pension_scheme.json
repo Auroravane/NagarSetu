@@ -1,0 +1,87 @@
+{
+  "procedure_name": "Divyangjan Disability Monthly Pension",
+  "procedure_id": "disability_pension_scheme",
+  "summary": "Monthly pension assistance to citizens with 40% or higher certified physical or intellectual disabilities.",
+  "estimated_total_time": "20–30 working days",
+  "estimated_total_cost": "₹0 (Free Welfare Scheme)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Obtain 40%+ Disability Certificate / UDID",
+      "description": "Produce digital UDID card or disability certificate issued by government medical board.",
+      "documents_needed": [
+        "UDID Card / Disability Certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "From medical board",
+      "official_link": "https://disabilityaffairs.gov.in",
+      "source_chunk_ids": [
+        "disability_pension_scheme__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Income declaration",
+      "description": "Applicant family income must fall below state specified ceiling.",
+      "documents_needed": [
+        "Income certificate from Tehsildar"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://disabilityaffairs.gov.in",
+      "source_chunk_ids": [
+        "disability_pension_scheme__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Submit application online or at SDM office",
+      "description": "Submit bank account details linked to Aadhaar for automated monthly payments.",
+      "documents_needed": [
+        "Aadhaar",
+        "Bank passbook copy"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://disabilityaffairs.gov.in",
+      "source_chunk_ids": [
+        "disability_pension_scheme__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "District disability officer review",
+      "description": "Committee verifies non-receipt of competing pensions.",
+      "documents_needed": [
+        "Scrutiny register"
+      ],
+      "fee": "₹0",
+      "processing_time": "14 days",
+      "official_link": "https://disabilityaffairs.gov.in",
+      "source_chunk_ids": [
+        "disability_pension_scheme__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Monthly pension disbursement",
+      "description": "Receive recurring pension of ₹1,500 – ₹3,000 credited to bank account every month.",
+      "documents_needed": [
+        "Monthly pension credit SMS"
+      ],
+      "fee": "Monthly assistance",
+      "processing_time": "Monthly",
+      "official_link": "https://disabilityaffairs.gov.in",
+      "source_chunk_ids": [
+        "disability_pension_scheme__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

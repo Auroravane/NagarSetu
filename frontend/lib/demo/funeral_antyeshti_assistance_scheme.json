@@ -1,0 +1,72 @@
+{
+  "procedure_name": "Antyeshti Sahayata / Financial Funeral Assistance",
+  "procedure_id": "funeral_antyeshti_assistance_scheme",
+  "summary": "Immediate one-time financial grant of ₹5,000 to ₹10,000 to assist indigent families with final funeral rites.",
+  "estimated_total_time": "24–48 hours emergency response",
+  "estimated_total_cost": "₹0 (Free Emergency Grant)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Obtain cremation ground receipt",
+      "description": "Secure official slip from municipal cremation ground or burial ground.",
+      "documents_needed": [
+        "Cremation receipt"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://socialwelfare.gov.in",
+      "source_chunk_ids": [
+        "funeral_antyeshti_assistance_scheme__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit BPL / EWS credentials",
+      "description": "Submit deceased death certificate, BPL ration card or income certificate, and applicant bank details.",
+      "documents_needed": [
+        "BPL ration card",
+        "Applicant Aadhaar & passbook"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://socialwelfare.gov.in",
+      "source_chunk_ids": [
+        "funeral_antyeshti_assistance_scheme__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Approval by Municipal Ward Officer",
+      "description": "Zonal municipal officer or Tehsildar sanctions immediate assistance grant.",
+      "documents_needed": [
+        "Sanction voucher"
+      ],
+      "fee": "₹0",
+      "processing_time": "24 hours",
+      "official_link": "https://socialwelfare.gov.in",
+      "source_chunk_ids": [
+        "funeral_antyeshti_assistance_scheme__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Direct emergency bank disbursement",
+      "description": "Grant credited directly into savings account of nearest surviving kin.",
+      "documents_needed": [
+        "Bank credit SMS"
+      ],
+      "fee": "₹5,000 – ₹10,000",
+      "processing_time": "24–48 hours",
+      "official_link": "https://socialwelfare.gov.in",
+      "source_chunk_ids": [
+        "funeral_antyeshti_assistance_scheme__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

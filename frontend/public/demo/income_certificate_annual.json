@@ -1,0 +1,74 @@
+{
+  "procedure_name": "Income Certificate for Scholarships & Welfare",
+  "procedure_id": "income_certificate_annual",
+  "summary": "Certified proof of total annual household income required for fee concessions, scholarships, and subsidized housing.",
+  "estimated_total_time": "7–10 working days",
+  "estimated_total_cost": "₹30 – ₹50 government fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Income declaration & employer slip",
+      "description": "Salary slips / Form 16 for salaried individuals; ITR or self-declaration affidavit for unorganized workers.",
+      "documents_needed": [
+        "Salary slip / Form 16 / ITR",
+        "Notarized income affidavit"
+      ],
+      "fee": "₹100",
+      "processing_time": "1 day",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "income_certificate_annual__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit application on e-District portal",
+      "description": "Fill household members details, agricultural land income, and rental income.",
+      "documents_needed": [
+        "Aadhaar card",
+        "Electricity bill",
+        "Ration card"
+      ],
+      "fee": "₹30",
+      "processing_time": "1 day",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "income_certificate_annual__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Patwari verification of assets",
+      "description": "Patwari visits local neighborhood to verify standard of living and reported income.",
+      "documents_needed": [
+        "Patwari report"
+      ],
+      "fee": "₹0",
+      "processing_time": "3–5 days",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "income_certificate_annual__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Digital certificate download",
+      "description": "Download valid 1-year Income Certificate with official digital signature.",
+      "documents_needed": [
+        "Income Certificate PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "income_certificate_annual__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

@@ -24,7 +24,7 @@ def call_groq(system: str, prompt: str) -> str:
     from groq import Groq  # imported lazily so missing key doesn't break import
 
     api_key = os.getenv("GROQ_API_KEY")
-    if not api_key:
+    if not api_key or "your_" in api_key:
         raise RuntimeError("GROQ_API_KEY not set")
 
     client = Groq(api_key=api_key, timeout=15.0)
@@ -45,7 +45,7 @@ def call_gemini(system: str, prompt: str) -> str:
     import google.generativeai as genai
 
     api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key:
+    if not api_key or "your_" in api_key:
         raise RuntimeError("GEMINI_API_KEY not set")
 
     genai.configure(api_key=api_key)

@@ -1,0 +1,87 @@
+{
+  "procedure_name": "Unique Disability ID (UDID) & Disability Certificate",
+  "procedure_id": "unique_disability_id_udid",
+  "summary": "Universal digital card and medical board certificate recognizing 21 specified disabilities under RPwD Act 2016.",
+  "estimated_total_time": "15–30 working days",
+  "estimated_total_cost": "₹0 (Free Government Service)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Register on Swavlamban portal",
+      "description": "Submit personal details, disability type (locomotor, visual, hearing, intellectual, etc.), and address.",
+      "documents_needed": [
+        "Aadhaar card",
+        "Passport size photograph"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://swavlambancard.gov.in",
+      "source_chunk_ids": [
+        "unique_disability_id_udid__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Book medical assessment appointment",
+      "description": "System assigns date for evaluation at District Civil Hospital Medical Board.",
+      "documents_needed": [
+        "Appointment slip"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://swavlambancard.gov.in",
+      "source_chunk_ids": [
+        "unique_disability_id_udid__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Medical board physical evaluation",
+      "description": "Panel of specialist doctors conducts tests and determines disability percentage (e.g. 40%+ benchmark disability).",
+      "documents_needed": [
+        "Doctor clinical assessment notes"
+      ],
+      "fee": "₹0",
+      "processing_time": "On appointment date",
+      "official_link": "https://swavlambancard.gov.in",
+      "source_chunk_ids": [
+        "unique_disability_id_udid__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Download Disability Certificate",
+      "description": "Chief Medical Officer (CMO) signs digital certificate stating permanent/temporary disability percentage.",
+      "documents_needed": [
+        "Disability Certificate PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://swavlambancard.gov.in",
+      "source_chunk_ids": [
+        "unique_disability_id_udid__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Receive National UDID Smart Card",
+      "description": "Plastic UDID card with smart chip dispatched by speed post to home address.",
+      "documents_needed": [
+        "UDID Card"
+      ],
+      "fee": "₹0",
+      "processing_time": "14 days post-approval",
+      "official_link": "https://swavlambancard.gov.in",
+      "source_chunk_ids": [
+        "unique_disability_id_udid__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

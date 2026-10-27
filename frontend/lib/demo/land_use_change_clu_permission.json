@@ -1,0 +1,89 @@
+{
+  "procedure_name": "Change of Land Use (CLU) Permission",
+  "procedure_id": "land_use_change_clu_permission",
+  "summary": "Sanction to convert agricultural land into commercial, institutional, or industrial operational use.",
+  "estimated_total_time": "45–60 working days",
+  "estimated_total_cost": "Scrutiny fee + Conversion charges based on master plan zone",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Master plan zone verification",
+      "description": "Confirm whether land falls inside designated urbanizable boundary in city master plan.",
+      "documents_needed": [
+        "Master plan zoning map"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://tcpharyana.gov.in",
+      "source_chunk_ids": [
+        "land_use_change_clu_permission__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Comprehensive project report (CPR)",
+      "description": "Prepare project report showing proposed land use, access road width, water demand, and effluent treatment.",
+      "documents_needed": [
+        "CPR document",
+        "Architectural layout"
+      ],
+      "fee": "Varies",
+      "processing_time": "7 days",
+      "official_link": "https://tcpharyana.gov.in",
+      "source_chunk_ids": [
+        "land_use_change_clu_permission__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Submit CLU application online",
+      "description": "Submit Jamabandi, Aks Shajra, non-encumbrance certificate, and scrutiny fee on state town planning portal.",
+      "documents_needed": [
+        "Title deeds",
+        "Cadastral map",
+        "Mutation copies"
+      ],
+      "fee": "Calculated online",
+      "processing_time": "2 days",
+      "official_link": "https://tcpharyana.gov.in",
+      "source_chunk_ids": [
+        "land_use_change_clu_permission__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Inter-departmental clearance (IDC)",
+      "description": "Public works, forest, irrigation, and pollution boards examine site access and flood plains.",
+      "documents_needed": [
+        "Departmental NOCs"
+      ],
+      "fee": "₹0",
+      "processing_time": "30 days",
+      "official_link": "https://tcpharyana.gov.in",
+      "source_chunk_ids": [
+        "land_use_change_clu_permission__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Grant of In-Principle CLU & Letter of Intent",
+      "description": "Director of Town Planning issues formal CLU sanction order upon payment of conversion charges.",
+      "documents_needed": [
+        "CLU Sanction Certificate"
+      ],
+      "fee": "Varies",
+      "processing_time": "10 days",
+      "official_link": "https://tcpharyana.gov.in",
+      "source_chunk_ids": [
+        "land_use_change_clu_permission__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

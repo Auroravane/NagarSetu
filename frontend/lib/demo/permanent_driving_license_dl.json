@@ -1,0 +1,87 @@
+{
+  "procedure_name": "Permanent Driving License & Automated Track Test",
+  "procedure_id": "permanent_driving_license_dl",
+  "summary": "Booking driving skill track test and obtaining chip-embedded PVC Smart Card Driving License.",
+  "estimated_total_time": "7–10 working days",
+  "estimated_total_cost": "₹200 driving test fee + ₹200 smart card fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Wait minimum 30 days after LL",
+      "description": "Candidate must have held valid Learner's License for at least 30 days before booking DL test slot.",
+      "documents_needed": [
+        "Valid Learner's License number"
+      ],
+      "fee": "₹0",
+      "processing_time": "After 30 days",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "permanent_driving_license_dl__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Book automated driving test slot",
+      "description": "Select date and preferred RTO automated test track on Sarathi portal.",
+      "documents_needed": [
+        "Learner license",
+        "Form 5 driving school certificate"
+      ],
+      "fee": "₹400",
+      "processing_time": "5 minutes",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "permanent_driving_license_dl__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Appear at automated driving test track",
+      "description": "Drive on sensor-equipped track executing reverse-S, parallel parking, eight-curve, and gradient stop without hitting poles.",
+      "documents_needed": [
+        "Vehicle with valid RC, Insurance, PUC"
+      ],
+      "fee": "₹0",
+      "processing_time": "On test date",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "permanent_driving_license_dl__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Biometric and photograph capture",
+      "description": "RTO staff captures digital photograph and signature for printing on smart card.",
+      "documents_needed": [
+        "Application slip"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "permanent_driving_license_dl__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Dispatch of Smart Card Driving License",
+      "description": "High-security PVC Smart Card Driving License dispatched by Speed Post to residential address.",
+      "documents_needed": [
+        "Driving License Smart Card"
+      ],
+      "fee": "₹0",
+      "processing_time": "5–7 days",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "permanent_driving_license_dl__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

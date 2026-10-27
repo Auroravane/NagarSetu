@@ -1,0 +1,72 @@
+{
+  "procedure_name": "Public Water Hydrant / Standpost Sanction",
+  "procedure_id": "public_hydrant_drinking_water_installation",
+  "summary": "Community application to install public drinking water coolers or standposts in public squares and markets.",
+  "estimated_total_time": "15–20 working days",
+  "estimated_total_cost": "₹0 (Funded by Municipal / Ward Councillor funds)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Resident welfare association resolution",
+      "description": "Adopt resolution by market association or RWA highlighting public footfall and drinking water need.",
+      "documents_needed": [
+        "Signed resolution",
+        "Signatures of 20+ residents"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://mcc.chandigarh.gov.in/public-hydrant",
+      "source_chunk_ids": [
+        "public_hydrant_drinking_water_installation__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit proposal to Ward Councillor / Superintending Engineer",
+      "description": "Submit request specifying exact footpath or park corner location.",
+      "documents_needed": [
+        "Site layout photograph"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://mcc.chandigarh.gov.in/public-hydrant",
+      "source_chunk_ids": [
+        "public_hydrant_drinking_water_installation__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Feasibility check by water division",
+      "description": "Engineers inspect pipeline water pressure and drainage outlet availability.",
+      "documents_needed": [
+        "Technical feasibility report"
+      ],
+      "fee": "₹0",
+      "processing_time": "7 days",
+      "official_link": "https://mcc.chandigarh.gov.in/public-hydrant",
+      "source_chunk_ids": [
+        "public_hydrant_drinking_water_installation__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Work order execution",
+      "description": "Municipal contractors lay pipe connection and construct tiled platform with automatic taps.",
+      "documents_needed": [
+        "Work order copy"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 days",
+      "official_link": "https://mcc.chandigarh.gov.in/public-hydrant",
+      "source_chunk_ids": [
+        "public_hydrant_drinking_water_installation__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

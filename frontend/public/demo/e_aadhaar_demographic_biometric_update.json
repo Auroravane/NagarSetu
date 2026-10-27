@@ -1,0 +1,86 @@
+{
+  "procedure_name": "Aadhaar Card Demographic & Biometric Update",
+  "procedure_id": "e_aadhaar_demographic_biometric_update",
+  "summary": "Update of residential address, mobile phone number, name, or mandatory 10-year biometric refresh.",
+  "estimated_total_time": "3–7 working days",
+  "estimated_total_cost": "₹50 for address/demographic; ₹100 for biometrics",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Address update online (Self-Service)",
+      "description": "Upload valid address proof (electricity bill, passport, rent agreement) on myAadhaar portal.",
+      "documents_needed": [
+        "Valid address proof document"
+      ],
+      "fee": "₹50",
+      "processing_time": "15 minutes",
+      "official_link": "https://myaadhaar.uidai.gov.in",
+      "source_chunk_ids": [
+        "e_aadhaar_demographic_biometric_update__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Biometric/Mobile update appointment",
+      "description": "Book time slot at nearest Aadhaar Seva Kendra (ASK) or post office branch.",
+      "documents_needed": [
+        "Appointment slip"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 minutes",
+      "official_link": "https://myaadhaar.uidai.gov.in",
+      "source_chunk_ids": [
+        "e_aadhaar_demographic_biometric_update__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Iris, fingerprint & facial photo scan",
+      "description": "Visit center for live ten-fingerprint, iris scan, and photograph update.",
+      "documents_needed": [
+        "Original Aadhaar number"
+      ],
+      "fee": "₹100",
+      "processing_time": "15 minutes at center",
+      "official_link": "https://myaadhaar.uidai.gov.in",
+      "source_chunk_ids": [
+        "e_aadhaar_demographic_biometric_update__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Track with URN",
+      "description": "Track 14-digit Update Request Number (URN) on UIDAI tracking page.",
+      "documents_needed": [
+        "URN acknowledgement slip"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://myaadhaar.uidai.gov.in",
+      "source_chunk_ids": [
+        "e_aadhaar_demographic_biometric_update__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Download updated e-Aadhaar",
+      "description": "Download password-protected e-Aadhaar PDF using registered mobile OTP.",
+      "documents_needed": [
+        "e-Aadhaar PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "3–5 days",
+      "official_link": "https://myaadhaar.uidai.gov.in",
+      "source_chunk_ids": [
+        "e_aadhaar_demographic_biometric_update__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

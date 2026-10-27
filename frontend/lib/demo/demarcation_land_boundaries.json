@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Official Land Boundary Demarcation (Nishandehi)",
+  "procedure_id": "demarcation_land_boundaries",
+  "summary": "Official measurement and boundary pegging by government revenue surveyor (Kanungo/Patwari) to resolve boundary disputes.",
+  "estimated_total_time": "15–25 working days",
+  "estimated_total_cost": "₹200 – ₹500 government fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Obtain latest Jamabandi and Sajra (Map)",
+      "description": "Procure certified computerized land records (Fard) and village cadastral map from revenue center.",
+      "documents_needed": [
+        "Certified Jamabandi copy",
+        "Sajra map extract"
+      ],
+      "fee": "₹50",
+      "processing_time": "1 day",
+      "official_link": "https://revenue.gov.in",
+      "source_chunk_ids": [
+        "demarcation_land_boundaries__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Apply to Tehsildar for Nishandehi",
+      "description": "Submit demarcation application citing Khasra/Killa numbers and adjoining landowner details.",
+      "documents_needed": [
+        "Application form",
+        "Aadhaar card"
+      ],
+      "fee": "₹200",
+      "processing_time": "1 day",
+      "official_link": "https://revenue.gov.in",
+      "source_chunk_ids": [
+        "demarcation_land_boundaries__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Notice to adjoining boundary owners",
+      "description": "Tehsildar issues written notices summoning owners of all four adjacent plots to be present on site.",
+      "documents_needed": [
+        "Summon notices"
+      ],
+      "fee": "₹0",
+      "processing_time": "7 days",
+      "official_link": "https://revenue.gov.in",
+      "source_chunk_ids": [
+        "demarcation_land_boundaries__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Field measurement by Kanungo & ETS/DGPS",
+      "description": "Revenue team measures from fixed benchmark points using Electronic Total Station / metric chain.",
+      "documents_needed": [
+        "Measurement field book"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://revenue.gov.in",
+      "source_chunk_ids": [
+        "demarcation_land_boundaries__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Boundary stone fixation & report sign-off",
+      "description": "Fix boundary pegs in presence of all parties; prepare Panchnama report signed by panchas.",
+      "documents_needed": [
+        "Demarcation Panchnama report"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://revenue.gov.in",
+      "source_chunk_ids": [
+        "demarcation_land_boundaries__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

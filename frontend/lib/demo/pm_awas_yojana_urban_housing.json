@@ -1,0 +1,88 @@
+{
+  "procedure_name": "PM Awas Yojana (PMAY-Urban) Housing Subsidy",
+  "procedure_id": "pm_awas_yojana_urban_housing",
+  "summary": "Credit Linked Subsidy (CLSS) of up to ₹2.67 Lakh or affordable housing allotment for homeless EWS/LIG families.",
+  "estimated_total_time": "30–60 working days",
+  "estimated_total_cost": "₹0 application fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Verify EWS/LIG income category",
+      "description": "Annual family income up to ₹3 Lakh for Economically Weaker Section (EWS); up to ₹6 Lakh for Low Income Group (LIG).",
+      "documents_needed": [
+        "Income certificate",
+        "Bank statement"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://pmaymis.gov.in",
+      "source_chunk_ids": [
+        "pm_awas_yojana_urban_housing__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Pucca house non-ownership affidavit",
+      "description": "Submit affidavit declaring that the beneficiary family does not own a pucca house anywhere in India.",
+      "documents_needed": [
+        "Notarized PMAY affidavit"
+      ],
+      "fee": "₹100",
+      "processing_time": "1 day",
+      "official_link": "https://pmaymis.gov.in",
+      "source_chunk_ids": [
+        "pm_awas_yojana_urban_housing__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Register on PMAY-MIS portal",
+      "description": "Submit Aadhaar numbers of all family members, existing house rent proof, and bank IFSC details.",
+      "documents_needed": [
+        "Family Aadhaar cards",
+        "Rent agreement"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://pmaymis.gov.in",
+      "source_chunk_ids": [
+        "pm_awas_yojana_urban_housing__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Geo-tagging and civic survey",
+      "description": "Municipal survey team visits current dwelling to conduct geo-tagged photo verification.",
+      "documents_needed": [
+        "Geo-tagged mobile survey record"
+      ],
+      "fee": "₹0",
+      "processing_time": "15 days",
+      "official_link": "https://pmaymis.gov.in",
+      "source_chunk_ids": [
+        "pm_awas_yojana_urban_housing__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Interest subsidy credit / Flat allotment",
+      "description": "Central government releases interest subsidy directly to home loan bank account or allocates municipal housing unit.",
+      "documents_needed": [
+        "PMAY Sanction Letter"
+      ],
+      "fee": "Up to ₹2.67 Lakh subsidy",
+      "processing_time": "Post-scrutiny",
+      "official_link": "https://pmaymis.gov.in",
+      "source_chunk_ids": [
+        "pm_awas_yojana_urban_housing__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

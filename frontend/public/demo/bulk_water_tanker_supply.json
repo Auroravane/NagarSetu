@@ -1,0 +1,71 @@
+{
+  "procedure_name": "Emergency Potable Water Tanker Booking",
+  "procedure_id": "bulk_water_tanker_supply",
+  "summary": "Booking of municipal water tankers for private weddings, religious congregations, or pipeline burst emergencies.",
+  "estimated_total_time": "4–12 hours",
+  "estimated_total_cost": "₹400 – ₹800 per 5,000-litre tanker",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Select delivery slot",
+      "description": "Choose date, delivery window (morning/evening), and required water quantity on booking portal.",
+      "documents_needed": [
+        "Delivery address"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 minutes",
+      "official_link": "https://mcc.chandigarh.gov.in/water-tanker",
+      "source_chunk_ids": [
+        "bulk_water_tanker_supply__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Provide water connection details",
+      "description": "Enter existing water account number (if resident) or event sanction letter.",
+      "documents_needed": [
+        "Water account ID / Event permission"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 minutes",
+      "official_link": "https://mcc.chandigarh.gov.in/water-tanker",
+      "source_chunk_ids": [
+        "bulk_water_tanker_supply__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Pay tanker charges online",
+      "description": "Pay fee via UPI/card to receive tanker booking confirmation with driver contact.",
+      "documents_needed": [
+        "Online booking receipt"
+      ],
+      "fee": "₹400 – ₹800",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/water-tanker",
+      "source_chunk_ids": [
+        "bulk_water_tanker_supply__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "GPS tracking & delivery",
+      "description": "Track tanker in real-time on municipal map and verify water discharge into storage underground sump.",
+      "documents_needed": [
+        "Delivery acknowledgement"
+      ],
+      "fee": "₹0",
+      "processing_time": "At slot",
+      "official_link": "https://mcc.chandigarh.gov.in/water-tanker",
+      "source_chunk_ids": [
+        "bulk_water_tanker_supply__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

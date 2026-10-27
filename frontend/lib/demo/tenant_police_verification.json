@@ -1,0 +1,73 @@
+{
+  "procedure_name": "Tenant & Domestic Worker Police Verification",
+  "procedure_id": "tenant_police_verification",
+  "summary": "Mandatory tenant background verification under Criminal Procedure Code to ensure neighborhood security.",
+  "estimated_total_time": "3–7 working days",
+  "estimated_total_cost": "₹0 (Completely Free of Cost)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Collect tenant identity documents",
+      "description": "Obtain tenant's Aadhaar card, permanent native village address, employer identity card, and 2 passport photos.",
+      "documents_needed": [
+        "Tenant Aadhaar & PAN",
+        "Employer ID card",
+        "Passport photos"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://chandigarhpolice.gov.in",
+      "source_chunk_ids": [
+        "tenant_police_verification__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit on Citizen Police Portal / App",
+      "description": "Landlord registers property details and submits tenant personal history online.",
+      "documents_needed": [
+        "Rent agreement copy"
+      ],
+      "fee": "₹0",
+      "processing_time": "15 minutes",
+      "official_link": "https://chandigarhpolice.gov.in",
+      "source_chunk_ids": [
+        "tenant_police_verification__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Local police station verification",
+      "description": "Beat constable conducts background check and verifies record with native district police station.",
+      "documents_needed": [
+        "Beat officer enquiry log"
+      ],
+      "fee": "₹0",
+      "processing_time": "3–5 days",
+      "official_link": "https://chandigarhpolice.gov.in",
+      "source_chunk_ids": [
+        "tenant_police_verification__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Download Police Clearance Slip",
+      "description": "Download digitally stamped verification acknowledgement receipt for records.",
+      "documents_needed": [
+        "Verification Acknowledgement PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://chandigarhpolice.gov.in",
+      "source_chunk_ids": [
+        "tenant_police_verification__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

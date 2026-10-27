@@ -1,0 +1,87 @@
+{
+  "procedure_name": "PM-KISAN Samman Nidhi (Farmer Financial Benefit)",
+  "procedure_id": "pm_kisan_samman_nidhi",
+  "summary": "Direct income support of ₹6,000 per year in three equal installments of ₹2,000 to all landholding farmer families.",
+  "estimated_total_time": "15–20 working days",
+  "estimated_total_cost": "₹0 (Free Scheme)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Farmer land record verification",
+      "description": "Ensure land ownership record (Jamabandi / RoR / Khatauni) is updated in the farmer's name.",
+      "documents_needed": [
+        "Land ownership title document (Jamabandi)"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://pmkisan.gov.in",
+      "source_chunk_ids": [
+        "pm_kisan_samman_nidhi__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Farmer registration on PM-Kisan portal",
+      "description": "Input Aadhaar, mobile number, land plot survey number, and bank account details.",
+      "documents_needed": [
+        "Aadhaar card",
+        "Bank passbook"
+      ],
+      "fee": "₹0",
+      "processing_time": "15 minutes",
+      "official_link": "https://pmkisan.gov.in",
+      "source_chunk_ids": [
+        "pm_kisan_samman_nidhi__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Aadhaar e-KYC authentication",
+      "description": "Complete mandatory biometric or face e-KYC on PM-Kisan mobile app.",
+      "documents_needed": [
+        "Aadhaar OTP / Face e-KYC"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 minutes",
+      "official_link": "https://pmkisan.gov.in",
+      "source_chunk_ids": [
+        "pm_kisan_samman_nidhi__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "State revenue department validation",
+      "description": "State agriculture/revenue nodal officer validates land records against state land registry.",
+      "documents_needed": [
+        "State approval flag"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 days",
+      "official_link": "https://pmkisan.gov.in",
+      "source_chunk_ids": [
+        "pm_kisan_samman_nidhi__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Four-monthly DBT installment credit",
+      "description": "Receive ₹2,000 direct credit every four months (April-July, August-November, December-March).",
+      "documents_needed": [
+        "PM-Kisan SMS notification"
+      ],
+      "fee": "₹2,000 per installment",
+      "processing_time": "Tri-annually",
+      "official_link": "https://pmkisan.gov.in",
+      "source_chunk_ids": [
+        "pm_kisan_samman_nidhi__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

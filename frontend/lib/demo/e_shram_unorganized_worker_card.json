@@ -1,0 +1,72 @@
+{
+  "procedure_name": "e-Shram Card for Unorganized Workers",
+  "procedure_id": "e_shram_unorganized_worker_card",
+  "summary": "National database registration card providing ₹2 Lakh accidental insurance cover under PMSBY and social welfare eligibility.",
+  "estimated_total_time": "Instant download",
+  "estimated_total_cost": "₹0 (Completely Free of Cost)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Check eligibility criteria",
+      "description": "Applicant must be an unorganized worker (construction, domestic, driver, agriculture) aged between 16 and 59, not in EPFO/ESIC.",
+      "documents_needed": [
+        "Aadhaar card",
+        "Active mobile linked with Aadhaar"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 minutes",
+      "official_link": "https://eshram.gov.in",
+      "source_chunk_ids": [
+        "e_shram_unorganized_worker_card__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Register on e-Shram portal",
+      "description": "Authenticate via Aadhaar OTP, select primary occupation and sub-occupation from national skill list.",
+      "documents_needed": [
+        "Bank account number & IFSC"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 minutes",
+      "official_link": "https://eshram.gov.in",
+      "source_chunk_ids": [
+        "e_shram_unorganized_worker_card__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Enter permanent address & nominee details",
+      "description": "Add emergency nominee name and relationship for accidental insurance benefits.",
+      "documents_needed": [
+        "Nominee Aadhaar details"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 minutes",
+      "official_link": "https://eshram.gov.in",
+      "source_chunk_ids": [
+        "e_shram_unorganized_worker_card__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Download 12-digit Universal Account Number (UAN) Card",
+      "description": "Instantly download digital PVC e-Shram card with photo and permanent UAN number.",
+      "documents_needed": [
+        "e-Shram Card PDF with UAN"
+      ],
+      "fee": "₹0",
+      "processing_time": "Instant",
+      "official_link": "https://eshram.gov.in",
+      "source_chunk_ids": [
+        "e_shram_unorganized_worker_card__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

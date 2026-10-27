@@ -1,0 +1,87 @@
+{
+  "procedure_name": "No Objection Certificate (NOC) for Property Sale / Conveyance",
+  "procedure_id": "noc_property_sale_transfer",
+  "summary": "Mandatory clearance certifying no pending installments, encroachment, or building violations prior to deed registration.",
+  "estimated_total_time": "15–21 working days",
+  "estimated_total_cost": "₹1,000 – ₹2,500 scrutiny fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Clear all outstanding dues",
+      "description": "Pay pending water bills, property tax, and lease rent arrears up to the current quarter.",
+      "documents_needed": [
+        "No dues receipts from water/tax branches"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://huda.org.in",
+      "source_chunk_ids": [
+        "noc_property_sale_transfer__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit transfer NOC request",
+      "description": "Upload allotment letter, possession slip, proposed buyer identity proofs, and non-encroachment affidavit.",
+      "documents_needed": [
+        "Allotment letter",
+        "Indemnity bond and affidavits"
+      ],
+      "fee": "₹1,000",
+      "processing_time": "1 day",
+      "official_link": "https://huda.org.in",
+      "source_chunk_ids": [
+        "noc_property_sale_transfer__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Field inspection by enforcement wing",
+      "description": "Authority junior engineer visits plot to verify that no illegal construction or boundary encroachment exists.",
+      "documents_needed": [
+        "Inspection report"
+      ],
+      "fee": "₹0",
+      "processing_time": "7 days",
+      "official_link": "https://huda.org.in",
+      "source_chunk_ids": [
+        "noc_property_sale_transfer__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Scrutiny of legal title",
+      "description": "Estate officer's legal cell verifies original files and legal heir succession records.",
+      "documents_needed": [
+        "Legal scrutiny memo"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://huda.org.in",
+      "source_chunk_ids": [
+        "noc_property_sale_transfer__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Issuance of Transfer NOC",
+      "description": "Receive formal Permission to Transfer / No Dues NOC authorizing sub-registrar registration.",
+      "documents_needed": [
+        "Transfer NOC letter"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://huda.org.in",
+      "source_chunk_ids": [
+        "noc_property_sale_transfer__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

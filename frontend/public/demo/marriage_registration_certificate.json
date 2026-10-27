@@ -1,0 +1,73 @@
+{
+  "procedure_name": "Marriage Registration & Certificate (Special / Hindu Marriage Act)",
+  "procedure_id": "marriage_registration_certificate",
+  "summary": "Legal registration of marriage under Hindu Marriage Act 1955 or Special Marriage Act 1954.",
+  "estimated_total_time": "7–15 working days (Hindu) / 30 days notice (Special)",
+  "estimated_total_cost": "₹100 – ₹500 government fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Compile couple's documents",
+      "description": "Age proof (matriculation certificate/passport), address proofs, joint wedding photographs, and wedding card.",
+      "documents_needed": [
+        "Age & Address proofs of bride and groom",
+        "Wedding invitation card",
+        "Joint photo"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "marriage_registration_certificate__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit application on e-District portal",
+      "description": "Fill online marriage form, enter particulars of 3 witnesses, and book appointment slot.",
+      "documents_needed": [
+        "Witness Aadhaar cards"
+      ],
+      "fee": "₹100 – ₹500",
+      "processing_time": "1 day",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "marriage_registration_certificate__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Physical appearance before Marriage Officer",
+      "description": "Couple and 3 witnesses appear before SDM/Registrar to sign official marriage register.",
+      "documents_needed": [
+        "Original documents for physical verification"
+      ],
+      "fee": "₹0",
+      "processing_time": "On appointment date",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "marriage_registration_certificate__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Issuance of Marriage Certificate",
+      "description": "Download government Marriage Certificate bearing official seal and registration number.",
+      "documents_needed": [
+        "Marriage Certificate PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day / next day",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "marriage_registration_certificate__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

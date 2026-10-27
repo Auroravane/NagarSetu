@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Commercial Weighing Scale Verification & Stamping",
+  "procedure_id": "weighing_scale_verification_stamping",
+  "summary": "Mandatory annual calibration and lead-sealing of electronic and mechanical balances used in trade.",
+  "estimated_total_time": "2–4 working days",
+  "estimated_total_cost": "₹150 – ₹800 based on scale capacity",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Purchase model-approved scale",
+      "description": "Verify that the machine holds a Government of India Model Approval Certificate.",
+      "documents_needed": [
+        "Model approval certificate",
+        "Invoice"
+      ],
+      "fee": "Varies",
+      "processing_time": "1 day",
+      "official_link": "https://consumeraffairs.nic.in",
+      "source_chunk_ids": [
+        "weighing_scale_verification_stamping__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Schedule verification test",
+      "description": "Take scale to local Legal Metrology laboratory or request on-site inspection for heavy weighbridges.",
+      "documents_needed": [
+        "Application form",
+        "Previous stamping card"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://consumeraffairs.nic.in",
+      "source_chunk_ids": [
+        "weighing_scale_verification_stamping__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Standard mass calibration test",
+      "description": "Inspector tests zero error, corner load error, and sensitivity using certified standard weights.",
+      "documents_needed": [
+        "Test observations"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 hour",
+      "official_link": "https://consumeraffairs.nic.in",
+      "source_chunk_ids": [
+        "weighing_scale_verification_stamping__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Lead seal stamping",
+      "description": "Inspector fixes tamper-evident lead security seal and affixes the current year/quarter stamp.",
+      "documents_needed": [
+        "Stamping stamp mark"
+      ],
+      "fee": "₹150 – ₹800",
+      "processing_time": "Immediate",
+      "official_link": "https://consumeraffairs.nic.in",
+      "source_chunk_ids": [
+        "weighing_scale_verification_stamping__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Issuance of Verification Certificate",
+      "description": "Receive Certificate of Verification to be kept available for surprise consumer checks.",
+      "documents_needed": [
+        "Verification certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://consumeraffairs.nic.in",
+      "source_chunk_ids": [
+        "weighing_scale_verification_stamping__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

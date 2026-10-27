@@ -1,0 +1,87 @@
+{
+  "procedure_name": "Industrial Boiler Registration & Renewal",
+  "procedure_id": "boiler_registration_inspection",
+  "summary": "Statutory steam boiler commissioning and annual pressure testing certification under Indian Boilers Act.",
+  "estimated_total_time": "15–20 working days",
+  "estimated_total_cost": "₹2,000 – ₹15,000 based on heating surface area",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Submit manufacturer dossier",
+      "description": "Upload Form II, III & IV manufacturer material test reports, welder certificates, and hydraulic test certificate.",
+      "documents_needed": [
+        "Form II/III/IV certificates",
+        "Piping isometric drawings"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://dpiit.gov.in/boilers",
+      "source_chunk_ids": [
+        "boiler_registration_inspection__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Steam pipeline erection check",
+      "description": "Approved boiler inspector visits premises to inspect safety valves, water gauges, and steam pipeline alignment.",
+      "documents_needed": [
+        "Erection audit form"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://dpiit.gov.in/boilers",
+      "source_chunk_ids": [
+        "boiler_registration_inspection__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Hydraulic pressure testing",
+      "description": "Conduct hydrostatic pressure test at 1.5 times the maximum allowable working pressure witnessed by the inspector.",
+      "documents_needed": [
+        "Hydraulic test log"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://dpiit.gov.in/boilers",
+      "source_chunk_ids": [
+        "boiler_registration_inspection__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Steam test & safety valve setting",
+      "description": "Verify safety valves pop open at calibrated working pressure without pressure surge.",
+      "documents_needed": [
+        "Safety valve calibration certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://dpiit.gov.in/boilers",
+      "source_chunk_ids": [
+        "boiler_registration_inspection__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Grant of Boiler Certificate",
+      "description": "Receive Form VI certificate authorizing steam generation for 12 months.",
+      "documents_needed": [
+        "Form VI Boiler Book"
+      ],
+      "fee": "₹2,000 – ₹15,000",
+      "processing_time": "3 days",
+      "official_link": "https://dpiit.gov.in/boilers",
+      "source_chunk_ids": [
+        "boiler_registration_inspection__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

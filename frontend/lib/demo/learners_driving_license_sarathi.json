@@ -1,0 +1,87 @@
+{
+  "procedure_name": "Learner's Driving License (LL) Online Test",
+  "procedure_id": "learners_driving_license_sarathi",
+  "summary": "Application, fee payment, and contactless online road safety test for 6-month Learner's Driving License.",
+  "estimated_total_time": "Same day online",
+  "estimated_total_cost": "₹150 application fee + ₹50 test fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Apply on Parivahan Sarathi",
+      "description": "Select State, authenticate via Aadhaar OTP, and select license classes (e.g. Motorcycle with Gear MCWG, LMV).",
+      "documents_needed": [
+        "Aadhaar number",
+        "Active linked mobile"
+      ],
+      "fee": "₹0",
+      "processing_time": "15 minutes",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "learners_driving_license_sarathi__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Watch mandatory road safety tutorial",
+      "description": "Watch 10-minute animated road safety video on safe driving practices and traffic signs.",
+      "documents_needed": [
+        "Completed tutorial confirmation"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 minutes",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "learners_driving_license_sarathi__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Pay government LL fee",
+      "description": "Pay application and online test fee via integrated payment portal.",
+      "documents_needed": [
+        "Payment receipt"
+      ],
+      "fee": "₹200",
+      "processing_time": "Immediate",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "learners_driving_license_sarathi__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Appear in online proctored STALL test",
+      "description": "Take 15-question multiple choice test on traffic signs from home device using webcam facial recognition.",
+      "documents_needed": [
+        "Laptop/Phone with camera"
+      ],
+      "fee": "₹0",
+      "processing_time": "15 minutes",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "learners_driving_license_sarathi__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Instant Learner License download",
+      "description": "Upon scoring 60%+ correct answers, download Form 3 Learner License valid for 6 months across India.",
+      "documents_needed": [
+        "Form 3 Learner License PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "learners_driving_license_sarathi__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

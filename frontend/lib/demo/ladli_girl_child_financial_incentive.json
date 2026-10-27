@@ -1,0 +1,90 @@
+{
+  "procedure_name": "Beti Bachao / Ladli Kanya Financial Incentive Scheme",
+  "procedure_id": "ladli_girl_child_financial_incentive",
+  "summary": "Fixed deposit financial aid deposited in the name of girl children at birth, school admissions, and upon turning 18.",
+  "estimated_total_time": "15–20 working days",
+  "estimated_total_cost": "₹0 (Free State Scheme)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Registration at birth of girl child",
+      "description": "Apply within 1 year of girl child birth at government hospital or Anganwadi center.",
+      "documents_needed": [
+        "Birth certificate of girl child",
+        "Hospital discharge slip"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://wcd.nic.in",
+      "source_chunk_ids": [
+        "ladli_girl_child_financial_incentive__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Parent residency & family income check",
+      "description": "Parents must have resided in state for 3+ years with annual income under prescribed limit.",
+      "documents_needed": [
+        "Income certificate",
+        "Parent domicile/voter ID"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://wcd.nic.in",
+      "source_chunk_ids": [
+        "ladli_girl_child_financial_incentive__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Submit application on WCD portal",
+      "description": "Upload child photograph, mother bank details, and immunization card.",
+      "documents_needed": [
+        "Child immunization card",
+        "Mother Aadhaar & bank passbook"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://wcd.nic.in",
+      "source_chunk_ids": [
+        "ladli_girl_child_financial_incentive__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Issuance of National Savings Certificate / FD",
+      "description": "Government purchases fixed deposit in the girl child's name with phased payouts at 6th, 9th, and 12th class milestones.",
+      "documents_needed": [
+        "Sanction certificate of investment"
+      ],
+      "fee": "₹0",
+      "processing_time": "15 days",
+      "official_link": "https://wcd.nic.in",
+      "source_chunk_ids": [
+        "ladli_girl_child_financial_incentive__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Maturity payout on turning 18",
+      "description": "Full maturity amount released when the girl passes class 12 and attains age 18 as an unmarried citizen.",
+      "documents_needed": [
+        "Class 12 marksheet",
+        "Age certificate"
+      ],
+      "fee": "Maturity benefit",
+      "processing_time": "At age 18",
+      "official_link": "https://wcd.nic.in",
+      "source_chunk_ids": [
+        "ladli_girl_child_financial_incentive__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

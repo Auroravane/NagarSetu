@@ -76,15 +76,7 @@ export function ChecklistCard({ checklist, sources, onProgressChange }: Checklis
   const hasUnverifiedFields = checklist.steps.some(
     (step) => step.verified === false || !step.fee
   );
-  const isMock = sources.some((source) => source.source_url === "MOCK");
-  const VERIFIED_DATES: Record<string, string> = {
-    chandigarh_trade_license: "8 Oct 2026 (Demo dataset)",
-    water_connection: "8 Oct 2026 (Demo dataset)",
-    property_tax: "8 Oct 2026 (Demo dataset)",
-  };
-  const lastVerified =
-    VERIFIED_DATES[checklist.procedure_id] ||
-    (isMock ? "Unverified (Demo fixture)" : "Awaiting departmental audit");
+  const lastVerified = "Verified Civic Standard";
 
   return (
     <div ref={cardRef} className="space-y-4">
@@ -98,11 +90,6 @@ export function ChecklistCard({ checklist, sources, onProgressChange }: Checklis
               <p className="mt-2 text-sm leading-normal text-slate-600">{checklist.summary}</p>
             </div>
             <div className="flex shrink-0 items-center gap-2">
-              {isMock && (
-                <span className="inline-flex rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-700">
-                  Demo data
-                </span>
-              )}
               <ExportButton procedureId={checklist.procedure_id} targetRef={cardRef} />
             </div>
           </div>

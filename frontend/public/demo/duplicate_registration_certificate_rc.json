@@ -1,0 +1,89 @@
+{
+  "procedure_name": "Duplicate Registration Certificate (Lost RC / Form 26)",
+  "procedure_id": "duplicate_registration_certificate_rc",
+  "summary": "Issuance of replacement vehicle Registration Certificate when original card is lost, stolen, or mutilated.",
+  "estimated_total_time": "7–10 working days",
+  "estimated_total_cost": "₹150 – ₹300 fee + card cost",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Lodge Police Lost Article Report (LDR)",
+      "description": "Lodge online lost property report on state police citizen portal and obtain non-traceable certificate.",
+      "documents_needed": [
+        "Police LDR report / FIR"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "duplicate_registration_certificate_rc__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Form 26 application",
+      "description": "Complete Form 26 application and take pencil chassis print of vehicle.",
+      "documents_needed": [
+        "Form 26",
+        "Pencil chassis impression"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 hour",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "duplicate_registration_certificate_rc__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Apply online on Vahan portal",
+      "description": "Upload police lost report, insurance policy, and PUC certificate.",
+      "documents_needed": [
+        "Valid insurance",
+        "PUC copy",
+        "Aadhaar"
+      ],
+      "fee": "₹300",
+      "processing_time": "1 day",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "duplicate_registration_certificate_rc__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Physical inspection at RTO",
+      "description": "Bring vehicle to RTO premises for motor vehicle inspector to verify engine and chassis number.",
+      "documents_needed": [
+        "Vehicle for physical verification"
+      ],
+      "fee": "₹0",
+      "processing_time": "On slot date",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "duplicate_registration_certificate_rc__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Dispatch of duplicate RC",
+      "description": "RTO prints duplicate RC smart card with 'DUPLICATE' endorsement and dispatches via post.",
+      "documents_needed": [
+        "Duplicate RC Smart Card"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "duplicate_registration_certificate_rc__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

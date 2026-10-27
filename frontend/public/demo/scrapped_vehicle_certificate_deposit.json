@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Registered Vehicle Scrappage Certificate of Deposit (CoD)",
+  "procedure_id": "scrapped_vehicle_certificate_deposit",
+  "summary": "Environment-friendly scrappage of end-of-life vehicles (15+ years) granting motor tax rebates on new car purchase.",
+  "estimated_total_time": "3–5 working days",
+  "estimated_total_cost": "Scrap metal value paid to owner + up to 25% road tax rebate",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Identify authorized RVSF facility",
+      "description": "Select government-registered authorized vehicle scrap center on national portal.",
+      "documents_needed": [
+        "Vehicle location"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 minutes",
+      "official_link": "https://vscrap.parivahan.gov.in",
+      "source_chunk_ids": [
+        "scrapped_vehicle_certificate_deposit__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Handover vehicle with original documents",
+      "description": "Provide vehicle along with original RC, insurance, and owner identity proofs.",
+      "documents_needed": [
+        "Original RC",
+        "Owner Aadhaar & PAN",
+        "Bank details"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://vscrap.parivahan.gov.in",
+      "source_chunk_ids": [
+        "scrapped_vehicle_certificate_deposit__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Physical inspection & valuation",
+      "description": "Scrappage center weighs vehicle and evaluates scrap metal and component salvage value.",
+      "documents_needed": [
+        "Scrap valuation agreement"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 hours",
+      "official_link": "https://vscrap.parivahan.gov.in",
+      "source_chunk_ids": [
+        "scrapped_vehicle_certificate_deposit__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Scientific dismantling and destruction",
+      "description": "Vehicle undergoes eco-friendly fluid draining, hazardous material depollution, and chassis shredding.",
+      "documents_needed": [
+        "Destruction video log"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://vscrap.parivahan.gov.in",
+      "source_chunk_ids": [
+        "scrapped_vehicle_certificate_deposit__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Issuance of Certificate of Deposit (CoD)",
+      "description": "Owner receives digital Certificate of Deposit conferring up to 25% concession on new vehicle road tax.",
+      "documents_needed": [
+        "Certificate of Deposit (CoD) PDF"
+      ],
+      "fee": "Payout credited to owner",
+      "processing_time": "Same day",
+      "official_link": "https://vscrap.parivahan.gov.in",
+      "source_chunk_ids": [
+        "scrapped_vehicle_certificate_deposit__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

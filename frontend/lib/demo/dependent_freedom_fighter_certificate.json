@@ -1,0 +1,89 @@
+{
+  "procedure_name": "Freedom Fighter Dependent / Ward Certificate",
+  "procedure_id": "dependent_freedom_fighter_certificate",
+  "summary": "Certificate recognizing sons, daughters, and grandchildren of freedom fighters for horizontal reservation quotas.",
+  "estimated_total_time": "20–30 working days",
+  "estimated_total_cost": "₹0 (Free Government Service)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Tamra Patra / Sanman Pension proofs",
+      "description": "Produce official Tamra Patra award or central Samman Pension sanction order of ancestor.",
+      "documents_needed": [
+        "Tamra Patra copy",
+        "Pension sanction order"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "dependent_freedom_fighter_certificate__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Establish genealogical linkage",
+      "description": "Birth certificates and revenue genealogical tree establishing direct bloodline to freedom fighter.",
+      "documents_needed": [
+        "Certified family pedigree",
+        "Birth certificates"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "dependent_freedom_fighter_certificate__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Submit application to Deputy Commissioner",
+      "description": "Submit application to DC Office with affidavits from all intermediate relatives.",
+      "documents_needed": [
+        "Affidavits",
+        "Aadhaar cards"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "dependent_freedom_fighter_certificate__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Scrutiny by Freedom Fighter Cell",
+      "description": "District advisory committee examines original central ministry records.",
+      "documents_needed": [
+        "Scrutiny findings"
+      ],
+      "fee": "₹0",
+      "processing_time": "15 days",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "dependent_freedom_fighter_certificate__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Issuance of Ward Certificate",
+      "description": "Deputy Commissioner issues formal Ward of Freedom Fighter Certificate for reservation benefits.",
+      "documents_needed": [
+        "Certificate with DC seal"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "dependent_freedom_fighter_certificate__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

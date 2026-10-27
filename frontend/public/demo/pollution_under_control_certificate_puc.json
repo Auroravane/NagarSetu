@@ -1,0 +1,86 @@
+{
+  "procedure_name": "Pollution Under Control (PUC) Certificate Online",
+  "procedure_id": "pollution_under_control_certificate_puc",
+  "summary": "Mandatory periodic vehicle exhaust emission test (valid for 6 to 12 months) connected live to national Vahan server.",
+  "estimated_total_time": "10 minutes at any fuel station",
+  "estimated_total_cost": "₹60 – ₹100 depending on fuel type (Petrol/CNG/Diesel)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Drive vehicle to authorized PUC station",
+      "description": "Visit any petrol pump PUC center with vehicle engine in warmed-up running condition.",
+      "documents_needed": [
+        "Vehicle with physical presence"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 minutes",
+      "official_link": "https://vahan.parivahan.gov.in/puc",
+      "source_chunk_ids": [
+        "pollution_under_control_certificate_puc__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Exhaust gas analyzer probe insertion",
+      "description": "Operator inserts analyzer probe into exhaust tailpipe to measure CO, Hydrocarbons (HC), and Smoke Opacity.",
+      "documents_needed": [
+        "Live sensor readout"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 minutes",
+      "official_link": "https://vahan.parivahan.gov.in/puc",
+      "source_chunk_ids": [
+        "pollution_under_control_certificate_puc__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Live webcam vehicle photo capture",
+      "description": "Webcam captures registration number plate photo while vehicle is connected to testing software.",
+      "documents_needed": [
+        "Webcam timestamp photo"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 minute",
+      "official_link": "https://vahan.parivahan.gov.in/puc",
+      "source_chunk_ids": [
+        "pollution_under_control_certificate_puc__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Live upload to central Vahan database",
+      "description": "Test software uploads emission values directly to central Parivahan server without manual tampering.",
+      "documents_needed": [
+        "Server upload confirmation"
+      ],
+      "fee": "₹60 – ₹100",
+      "processing_time": "Instant",
+      "official_link": "https://vahan.parivahan.gov.in/puc",
+      "source_chunk_ids": [
+        "pollution_under_control_certificate_puc__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Collect printed PUC certificate",
+      "description": "Receive printed certificate containing QR code and validity period (6 months for older BS, 1 year for BS-VI).",
+      "documents_needed": [
+        "PUC Certificate printout"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://vahan.parivahan.gov.in/puc",
+      "source_chunk_ids": [
+        "pollution_under_control_certificate_puc__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

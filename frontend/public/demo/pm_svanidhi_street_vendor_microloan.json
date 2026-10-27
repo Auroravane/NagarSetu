@@ -1,0 +1,87 @@
+{
+  "procedure_name": "PM SVANidhi Micro-Credit Loan for Street Vendors",
+  "procedure_id": "pm_svanidhi_street_vendor_microloan",
+  "summary": "Collateral-free working capital loan of ₹10,000, ₹20,000, and ₹50,000 with 7% interest subsidy for street vendors.",
+  "estimated_total_time": "7–10 working days",
+  "estimated_total_cost": "₹0 application fee; low subsidized interest",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Confirm street vending credentials",
+      "description": "Vendor must hold Certificate of Vending or Letter of Recommendation (LoR) from urban local body.",
+      "documents_needed": [
+        "Vending certificate / LoR"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://pmsvanidhi.mohua.gov.in",
+      "source_chunk_ids": [
+        "pm_svanidhi_street_vendor_microloan__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Apply on PM SVANidhi portal",
+      "description": "Select preferred lending bank, input mobile number linked to Aadhaar, and loan amount tier.",
+      "documents_needed": [
+        "Aadhaar",
+        "Bank passbook"
+      ],
+      "fee": "₹0",
+      "processing_time": "15 minutes",
+      "official_link": "https://pmsvanidhi.mohua.gov.in",
+      "source_chunk_ids": [
+        "pm_svanidhi_street_vendor_microloan__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Bank digital appraisal",
+      "description": "Bank verifies credit history; no physical collateral or guarantor required.",
+      "documents_needed": [
+        "Credit verification check"
+      ],
+      "fee": "₹0",
+      "processing_time": "3–5 days",
+      "official_link": "https://pmsvanidhi.mohua.gov.in",
+      "source_chunk_ids": [
+        "pm_svanidhi_street_vendor_microloan__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Loan disbursement to savings account",
+      "description": "Loan credited directly into bank account; vendor receives digital QR code for digital transaction cashbacks.",
+      "documents_needed": [
+        "Bank credit alert"
+      ],
+      "fee": "₹10,000 – ₹50,000",
+      "processing_time": "Immediate",
+      "official_link": "https://pmsvanidhi.mohua.gov.in",
+      "source_chunk_ids": [
+        "pm_svanidhi_street_vendor_microloan__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "7% interest subsidy payout",
+      "description": "Interest subsidy of 7% credited quarterly into bank account upon timely monthly repayment.",
+      "documents_needed": [
+        "Subsidy credit SMS"
+      ],
+      "fee": "7% subsidy",
+      "processing_time": "Quarterly",
+      "official_link": "https://pmsvanidhi.mohua.gov.in",
+      "source_chunk_ids": [
+        "pm_svanidhi_street_vendor_microloan__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,87 @@
+{
+  "procedure_name": "MSME Udyam Registration Certificate",
+  "procedure_id": "msme_udyam_registration",
+  "summary": "Free official central government registration conferring priority lending, tax exemptions, and government tender benefits.",
+  "estimated_total_time": "1–2 working days",
+  "estimated_total_cost": "₹0 (Completely Free of Cost)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Aadhaar OTP authentication",
+      "description": "Enter entrepreneur's 12-digit Aadhaar number and verify via mobile OTP on official Udyam portal.",
+      "documents_needed": [
+        "Aadhaar number",
+        "Active linked mobile"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://udyamregistration.gov.in",
+      "source_chunk_ids": [
+        "msme_udyam_registration__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "PAN verification",
+      "description": "Enter business PAN card; system automatically fetches tax & turnover data from income tax database.",
+      "documents_needed": [
+        "PAN card"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://udyamregistration.gov.in",
+      "source_chunk_ids": [
+        "msme_udyam_registration__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Fill enterprise particulars",
+      "description": "Specify industry category (Manufacturing/Service), NIC 2/4/5-digit codes, and plant address.",
+      "documents_needed": [
+        "Bank account IFSC & number"
+      ],
+      "fee": "₹0",
+      "processing_time": "15 minutes",
+      "official_link": "https://udyamregistration.gov.in",
+      "source_chunk_ids": [
+        "msme_udyam_registration__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Declare employment and investment",
+      "description": "Enter total employees and plant/machinery investment value (excluding land & building).",
+      "documents_needed": [
+        "Self-declaration"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 minutes",
+      "official_link": "https://udyamregistration.gov.in",
+      "source_chunk_ids": [
+        "msme_udyam_registration__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Generate Udyam Registration Certificate",
+      "description": "System generates permanent digital certificate with lifetime validity and dynamic verification QR code.",
+      "documents_needed": [
+        "Udyam certificate PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://udyamregistration.gov.in",
+      "source_chunk_ids": [
+        "msme_udyam_registration__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

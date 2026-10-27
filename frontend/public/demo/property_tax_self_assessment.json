@@ -1,0 +1,86 @@
+{
+  "procedure_name": "Property Tax Self-Assessment & Annual Return Filing",
+  "procedure_id": "property_tax_self_assessment",
+  "summary": "Annual self-declaration of property unit area, covered area, and usage category to calculate and remit municipal house tax.",
+  "estimated_total_time": "Immediate online receipt",
+  "estimated_total_cost": "Varies by covered area & circle rate (Early bird rebate up to 10%)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Look up Property ID / Assessment Number",
+      "description": "Enter 10-digit Property ID or registered mobile number on municipal property tax portal.",
+      "documents_needed": [
+        "Previous property tax receipt"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/property-tax",
+      "source_chunk_ids": [
+        "property_tax_self_assessment__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Review property particulars",
+      "description": "Verify land plot area, covered carpet area across floors, residential vs commercial occupancy, and tenant details.",
+      "documents_needed": [
+        "Property measurements"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 minutes",
+      "official_link": "https://mcc.chandigarh.gov.in/property-tax",
+      "source_chunk_ids": [
+        "property_tax_self_assessment__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "System tax calculation with rebates",
+      "description": "System calculates gross tax, applies early bird 10% discount and senior citizen/female owner concession.",
+      "documents_needed": [
+        "Computed tax demand breakdown"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/property-tax",
+      "source_chunk_ids": [
+        "property_tax_self_assessment__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Pay online via instant payment gateway",
+      "description": "Pay via UPI, credit/debit card, or download bank challan for payment at designated authorized banks.",
+      "documents_needed": [
+        "Instant tax payment receipt"
+      ],
+      "fee": "Calculated tax amount",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/property-tax",
+      "source_chunk_ids": [
+        "property_tax_self_assessment__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Download annual property tax clearance",
+      "description": "Download property tax clearance certificate for the current financial year.",
+      "documents_needed": [
+        "Tax Clearance Certificate with QR"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/property-tax",
+      "source_chunk_ids": [
+        "property_tax_self_assessment__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

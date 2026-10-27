@@ -1,0 +1,90 @@
+{
+  "procedure_name": "Property Mutation (Transfer of Title in Revenue Records)",
+  "procedure_id": "property_mutation_transfer",
+  "summary": "Official update of municipal and revenue land ownership records following property purchase, gift, inheritance, or partition.",
+  "estimated_total_time": "15–30 working days",
+  "estimated_total_cost": "₹500 – ₹2,000 mutation fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Gather registered transfer deed",
+      "description": "Obtain certified copy of Registered Sale Deed, Gift Deed, Relinquishment Deed, or Probate of Will.",
+      "documents_needed": [
+        "Registered Deed",
+        "Previous owner title deed"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://landrecords.gov.in",
+      "source_chunk_ids": [
+        "property_mutation_transfer__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Apply online on Revenue Portal",
+      "description": "Submit mutation application providing property unique identification number (UPRN), seller and buyer particulars.",
+      "documents_needed": [
+        "Aadhaar",
+        "PAN",
+        "Registered Deed copy"
+      ],
+      "fee": "₹500",
+      "processing_time": "1 day",
+      "official_link": "https://landrecords.gov.in",
+      "source_chunk_ids": [
+        "property_mutation_transfer__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Issuance of 15-day public notice",
+      "description": "Patwari/Tehsildar issues a 15-day public notice to invite objections from legal heirs or co-sharers.",
+      "documents_needed": [
+        "Public proclamation notice"
+      ],
+      "fee": "₹0",
+      "processing_time": "15 days",
+      "official_link": "https://landrecords.gov.in",
+      "source_chunk_ids": [
+        "property_mutation_transfer__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Verification of possession",
+      "description": "Field revenue inspector inspects property to verify actual physical possession.",
+      "documents_needed": [
+        "Inspector field verification report"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://landrecords.gov.in",
+      "source_chunk_ids": [
+        "property_mutation_transfer__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Tehsildar sanction and Jamabandi update",
+      "description": "Tehsildar sanctions mutation order; property record is updated in the computerized Jamabandi / RoR.",
+      "documents_needed": [
+        "Sanctioned Mutation Order",
+        "Updated Jamabandi / Fard"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://landrecords.gov.in",
+      "source_chunk_ids": [
+        "property_mutation_transfer__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

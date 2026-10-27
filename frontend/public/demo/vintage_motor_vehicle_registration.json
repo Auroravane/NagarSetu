@@ -1,0 +1,72 @@
+{
+  "procedure_name": "Vintage Motor Vehicle Special Registration (50+ Years)",
+  "procedure_id": "vintage_motor_vehicle_registration",
+  "summary": "Special heritage registration series (e.g. 'VA') for preserved vintage cars and two-wheelers older than 50 years.",
+  "estimated_total_time": "15–20 working days",
+  "estimated_total_cost": "₹20,000 (New registration) / ₹5,000 (Subsequent 10-year renewal)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Verify age of vehicle (50+ years)",
+      "description": "Vehicle must be in original authentic condition with no substantial overhaul of chassis or body shell.",
+      "documents_needed": [
+        "Original registration papers / import bill"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://parivahan.gov.in",
+      "source_chunk_ids": [
+        "vintage_motor_vehicle_registration__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit Form 20A application",
+      "description": "Apply online under Vintage Motor Vehicle category on Parivahan Vahan.",
+      "documents_needed": [
+        "Photographs of vintage car from all sides",
+        "Insurance policy"
+      ],
+      "fee": "₹20,000",
+      "processing_time": "1 day",
+      "official_link": "https://parivahan.gov.in",
+      "source_chunk_ids": [
+        "vintage_motor_vehicle_registration__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Inspection by Vintage Vehicle Committee",
+      "description": "Expert technical committee inspects preservation standards and mechanical safety.",
+      "documents_needed": [
+        "Inspection evaluation sheet"
+      ],
+      "fee": "₹0",
+      "processing_time": "7 days",
+      "official_link": "https://parivahan.gov.in",
+      "source_chunk_ids": [
+        "vintage_motor_vehicle_registration__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Allocation of Vintage Number Plate (VA series)",
+      "description": "Receive unique 10-character registration code (e.g. XX VA YY ****).",
+      "documents_needed": [
+        "Vintage Registration Certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://parivahan.gov.in",
+      "source_chunk_ids": [
+        "vintage_motor_vehicle_registration__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

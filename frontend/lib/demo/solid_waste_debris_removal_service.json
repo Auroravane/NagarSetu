@@ -1,0 +1,72 @@
+{
+  "procedure_name": "Construction & Demolition (C&D) Debris Removal",
+  "procedure_id": "solid_waste_debris_removal_service",
+  "summary": "On-demand municipal collection service for bulk concrete, brick, and renovation debris to prevent illegal dumping.",
+  "estimated_total_time": "2–4 working days",
+  "estimated_total_cost": "₹500 – ₹1,500 per tractor trolley load",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Estimate debris quantity",
+      "description": "Assess approximate volume of renovation debris in metric tons or trolley loads.",
+      "documents_needed": [
+        "Photographs of debris heap"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://mcc.chandigarh.gov.in/waste-management",
+      "source_chunk_ids": [
+        "solid_waste_debris_removal_service__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Book pickup on municipal helpline / portal",
+      "description": "Register booking on municipal app or citizen helpline providing pickup address.",
+      "documents_needed": [
+        "Aadhaar",
+        "Contact mobile"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/waste-management",
+      "source_chunk_ids": [
+        "solid_waste_debris_removal_service__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Pay lifting charges",
+      "description": "Pay prescribed lifting and processing charges online.",
+      "documents_needed": [
+        "Challan payment"
+      ],
+      "fee": "₹500 – ₹1,500 / load",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/waste-management",
+      "source_chunk_ids": [
+        "solid_waste_debris_removal_service__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Designated dumping pickup",
+      "description": "Municipal hydraulic tipper arrives at site, loads waste, and transports it to recycling facility.",
+      "documents_needed": [
+        "Waste handover slip"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 working days",
+      "official_link": "https://mcc.chandigarh.gov.in/waste-management",
+      "source_chunk_ids": [
+        "solid_waste_debris_removal_service__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

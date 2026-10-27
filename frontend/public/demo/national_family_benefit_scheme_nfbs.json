@@ -1,0 +1,88 @@
+{
+  "procedure_name": "National Family Benefit Scheme (NFBS)",
+  "procedure_id": "national_family_benefit_scheme_nfbs",
+  "summary": "One-time lump sum grant of ₹20,000 to below-poverty-line families upon the death of the primary breadwinner.",
+  "estimated_total_time": "30–45 working days",
+  "estimated_total_cost": "₹0 (Free Welfare Grant)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Confirm breadwinner criteria",
+      "description": "Deceased must have been primary breadwinner aged between 18 and 59 at time of death.",
+      "documents_needed": [
+        "Death certificate of breadwinner",
+        "Age proof of deceased"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://nsap.nic.in",
+      "source_chunk_ids": [
+        "national_family_benefit_scheme_nfbs__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit BPL proof",
+      "description": "Produce verified BPL ration card or family annual income certificate below poverty threshold.",
+      "documents_needed": [
+        "BPL card",
+        "Income certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://nsap.nic.in",
+      "source_chunk_ids": [
+        "national_family_benefit_scheme_nfbs__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Submit application on state social security portal",
+      "description": "Submit surviving spouse/head Aadhaar, post-mortem report (if accidental), and bank passbook.",
+      "documents_needed": [
+        "Surviving spouse bank passbook"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://nsap.nic.in",
+      "source_chunk_ids": [
+        "national_family_benefit_scheme_nfbs__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Sub-Divisional Magistrate verification",
+      "description": "Revenue officer conducts field verification of dependents.",
+      "documents_needed": [
+        "Enquiry report"
+      ],
+      "fee": "₹0",
+      "processing_time": "15 days",
+      "official_link": "https://nsap.nic.in",
+      "source_chunk_ids": [
+        "national_family_benefit_scheme_nfbs__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Lump-sum DBT credit",
+      "description": "One-time assistance of ₹20,000 credited directly to bank account of surviving spouse.",
+      "documents_needed": [
+        "PFMS credit alert"
+      ],
+      "fee": "₹20,000 grant",
+      "processing_time": "Direct credit",
+      "official_link": "https://nsap.nic.in",
+      "source_chunk_ids": [
+        "national_family_benefit_scheme_nfbs__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

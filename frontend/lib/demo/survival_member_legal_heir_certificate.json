@@ -1,0 +1,87 @@
+{
+  "procedure_name": "Legal Heir / Surviving Member Certificate",
+  "procedure_id": "survival_member_legal_heir_certificate",
+  "summary": "Certificate identifying all surviving legal heirs of a deceased person for bank account closure and PF settlements.",
+  "estimated_total_time": "15–21 working days",
+  "estimated_total_cost": "₹50 application fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Death certificate of deceased",
+      "description": "Obtain official death certificate and family pedigree genealogical tree.",
+      "documents_needed": [
+        "Death certificate",
+        "Family tree diagram"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "survival_member_legal_heir_certificate__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Affidavit of all legal heirs",
+      "description": "All surviving heirs (spouse, sons, daughters, mother) execute joint affidavit declaring no other heirs exist.",
+      "documents_needed": [
+        "Notarized joint legal heir affidavit"
+      ],
+      "fee": "₹100",
+      "processing_time": "1 day",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "survival_member_legal_heir_certificate__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Submit online SDM application",
+      "description": "Upload death certificate, survivor Aadhaar cards, and NOC from married daughters (if applicable).",
+      "documents_needed": [
+        "Surviving members' Aadhaar"
+      ],
+      "fee": "₹50",
+      "processing_time": "1 day",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "survival_member_legal_heir_certificate__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Local Patwari/Tehsildar verification",
+      "description": "Revenue officer verifies surviving heirs through statements of village Sarpanch or municipal councillor.",
+      "documents_needed": [
+        "Field enquiry report"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 days",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "survival_member_legal_heir_certificate__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Issuance of Surviving Member Certificate",
+      "description": "SDM issues formal Surviving Member Certificate with names and relationship of all legal heirs.",
+      "documents_needed": [
+        "Legal Heir Certificate PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "survival_member_legal_heir_certificate__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

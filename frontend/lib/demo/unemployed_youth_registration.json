@@ -1,0 +1,72 @@
+{
+  "procedure_name": "Employment Exchange Registration for Jobseekers",
+  "procedure_id": "unemployed_youth_registration",
+  "summary": "Official registration card establishing educational seniority for state government employment drives.",
+  "estimated_total_time": "Immediate online certificate",
+  "estimated_total_cost": "₹0 (Completely Free)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Register on National Career Service (NCS)",
+      "description": "Create jobseeker profile with Aadhaar, education qualification certificates, and technical skills.",
+      "documents_needed": [
+        "Degree marksheets",
+        "Aadhaar card"
+      ],
+      "fee": "₹0",
+      "processing_time": "15 minutes",
+      "official_link": "https://ncs.gov.in",
+      "source_chunk_ids": [
+        "unemployed_youth_registration__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Upload experience and category certificates",
+      "description": "Add vocational certifications (ITI, Polytechnic) and caste/disability certificates for reservation.",
+      "documents_needed": [
+        "Certificates scan"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 minutes",
+      "official_link": "https://ncs.gov.in",
+      "source_chunk_ids": [
+        "unemployed_youth_registration__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Download Employment Exchange Card",
+      "description": "Receive NCS Jobseeker Registration Number and digital employment card.",
+      "documents_needed": [
+        "NCS Jobseeker Card PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://ncs.gov.in",
+      "source_chunk_ids": [
+        "unemployed_youth_registration__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Participate in government job fairs",
+      "description": "Receive automated SMS invitations to Rozgar Melas and state vacancy notifications.",
+      "documents_needed": [
+        "Job fair alert notifications"
+      ],
+      "fee": "₹0",
+      "processing_time": "Ongoing",
+      "official_link": "https://ncs.gov.in",
+      "source_chunk_ids": [
+        "unemployed_youth_registration__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "procedure_name": "Property Valuation Certificate (Circle Rate Assessment)",
+  "procedure_id": "property_valuation_circle_rate_certificate",
+  "summary": "Official certificate determining minimum government circle rate valuation of real estate for visa, probate, or bank mortgage.",
+  "estimated_total_time": "3–5 working days",
+  "estimated_total_cost": "₹200 application fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Identify sector, floor, and road width",
+      "description": "Circle rate valuations vary based on whether property abuts main sector avenue or internal road.",
+      "documents_needed": [
+        "Registry copy / Allotment letter"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 minutes",
+      "official_link": "https://revenue.gov.in",
+      "source_chunk_ids": [
+        "property_valuation_circle_rate_certificate__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Apply online on Revenue Portal",
+      "description": "Input plot size, constructed area by floor, and year of construction.",
+      "documents_needed": [
+        "Aadhaar",
+        "Property photos"
+      ],
+      "fee": "₹200",
+      "processing_time": "1 day",
+      "official_link": "https://revenue.gov.in",
+      "source_chunk_ids": [
+        "property_valuation_circle_rate_certificate__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Algorithmic circle rate assessment",
+      "description": "System multiplies carpet area by notification circle rates and applies age depreciation.",
+      "documents_needed": [
+        "Valuation computation sheet"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://revenue.gov.in",
+      "source_chunk_ids": [
+        "property_valuation_circle_rate_certificate__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Issuance of certified valuation",
+      "description": "Sub-Registrar issues digitally signed Valuation Certificate with QR code verification.",
+      "documents_needed": [
+        "Valuation Certificate PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://revenue.gov.in",
+      "source_chunk_ids": [
+        "property_valuation_circle_rate_certificate__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

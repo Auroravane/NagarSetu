@@ -1,0 +1,120 @@
+{
+  "procedure_name": "FSSAI Food Business Registration & License",
+  "procedure_id": "fssai_food_license",
+  "summary": "Mandatory registration or state license for food manufacturers, restaurants, bakeries, cloud kitchens, and street food operators.",
+  "estimated_total_time": "7–15 working days",
+  "estimated_total_cost": "₹100 (Registration) – ₹2,000 (State License)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Determine eligibility category",
+      "description": "Check annual turnover: under ₹12 Lakh requires basic Registration; between ₹12 Lakh and ₹20 Crore requires a State License.",
+      "documents_needed": [
+        "Turnover statement",
+        "Business identity proof"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://foscos.fssai.gov.in",
+      "source_chunk_ids": [
+        "fssai_food_license__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Create account on FoSCoS portal",
+      "description": "Register on the Food Safety Compliance System (FoSCoS) using valid mobile number and email ID.",
+      "documents_needed": [
+        "Aadhaar card",
+        "PAN card of business/proprietor"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://foscos.fssai.gov.in",
+      "source_chunk_ids": [
+        "fssai_food_license__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Complete Form A or Form B",
+      "description": "Fill in premises address, nature of food business, proposed list of food categories to be handled, and equipment details.",
+      "documents_needed": [
+        "Premises proof (Electricity bill/Rent agreement)"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://foscos.fssai.gov.in",
+      "source_chunk_ids": [
+        "fssai_food_license__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Upload food safety declarations",
+      "description": "Submit standard food safety management system (FSMS) plan, water test report, and food handler medical fitness certificate.",
+      "documents_needed": [
+        "FSMS declaration",
+        "Water testing lab report",
+        "Medical fitness certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "1–2 days",
+      "official_link": "https://foscos.fssai.gov.in",
+      "source_chunk_ids": [
+        "fssai_food_license__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Pay license fee online",
+      "description": "Pay government prescribed fee through online payment gateway (UPI/Net banking/Card).",
+      "documents_needed": [
+        "Payment receipt"
+      ],
+      "fee": "₹100 – ₹2,000",
+      "processing_time": "Immediate",
+      "official_link": "https://foscos.fssai.gov.in",
+      "source_chunk_ids": [
+        "fssai_food_license__step_05"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 6,
+      "title": "Food safety officer inspection",
+      "description": "For state licenses, a Food Safety Officer conducts premise verification for hygiene standards.",
+      "documents_needed": [
+        "Original document copies"
+      ],
+      "fee": "₹0",
+      "processing_time": "3–7 working days",
+      "official_link": "https://foscos.fssai.gov.in",
+      "source_chunk_ids": [
+        "fssai_food_license__step_06"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 7,
+      "title": "Download FSSAI license certificate",
+      "description": "Upon verification approval, download the 14-digit FSSAI registration certificate with QR code.",
+      "documents_needed": [
+        "Application reference number"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://foscos.fssai.gov.in",
+      "source_chunk_ids": [
+        "fssai_food_license__step_07"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

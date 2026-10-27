@@ -1,0 +1,89 @@
+{
+  "procedure_name": "Vehicle Registration Transfer of Ownership (Form 29 & 30)",
+  "procedure_id": "rc_ownership_transfer_vehicle",
+  "summary": "Transfer of vehicle Registration Certificate (RC) to buyer upon purchase of used two-wheeler or car.",
+  "estimated_total_time": "7–14 working days",
+  "estimated_total_cost": "₹300 – ₹500 transfer fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Execute Form 29 & 30",
+      "description": "Buyer and seller sign Form 29 (notice of transfer) and Form 30 (application for transfer).",
+      "documents_needed": [
+        "Form 29 & Form 30 signed",
+        "Sale agreement"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "rc_ownership_transfer_vehicle__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Procure vehicle fitness documents",
+      "description": "Ensure vehicle has valid motor insurance policy, active Pollution Under Control (PUC) certificate, and original RC.",
+      "documents_needed": [
+        "Original RC smart card",
+        "Valid insurance policy",
+        "PUC certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "rc_ownership_transfer_vehicle__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Submit transfer on Parivahan Vahan",
+      "description": "Enter vehicle chassis number, buyer Aadhaar, and upload signed transfer forms.",
+      "documents_needed": [
+        "PAN card of buyer / Form 60"
+      ],
+      "fee": "₹300 – ₹500",
+      "processing_time": "1 day",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "rc_ownership_transfer_vehicle__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Seller OTP consent verification",
+      "description": "Seller receives SMS OTP on mobile registered with vehicle to approve transfer online.",
+      "documents_needed": [
+        "Seller OTP authorization"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "rc_ownership_transfer_vehicle__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Issuance of updated RC smart card",
+      "description": "RTO prints new Registration Certificate bearing buyer's name and dispatches via post.",
+      "documents_needed": [
+        "New RC Smart Card"
+      ],
+      "fee": "₹0",
+      "processing_time": "7 days",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "rc_ownership_transfer_vehicle__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

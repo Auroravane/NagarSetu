@@ -1,0 +1,87 @@
+{
+  "procedure_name": "Atal Pension Yojana (APY) Guaranteed Pension",
+  "procedure_id": "atal_pension_yojana_apy",
+  "summary": "Government-backed guaranteed monthly pension of ₹1,000, ₹2,000, ₹3,000, ₹4,000, or ₹5,000 per month starting at age 60.",
+  "estimated_total_time": "Same day enrollment at bank",
+  "estimated_total_cost": "Monthly auto-debit contribution based on joining age (₹42 – ₹1,454/month)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Eligibility check (Age 18–40)",
+      "description": "Applicant must be an Indian citizen aged between 18 and 40 years, with an active bank savings account.",
+      "documents_needed": [
+        "Savings bank passbook",
+        "Aadhaar card"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://npscra.nsdl.co.in",
+      "source_chunk_ids": [
+        "atal_pension_yojana_apy__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Choose desired pension tier",
+      "description": "Select monthly pension amount (₹1,000 to ₹5,000) and frequency of contribution (monthly/quarterly).",
+      "documents_needed": [
+        "Nominee particulars"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 minutes",
+      "official_link": "https://npscra.nsdl.co.in",
+      "source_chunk_ids": [
+        "atal_pension_yojana_apy__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Submit auto-debit authorization",
+      "description": "Apply via internet banking or submit APY registration form to bank branch authorizing auto-debit.",
+      "documents_needed": [
+        "Signed auto-debit mandate"
+      ],
+      "fee": "Monthly contribution",
+      "processing_time": "Same day",
+      "official_link": "https://npscra.nsdl.co.in",
+      "source_chunk_ids": [
+        "atal_pension_yojana_apy__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "PRAN generation and acknowledgement",
+      "description": "Receive permanent APY PRAN number and digital subscriber registration slip.",
+      "documents_needed": [
+        "APY PRAN card"
+      ],
+      "fee": "₹0",
+      "processing_time": "Instant",
+      "official_link": "https://npscra.nsdl.co.in",
+      "source_chunk_ids": [
+        "atal_pension_yojana_apy__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Guaranteed pension commencement at age 60",
+      "description": "Lifelong monthly pension credited on the first of every month post age 60, followed by return of corpus to nominee.",
+      "documents_needed": [
+        "Pension credit advice"
+      ],
+      "fee": "Guaranteed pension",
+      "processing_time": "At age 60",
+      "official_link": "https://npscra.nsdl.co.in",
+      "source_chunk_ids": [
+        "atal_pension_yojana_apy__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "procedure_name": "Tree Pruning and Dangerous Branch Removal Permission",
+  "procedure_id": "tree_pruning_removal_permission",
+  "summary": "Permit required before pruning or cutting overgrown trees touching power lines or endangering private structures.",
+  "estimated_total_time": "7–12 working days",
+  "estimated_total_cost": "₹0 for municipal trees; ₹200 fee for private premises",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Take location photographs",
+      "description": "Photograph tree showing dangerous proximity to building wall, roof, or electrical conductors.",
+      "documents_needed": [
+        "Clear photographs from 2 angles"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://mcc.chandigarh.gov.in/horticulture",
+      "source_chunk_ids": [
+        "tree_pruning_removal_permission__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit online request",
+      "description": "Submit request on municipal citizen portal specifying species (if known) and reason for cutting/pruning.",
+      "documents_needed": [
+        "Property ownership proof"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://mcc.chandigarh.gov.in/horticulture",
+      "source_chunk_ids": [
+        "tree_pruning_removal_permission__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Horticulture inspector site appraisal",
+      "description": "Horticulture officer visits premises to confirm hazard and issue pruning guidance.",
+      "documents_needed": [
+        "Site appraisal report"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 working days",
+      "official_link": "https://mcc.chandigarh.gov.in/horticulture",
+      "source_chunk_ids": [
+        "tree_pruning_removal_permission__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Issuance of work permit",
+      "description": "Municipal department dispatches bucket crane for street trees, or issues written clearance for private courtyard trees.",
+      "documents_needed": [
+        "Pruning sanction letter"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://mcc.chandigarh.gov.in/horticulture",
+      "source_chunk_ids": [
+        "tree_pruning_removal_permission__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

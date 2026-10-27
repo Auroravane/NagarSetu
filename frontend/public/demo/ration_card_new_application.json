@@ -1,0 +1,88 @@
+{
+  "procedure_name": "New Ration Card (APL / BPL / NFSA / Antyodaya)",
+  "procedure_id": "ration_card_new_application",
+  "summary": "Issuance of digital household ration card for subsidized food grains and official proof of family tree.",
+  "estimated_total_time": "15–25 working days",
+  "estimated_total_cost": "₹50 service fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Deletion certificate from previous place",
+      "description": "If moving from another state/town, obtain surrender/deletion certificate from previous food supply office.",
+      "documents_needed": [
+        "Surrender certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://nfsa.gov.in",
+      "source_chunk_ids": [
+        "ration_card_new_application__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Gather family member Aadhaar cards",
+      "description": "Collect Aadhaar numbers and bank account of the eldest female member as Head of the Family (HOD).",
+      "documents_needed": [
+        "All members' Aadhaar",
+        "LPG gas connection booklet"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://nfsa.gov.in",
+      "source_chunk_ids": [
+        "ration_card_new_application__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Submit online NFSA application",
+      "description": "Fill monthly income, house type (pucca/kutcha), and upload family group photo.",
+      "documents_needed": [
+        "Family photo",
+        "Electricity bill"
+      ],
+      "fee": "₹50",
+      "processing_time": "1 day",
+      "official_link": "https://nfsa.gov.in",
+      "source_chunk_ids": [
+        "ration_card_new_application__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Food Inspector field scrutiny",
+      "description": "Inspector checks economic criteria and verifies family living conditions.",
+      "documents_needed": [
+        "Inspector verification log"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 days",
+      "official_link": "https://nfsa.gov.in",
+      "source_chunk_ids": [
+        "ration_card_new_application__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Download e-Ration Card",
+      "description": "Download dynamic QR-code e-Ration Card valid at all Fair Price Shops under One Nation One Ration Card (ONORC).",
+      "documents_needed": [
+        "e-Ration Card PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://nfsa.gov.in",
+      "source_chunk_ids": [
+        "ration_card_new_application__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

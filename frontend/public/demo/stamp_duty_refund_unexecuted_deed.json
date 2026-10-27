@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Refund of Unused / Spoiled E-Stamp Paper Duty",
+  "procedure_id": "stamp_duty_refund_unexecuted_deed",
+  "summary": "Procedure to recover up to 90% of stamp duty paid on cancelled property purchase transactions or spoiled stamp papers.",
+  "estimated_total_time": "30–45 working days",
+  "estimated_total_cost": "10% statutory deduction from total stamp value",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Preserve original e-stamp certificate",
+      "description": "Ensure application is submitted within statutory 6 months from e-stamp certificate purchase date.",
+      "documents_needed": [
+        "Original e-stamp certificate",
+        "Purchase receipt"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://shcilestamp.com",
+      "source_chunk_ids": [
+        "stamp_duty_refund_unexecuted_deed__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Affidavit of cancellation",
+      "description": "Execute sworn affidavit before notary stating reasons for cancellation and that deed was never executed/registered.",
+      "documents_needed": [
+        "Notarized cancellation affidavit"
+      ],
+      "fee": "₹100",
+      "processing_time": "1 day",
+      "official_link": "https://shcilestamp.com",
+      "source_chunk_ids": [
+        "stamp_duty_refund_unexecuted_deed__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Sub-registrar non-registration certificate",
+      "description": "Sub-Registrar inspects archives and issues certificate confirming stamp was never used for registration.",
+      "documents_needed": [
+        "Non-use certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "7 days",
+      "official_link": "https://shcilestamp.com",
+      "source_chunk_ids": [
+        "stamp_duty_refund_unexecuted_deed__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Submit refund claim to Collector",
+      "description": "Submit application to District Collector (Stamps) with bank account details for Direct Benefit Transfer.",
+      "documents_needed": [
+        "Cancelled cheque",
+        "PAN card copy"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://shcilestamp.com",
+      "source_chunk_ids": [
+        "stamp_duty_refund_unexecuted_deed__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Order of refund and bank credit",
+      "description": "Collector approves refund deducting 10% statutory fee; amount credited to buyer's bank account.",
+      "documents_needed": [
+        "Refund sanction order"
+      ],
+      "fee": "10% deduction",
+      "processing_time": "15–20 days",
+      "official_link": "https://shcilestamp.com",
+      "source_chunk_ids": [
+        "stamp_duty_refund_unexecuted_deed__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

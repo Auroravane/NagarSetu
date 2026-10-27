@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Street Vendor Vending Certificate & ID Card",
+  "procedure_id": "street_vendor_vending_certificate",
+  "summary": "Registration under Street Vendors (Protection of Livelihood and Regulation of Street Vending) Act for hawkers and cart operators.",
+  "estimated_total_time": "14–21 working days",
+  "estimated_total_cost": "₹0 application + ₹150–₹500 monthly vending fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Participation in Town Vending Survey",
+      "description": "Verify inclusion in municipal biometric street vendor survey list or apply during quarterly open enrollment.",
+      "documents_needed": [
+        "Aadhaar card",
+        "Voter ID"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://pmsvanidhi.mohua.gov.in",
+      "source_chunk_ids": [
+        "street_vendor_vending_certificate__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Application for vending zone",
+      "description": "Submit preference for designated vending zones (stationary, mobile, or weekly market).",
+      "documents_needed": [
+        "Passport photographs",
+        "Bank passbook"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://pmsvanidhi.mohua.gov.in",
+      "source_chunk_ids": [
+        "street_vendor_vending_certificate__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Verification by Town Vending Committee (TVC)",
+      "description": "TVC reviews applicant credentials and conducts non-overlap verification.",
+      "documents_needed": [
+        "Vending verification form"
+      ],
+      "fee": "₹0",
+      "processing_time": "7–10 days",
+      "official_link": "https://pmsvanidhi.mohua.gov.in",
+      "source_chunk_ids": [
+        "street_vendor_vending_certificate__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Allotment of designated vending spot",
+      "description": "Receive allotment letter with mapped geo-coordinates within designated vending zone.",
+      "documents_needed": [
+        "Allotment order"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://pmsvanidhi.mohua.gov.in",
+      "source_chunk_ids": [
+        "street_vendor_vending_certificate__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Issuance of Smart Vending Card",
+      "description": "Collect smart card containing QR code, photo, and permitted trade hours.",
+      "documents_needed": [
+        "Vending smart card"
+      ],
+      "fee": "₹150",
+      "processing_time": "2 days",
+      "official_link": "https://pmsvanidhi.mohua.gov.in",
+      "source_chunk_ids": [
+        "street_vendor_vending_certificate__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

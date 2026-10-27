@@ -1,0 +1,73 @@
+{
+  "procedure_name": "Religious / Linguistic Minority Community Certificate",
+  "procedure_id": "non_encumbrance_minority_certificate",
+  "summary": "Official certification of notified minority community status (Muslim, Christian, Sikh, Buddhist, Jain, Parsi) for scholarships.",
+  "estimated_total_time": "7–12 working days",
+  "estimated_total_cost": "₹30 – ₹50 fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Religious institution certificate",
+      "description": "Letter from registered Gurudwara/Church/Mosque/Jain trust or school leaving certificate stating religion.",
+      "documents_needed": [
+        "Institutional letter",
+        "School leaving certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://minorityaffairs.gov.in",
+      "source_chunk_ids": [
+        "non_encumbrance_minority_certificate__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Self-declaration affidavit",
+      "description": "Submit sworn affidavit declaring adherence to notified minority community.",
+      "documents_needed": [
+        "Notarized affidavit"
+      ],
+      "fee": "₹100",
+      "processing_time": "1 day",
+      "official_link": "https://minorityaffairs.gov.in",
+      "source_chunk_ids": [
+        "non_encumbrance_minority_certificate__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Apply online on e-District portal",
+      "description": "Attach parent minority proof and family income statement for fee waivers.",
+      "documents_needed": [
+        "Aadhaar card",
+        "Income certificate"
+      ],
+      "fee": "₹30",
+      "processing_time": "1 day",
+      "official_link": "https://minorityaffairs.gov.in",
+      "source_chunk_ids": [
+        "non_encumbrance_minority_certificate__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Tehsildar verification & approval",
+      "description": "Revenue authority validates records and issues certificate.",
+      "documents_needed": [
+        "Minority Certificate PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://minorityaffairs.gov.in",
+      "source_chunk_ids": [
+        "non_encumbrance_minority_certificate__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

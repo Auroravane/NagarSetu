@@ -1,0 +1,810 @@
+[
+  {
+    "id": "atal_pension_yojana_apy",
+    "name": "Atal Pension Yojana (APY) Guaranteed Pension",
+    "summary": "Government-backed guaranteed monthly pension of \u20b91,000, \u20b92,000, \u20b93,000, \u20b94,000, or \u20b95,000 per month starting at age 60.",
+    "category": "Welfare & Schemes",
+    "time": "Same day enrollment at bank",
+    "cost": "Monthly auto-debit contribution based on joining age (\u20b942 \u2013 \u20b91,454/month)"
+  },
+  {
+    "id": "auto_taxi_contract_carriage_permit",
+    "name": "Contract Carriage Auto-Rickshaw & Taxi Permit",
+    "summary": "Permit authorizing commercial passenger transport within municipal city limits or regional tricity zones.",
+    "category": "Transport & Vehicles",
+    "time": "15\u201321 working days",
+    "cost": "\u20b91,000 \u2013 \u20b93,500 permit fee"
+  },
+  {
+    "id": "ayushman_bharat_pmjay_health_card",
+    "name": "Ayushman Bharat PM-JAY Golden Health Card",
+    "summary": "Cashless secondary and tertiary hospitalization cover of up to \u20b95,00,000 per family per year at empaneled hospitals.",
+    "category": "Welfare & Schemes",
+    "time": "Instant to 24 hours",
+    "cost": "\u20b90 (Completely Free of Cost)"
+  },
+  {
+    "id": "birth_certificate_registration",
+    "name": "Birth Certificate Registration & Download",
+    "summary": "Official registration and certificate issuance for newborn children within 21 days of birth.",
+    "category": "Certificates & Identity",
+    "time": "3\u20137 working days",
+    "cost": "\u20b90 within 21 days; \u20b910\u2013\u20b950 late fee up to 1 year"
+  },
+  {
+    "id": "boiler_registration_inspection",
+    "name": "Industrial Boiler Registration & Renewal",
+    "summary": "Statutory steam boiler commissioning and annual pressure testing certification under Indian Boilers Act.",
+    "category": "Business & Licenses",
+    "time": "15\u201320 working days",
+    "cost": "\u20b92,000 \u2013 \u20b915,000 based on heating surface area"
+  },
+  {
+    "id": "building_plan_approval_sanction",
+    "name": "Residential Building Plan Approval (Naksha Sanction)",
+    "summary": "Mandatory architectural drawing sanction before commencing construction or structural alteration of residential houses.",
+    "category": "Property & Revenue",
+    "time": "15\u201321 working days",
+    "cost": "\u20b915 \u2013 \u20b930 per square yard scrutiny fee + labor cess"
+  },
+  {
+    "id": "bulk_water_tanker_supply",
+    "name": "Emergency Potable Water Tanker Booking",
+    "summary": "Booking of municipal water tankers for private weddings, religious congregations, or pipeline burst emergencies.",
+    "category": "Utilities & Water",
+    "time": "4\u201312 hours",
+    "cost": "\u20b9400 \u2013 \u20b9800 per 5,000-litre tanker"
+  },
+  {
+    "id": "caste_category_certificate_sc_st_obc",
+    "name": "Caste Certificate (SC / ST / OBC / EWS)",
+    "summary": "Government certificate authenticating reservation category status for education admissions and public recruitment.",
+    "category": "Certificates & Identity",
+    "time": "10\u201315 working days",
+    "cost": "\u20b930 \u2013 \u20b960 service fee"
+  },
+  {
+    "id": "chandigarh_trade_license",
+    "name": "Trade License \u2014 Chandigarh Municipal Corporation",
+    "summary": "A trade license is required for any commercial establishment in Chandigarh. The process takes 7\u201315 working days and involves online registration, document preparation, application submission, and certificate issuance.",
+    "category": "Business & Licenses",
+    "time": "7\u201315 working days",
+    "cost": "\u20b9500 \u2013 \u20b95,000 (varies by establishment type)"
+  },
+  {
+    "id": "character_antecedents_police_certificate",
+    "name": "Police Clearance Certificate (PCC) for Employment",
+    "summary": "Verification certifying individual has no active criminal convictions, arrest warrants, or pending FIRs.",
+    "category": "Certificates & Identity",
+    "time": "7\u201310 working days",
+    "cost": "\u20b9200 \u2013 \u20b9500 fee"
+  },
+  {
+    "id": "cinematograph_theatre_license",
+    "name": "Cinema Hall & Multiplex Exhibition License",
+    "summary": "Mandatory operating license for public cinema theatres, multiplexes, and open-air movie projection venues.",
+    "category": "Business & Licenses",
+    "time": "30\u201345 working days",
+    "cost": "\u20b95,000 \u2013 \u20b920,000 annual license fee"
+  },
+  {
+    "id": "clinical_establishment_registration",
+    "name": "Clinical Establishment Registration (Clinics & Diagnostic Labs)",
+    "summary": "Statutory registration under Clinical Establishments (Registration and Regulation) Act.",
+    "category": "Business & Licenses",
+    "time": "20\u201330 working days",
+    "cost": "\u20b91,000 \u2013 \u20b95,000 based on beds & services"
+  },
+  {
+    "id": "commercial_property_misuse_regularization",
+    "name": "Property Misuse Regularization & Penalty Clearance",
+    "summary": "Removal of misuse violation notices or regularization of permitted non-conforming activities in designated sectors.",
+    "category": "Property & Revenue",
+    "time": "15\u201320 working days",
+    "cost": "Penalty calculated per sq. ft. per month of violation"
+  },
+  {
+    "id": "commercial_vehicle_fitness_certificate",
+    "name": "Commercial Vehicle Annual Fitness Certificate (FC)",
+    "summary": "Mandatory annual roadworthiness testing for taxis, auto-rickshaws, buses, and commercial freight trucks.",
+    "category": "Transport & Vehicles",
+    "time": "1\u20132 working days",
+    "cost": "\u20b9600 \u2013 \u20b91,500 inspection fee"
+  },
+  {
+    "id": "community_hall_park_booking",
+    "name": "Municipal Community Centre & Park Booking",
+    "summary": "Reservation of air-conditioned community centres, banquet halls, and public parks for family functions and weddings.",
+    "category": "Property & Revenue",
+    "time": "Immediate online confirmation",
+    "cost": "\u20b95,000 \u2013 \u20b930,000 + refundable security deposit"
+  },
+  {
+    "id": "contract_labour_principal_registration",
+    "name": "Contract Labour Principal Employer Registration",
+    "summary": "Mandatory registration for employers engaging 20 or more contract workers on any single day.",
+    "category": "Business & Licenses",
+    "time": "7\u201314 working days",
+    "cost": "\u20b9500 \u2013 \u20b92,500"
+  },
+  {
+    "id": "dead_animal_carcass_removal",
+    "name": "Carcass and Dead Animal Removal Service",
+    "summary": "Emergency hygienic lifting and scientific disposal of dead cattle, dogs, and domestic animals.",
+    "category": "Utilities & Water",
+    "time": "2\u20136 hours emergency response",
+    "cost": "\u20b90 for public roads; nominal fee for large farm animals"
+  },
+  {
+    "id": "death_certificate_issuance",
+    "name": "Death Certificate Issuance & Cremation Record",
+    "summary": "Statutory registration of demise required for succession, life insurance claims, and bank account settlements.",
+    "category": "Certificates & Identity",
+    "time": "3\u20135 working days",
+    "cost": "\u20b90 within 21 days"
+  },
+  {
+    "id": "demarcation_land_boundaries",
+    "name": "Official Land Boundary Demarcation (Nishandehi)",
+    "summary": "Official measurement and boundary pegging by government revenue surveyor (Kanungo/Patwari) to resolve boundary disputes.",
+    "category": "Property & Revenue",
+    "time": "15\u201325 working days",
+    "cost": "\u20b9200 \u2013 \u20b9500 government fee"
+  },
+  {
+    "id": "dependent_freedom_fighter_certificate",
+    "name": "Freedom Fighter Dependent / Ward Certificate",
+    "summary": "Certificate recognizing sons, daughters, and grandchildren of freedom fighters for horizontal reservation quotas.",
+    "category": "Certificates & Identity",
+    "time": "20\u201330 working days",
+    "cost": "\u20b90 (Free Government Service)"
+  },
+  {
+    "id": "disability_pension_scheme",
+    "name": "Divyangjan Disability Monthly Pension",
+    "summary": "Monthly pension assistance to citizens with 40% or higher certified physical or intellectual disabilities.",
+    "category": "Welfare & Schemes",
+    "time": "20\u201330 working days",
+    "cost": "\u20b90 (Free Welfare Scheme)"
+  },
+  {
+    "id": "domestic_borewell_drilling_permission",
+    "name": "Borewell Drilling & Groundwater Extraction NOC",
+    "summary": "Mandatory prior permission to drill deep borewells or tubewells to extract groundwater.",
+    "category": "Utilities & Water",
+    "time": "30\u201345 working days",
+    "cost": "\u20b91,000 application fee + abstraction charges"
+  },
+  {
+    "id": "domestic_septic_tank_cleaning_booking",
+    "name": "Mechanical Septic Tank Emptying (FSSM)",
+    "summary": "Safe, mechanized desludging of residential septic tanks by authorized vacuum suction tankers.",
+    "category": "Utilities & Water",
+    "time": "24\u201348 hours",
+    "cost": "\u20b91,000 \u2013 \u20b92,500 per tanker trip"
+  },
+  {
+    "id": "domestic_sewerage_connection",
+    "name": "New Underground Sewerage Connection",
+    "summary": "Sanction to connect household drainage pipe to municipal underground sewer mains.",
+    "category": "Utilities & Water",
+    "time": "10\u201315 working days",
+    "cost": "\u20b91,200 \u2013 \u20b93,500 connection & road cutting fee"
+  },
+  {
+    "id": "driving_license_renewal_online",
+    "name": "Driving License Renewal (Online Faceless Service)",
+    "summary": "Renewal of expired driving license with medical fitness certification for another 10 to 20 years.",
+    "category": "Transport & Vehicles",
+    "time": "5\u20137 working days",
+    "cost": "\u20b9200 renewal fee + \u20b9200 card fee (Late fee if expired > 1 year)"
+  },
+  {
+    "id": "duplicate_registration_certificate_rc",
+    "name": "Duplicate Registration Certificate (Lost RC / Form 26)",
+    "summary": "Issuance of replacement vehicle Registration Certificate when original card is lost, stolen, or mutilated.",
+    "category": "Transport & Vehicles",
+    "time": "7\u201310 working days",
+    "cost": "\u20b9150 \u2013 \u20b9300 fee + card cost"
+  },
+  {
+    "id": "electricity_load_enhancement",
+    "name": "Electricity Load Enhancement / Reduction",
+    "summary": "Procedure to increase or decrease sanctioned electrical connected load for residential and commercial premises.",
+    "category": "Utilities & Water",
+    "time": "7\u201310 working days",
+    "cost": "\u20b9300 \u2013 \u20b91,500 security deposit per kW enhanced"
+  },
+  {
+    "id": "encumbrance_certificate_property",
+    "name": "Encumbrance Certificate (EC) for Property",
+    "summary": "Legal document proving property is free from registered financial liabilities, bank mortgages, court attachments, or title claims.",
+    "category": "Property & Revenue",
+    "time": "3\u20135 working days",
+    "cost": "\u20b9100 \u2013 \u20b9300 search fee based on period"
+  },
+  {
+    "id": "excise_temporary_liquor_permit",
+    "name": "Temporary Event Liquor Serving Permit (L-50 / P-10)",
+    "summary": "Single-day permission to serve alcoholic beverages at private parties, banquets, and commercial corporate events.",
+    "category": "Business & Licenses",
+    "time": "2\u20133 working days",
+    "cost": "\u20b92,500 \u2013 \u20b910,000 per day based on venue capacity"
+  },
+  {
+    "id": "e_aadhaar_demographic_biometric_update",
+    "name": "Aadhaar Card Demographic & Biometric Update",
+    "summary": "Update of residential address, mobile phone number, name, or mandatory 10-year biometric refresh.",
+    "category": "Certificates & Identity",
+    "time": "3\u20137 working days",
+    "cost": "\u20b950 for address/demographic; \u20b9100 for biometrics"
+  },
+  {
+    "id": "e_shram_unorganized_worker_card",
+    "name": "e-Shram Card for Unorganized Workers",
+    "summary": "National database registration card providing \u20b92 Lakh accidental insurance cover under PMSBY and social welfare eligibility.",
+    "category": "Welfare & Schemes",
+    "time": "Instant download",
+    "cost": "\u20b90 (Completely Free of Cost)"
+  },
+  {
+    "id": "factory_license_registration",
+    "name": "Factory License under Factories Act 1948",
+    "summary": "Mandatory licensing for industrial premises employing 10+ workers with power or 20+ workers without power.",
+    "category": "Business & Licenses",
+    "time": "20\u201330 working days",
+    "cost": "\u20b91,500 \u2013 \u20b910,000 based on horsepower & headcount"
+  },
+  {
+    "id": "faulty_water_meter_testing",
+    "name": "Testing and Replacement of Faulty Water Meter",
+    "summary": "Official laboratory accuracy testing of water meters reporting excessively high readings.",
+    "category": "Utilities & Water",
+    "time": "7\u201310 working days",
+    "cost": "\u20b9150 testing fee (Refunded if meter found defective)"
+  },
+  {
+    "id": "fire_safety_noc_commercial",
+    "name": "Commercial Fire Safety NOC",
+    "summary": "Mandatory clearance certifying fire safety preparedness for commercial premises, restaurants, hotels, and event spaces.",
+    "category": "Business & Licenses",
+    "time": "15\u201321 working days",
+    "cost": "\u20b91,000 \u2013 \u20b95,000 based on floor area"
+  },
+  {
+    "id": "freehold_conversion_leasehold_property",
+    "name": "Conversion of Leasehold Property to Freehold",
+    "summary": "Legal transformation of 99-year municipal/housing board leased property into absolute private freehold ownership.",
+    "category": "Property & Revenue",
+    "time": "30\u201345 working days",
+    "cost": "Prescribed conversion fee based on plot size & circle rate"
+  },
+  {
+    "id": "fssai_food_license",
+    "name": "FSSAI Food Business Registration & License",
+    "summary": "Mandatory registration or state license for food manufacturers, restaurants, bakeries, cloud kitchens, and street food operators.",
+    "category": "Business & Licenses",
+    "time": "7\u201315 working days",
+    "cost": "\u20b9100 (Registration) \u2013 \u20b92,000 (State License)"
+  },
+  {
+    "id": "funeral_antyeshti_assistance_scheme",
+    "name": "Antyeshti Sahayata / Financial Funeral Assistance",
+    "summary": "Immediate one-time financial grant of \u20b95,000 to \u20b910,000 to assist indigent families with final funeral rites.",
+    "category": "Welfare & Schemes",
+    "time": "24\u201348 hours emergency response",
+    "cost": "\u20b90 (Free Emergency Grant)"
+  },
+  {
+    "id": "health_trade_eating_house_license",
+    "name": "Health Trade License (Restaurants, Cafes & Bakeries)",
+    "summary": "Public health clearance certifying water quality, pest control, waste disposal, and hygiene standards for eateries.",
+    "category": "Business & Licenses",
+    "time": "10\u201314 working days",
+    "cost": "\u20b91,500 \u2013 \u20b95,000 depending on seating capacity"
+  },
+  {
+    "id": "heritage_building_alteration_noc",
+    "name": "Heritage Building Renovation & Alteration Clearance",
+    "summary": "Special permission required before undertaking repair, painting, or window replacement on notified heritage facade structures.",
+    "category": "Property & Revenue",
+    "time": "30\u201360 working days",
+    "cost": "\u20b91,000 application fee"
+  },
+  {
+    "id": "high_security_registration_plate_hsrp",
+    "name": "High Security Registration Plate (HSRP) & Color Sticker",
+    "summary": "Mandatory tamper-proof aluminum number plate with chromium hologram and laser-etched serial code.",
+    "category": "Transport & Vehicles",
+    "time": "4\u20137 working days for fitment",
+    "cost": "\u20b9350 \u2013 \u20b9450 (Two-wheeler) / \u20b9800 \u2013 \u20b91,100 (Four-wheeler)"
+  },
+  {
+    "id": "hypothecation_addition_removal_hp",
+    "name": "Vehicle Loan Hypothecation Removal (HP Termination / Form 35)",
+    "summary": "Removing bank finance lien from vehicle Registration Certificate after full repayment of vehicle loan.",
+    "category": "Transport & Vehicles",
+    "time": "5\u20137 working days",
+    "cost": "\u20b9100 \u2013 \u20b9200 fee + new smart card charge"
+  },
+  {
+    "id": "income_certificate_annual",
+    "name": "Income Certificate for Scholarships & Welfare",
+    "summary": "Certified proof of total annual household income required for fee concessions, scholarships, and subsidized housing.",
+    "category": "Certificates & Identity",
+    "time": "7\u201310 working days",
+    "cost": "\u20b930 \u2013 \u20b950 government fee"
+  },
+  {
+    "id": "international_driving_permit_idp",
+    "name": "International Driving Permit (IDP)",
+    "summary": "Official multilingual booklet permitting Indian driving license holders to drive motor vehicles in 150+ foreign countries.",
+    "category": "Transport & Vehicles",
+    "time": "2\u20134 working days",
+    "cost": "\u20b91,000 statutory fee"
+  },
+  {
+    "id": "ladli_girl_child_financial_incentive",
+    "name": "Beti Bachao / Ladli Kanya Financial Incentive Scheme",
+    "summary": "Fixed deposit financial aid deposited in the name of girl children at birth, school admissions, and upon turning 18.",
+    "category": "Welfare & Schemes",
+    "time": "15\u201320 working days",
+    "cost": "\u20b90 (Free State Scheme)"
+  },
+  {
+    "id": "land_use_change_clu_permission",
+    "name": "Change of Land Use (CLU) Permission",
+    "summary": "Sanction to convert agricultural land into commercial, institutional, or industrial operational use.",
+    "category": "Property & Revenue",
+    "time": "45\u201360 working days",
+    "cost": "Scrutiny fee + Conversion charges based on master plan zone"
+  },
+  {
+    "id": "learners_driving_license_sarathi",
+    "name": "Learner's Driving License (LL) Online Test",
+    "summary": "Application, fee payment, and contactless online road safety test for 6-month Learner's Driving License.",
+    "category": "Transport & Vehicles",
+    "time": "Same day online",
+    "cost": "\u20b9150 application fee + \u20b950 test fee"
+  },
+  {
+    "id": "marriage_registration_certificate",
+    "name": "Marriage Registration & Certificate (Special / Hindu Marriage Act)",
+    "summary": "Legal registration of marriage under Hindu Marriage Act 1955 or Special Marriage Act 1954.",
+    "category": "Certificates & Identity",
+    "time": "7\u201315 working days (Hindu) / 30 days notice (Special)",
+    "cost": "\u20b9100 \u2013 \u20b9500 government fee"
+  },
+  {
+    "id": "msme_udyam_registration",
+    "name": "MSME Udyam Registration Certificate",
+    "summary": "Free official central government registration conferring priority lending, tax exemptions, and government tender benefits.",
+    "category": "Business & Licenses",
+    "time": "1\u20132 working days",
+    "cost": "\u20b90 (Completely Free of Cost)"
+  },
+  {
+    "id": "name_change_gazette_notification",
+    "name": "Name Change Official Gazette Notification",
+    "summary": "Legally binding change of personal name published in the Official Government Gazette for passport and educational records.",
+    "category": "Certificates & Identity",
+    "time": "20\u201330 working days",
+    "cost": "\u20b91,100 \u2013 \u20b91,500 government gazette printing fee"
+  },
+  {
+    "id": "national_family_benefit_scheme_nfbs",
+    "name": "National Family Benefit Scheme (NFBS)",
+    "summary": "One-time lump sum grant of \u20b920,000 to below-poverty-line families upon the death of the primary breadwinner.",
+    "category": "Welfare & Schemes",
+    "time": "30\u201345 working days",
+    "cost": "\u20b90 (Free Welfare Grant)"
+  },
+  {
+    "id": "noc_property_sale_transfer",
+    "name": "No Objection Certificate (NOC) for Property Sale / Conveyance",
+    "summary": "Mandatory clearance certifying no pending installments, encroachment, or building violations prior to deed registration.",
+    "category": "Property & Revenue",
+    "time": "15\u201321 working days",
+    "cost": "\u20b91,000 \u2013 \u20b92,500 scrutiny fee"
+  },
+  {
+    "id": "non_encumbrance_minority_certificate",
+    "name": "Religious / Linguistic Minority Community Certificate",
+    "summary": "Official certification of notified minority community status (Muslim, Christian, Sikh, Buddhist, Jain, Parsi) for scholarships.",
+    "category": "Property & Revenue",
+    "time": "7\u201312 working days",
+    "cost": "\u20b930 \u2013 \u20b950 fee"
+  },
+  {
+    "id": "occupancy_completion_certificate",
+    "name": "Building Completion & Occupancy Certificate (OC)",
+    "summary": "Final legal document certifying that building construction strictly matches approved plans and is safe for human habitation.",
+    "category": "Property & Revenue",
+    "time": "15\u201321 working days",
+    "cost": "\u20b9500 application fee"
+  },
+  {
+    "id": "old_age_pension_scheme",
+    "name": "Old Age Pension Scheme (NSAP / Vridha Pension)",
+    "summary": "Monthly direct benefit financial assistance for senior citizens living below poverty line or with limited family support.",
+    "category": "Welfare & Schemes",
+    "time": "20\u201330 working days",
+    "cost": "\u20b90 (Free Government Welfare Scheme)"
+  },
+  {
+    "id": "packaged_commodity_packer_registration",
+    "name": "Legal Metrology Packaged Commodities (LMPC) Registration",
+    "summary": "Mandatory license for manufacturers, packers, and importers of pre-packaged goods sold to retail consumers.",
+    "category": "Business & Licenses",
+    "time": "10\u201315 working days",
+    "cost": "\u20b9500 government fee"
+  },
+  {
+    "id": "permanent_driving_license_dl",
+    "name": "Permanent Driving License & Automated Track Test",
+    "summary": "Booking driving skill track test and obtaining chip-embedded PVC Smart Card Driving License.",
+    "category": "Transport & Vehicles",
+    "time": "7\u201310 working days",
+    "cost": "\u20b9200 driving test fee + \u20b9200 smart card fee"
+  },
+  {
+    "id": "pet_shop_dog_breeding_license",
+    "name": "Pet Shop & Dog Breeding Establishment License",
+    "summary": "Mandatory license under Prevention of Cruelty to Animals (Pet Shop & Dog Breeding) Rules.",
+    "category": "Business & Licenses",
+    "time": "21\u201330 working days",
+    "cost": "\u20b95,000 registration fee"
+  },
+  {
+    "id": "pm_awas_yojana_urban_housing",
+    "name": "PM Awas Yojana (PMAY-Urban) Housing Subsidy",
+    "summary": "Credit Linked Subsidy (CLSS) of up to \u20b92.67 Lakh or affordable housing allotment for homeless EWS/LIG families.",
+    "category": "Welfare & Schemes",
+    "time": "30\u201360 working days",
+    "cost": "\u20b90 application fee"
+  },
+  {
+    "id": "pm_kisan_samman_nidhi",
+    "name": "PM-KISAN Samman Nidhi (Farmer Financial Benefit)",
+    "summary": "Direct income support of \u20b96,000 per year in three equal installments of \u20b92,000 to all landholding farmer families.",
+    "category": "Welfare & Schemes",
+    "time": "15\u201320 working days",
+    "cost": "\u20b90 (Free Scheme)"
+  },
+  {
+    "id": "pm_matru_vandana_yojana_pmvvy",
+    "name": "Pradhan Mantri Matru Vandana Yojana (PMMVY) Maternity Benefit",
+    "summary": "Direct cash benefit of \u20b95,000 in two installments for pregnant women and lactating mothers for first and second child.",
+    "category": "Welfare & Schemes",
+    "time": "15\u201320 working days per installment",
+    "cost": "\u20b90 (Free Cash Maternity Benefit)"
+  },
+  {
+    "id": "pm_svanidhi_street_vendor_microloan",
+    "name": "PM SVANidhi Micro-Credit Loan for Street Vendors",
+    "summary": "Collateral-free working capital loan of \u20b910,000, \u20b920,000, and \u20b950,000 with 7% interest subsidy for street vendors.",
+    "category": "Business & Licenses",
+    "time": "7\u201310 working days",
+    "cost": "\u20b90 application fee; low subsidized interest"
+  },
+  {
+    "id": "pm_ujjwala_yojana_free_lpg",
+    "name": "Pradhan Mantri Ujjwala Yojana (PMUY) Free LPG Connection",
+    "summary": "Deposit-free LPG cylinder connection, free stove, and initial refill for adult women from poor households.",
+    "category": "Welfare & Schemes",
+    "time": "7\u201310 working days",
+    "cost": "\u20b90 (100% Free Government Connection)"
+  },
+  {
+    "id": "png_piped_gas_connection",
+    "name": "Domestic Piped Natural Gas (PNG) Connection",
+    "summary": "Piped natural gas pipeline installation for domestic cooking and water geysers.",
+    "category": "Utilities & Water",
+    "time": "10\u201314 working days",
+    "cost": "\u20b95,000 \u2013 \u20b97,000 (Refundable security deposit)"
+  },
+  {
+    "id": "pollution_under_control_certificate_puc",
+    "name": "Pollution Under Control (PUC) Certificate Online",
+    "summary": "Mandatory periodic vehicle exhaust emission test (valid for 6 to 12 months) connected live to national Vahan server.",
+    "category": "Transport & Vehicles",
+    "time": "10 minutes at any fuel station",
+    "cost": "\u20b960 \u2013 \u20b9100 depending on fuel type (Petrol/CNG/Diesel)"
+  },
+  {
+    "id": "post_matric_scholarship_sc_st_obc",
+    "name": "Post-Matric Scholarship for SC/ST/OBC Students",
+    "summary": "100% tuition fee reimbursement and monthly maintenance allowance for post-secondary and college students.",
+    "category": "Welfare & Schemes",
+    "time": "30\u201345 working days",
+    "cost": "\u20b90 application fee"
+  },
+  {
+    "id": "property_deed_certified_copy",
+    "name": "Certified Copy of Registered Sale / Title Deed",
+    "summary": "Procuring legally admissible certified copies of registered title deeds from government registration records.",
+    "category": "Property & Revenue",
+    "time": "2\u20134 working days",
+    "cost": "\u20b9100 \u2013 \u20b9250 search & copying fee"
+  },
+  {
+    "id": "property_mutation_transfer",
+    "name": "Property Mutation (Transfer of Title in Revenue Records)",
+    "summary": "Official update of municipal and revenue land ownership records following property purchase, gift, inheritance, or partition.",
+    "category": "Property & Revenue",
+    "time": "15\u201330 working days",
+    "cost": "\u20b9500 \u2013 \u20b92,000 mutation fee"
+  },
+  {
+    "id": "property_tax",
+    "name": "Property Tax Payment \u2014 Chandigarh Municipal Corporation",
+    "summary": "Property tax can be paid online through the MCC portal using your property ID. The process involves locating your property record, verifying the computed tax, and paying online with instant receipt generation.",
+    "category": "Property & Revenue",
+    "time": "15\u201330 minutes",
+    "cost": "Varies by property \u2014 computed by the portal"
+  },
+  {
+    "id": "property_tax_self_assessment",
+    "name": "Property Tax Self-Assessment & Annual Return Filing",
+    "summary": "Annual self-declaration of property unit area, covered area, and usage category to calculate and remit municipal house tax.",
+    "category": "Property & Revenue",
+    "time": "Immediate online receipt",
+    "cost": "Varies by covered area & circle rate (Early bird rebate up to 10%)"
+  },
+  {
+    "id": "property_valuation_circle_rate_certificate",
+    "name": "Property Valuation Certificate (Circle Rate Assessment)",
+    "summary": "Official certificate determining minimum government circle rate valuation of real estate for visa, probate, or bank mortgage.",
+    "category": "Property & Revenue",
+    "time": "3\u20135 working days",
+    "cost": "\u20b9200 application fee"
+  },
+  {
+    "id": "public_hydrant_drinking_water_installation",
+    "name": "Public Water Hydrant / Standpost Sanction",
+    "summary": "Community application to install public drinking water coolers or standposts in public squares and markets.",
+    "category": "Utilities & Water",
+    "time": "15\u201320 working days",
+    "cost": "\u20b90 (Funded by Municipal / Ward Councillor funds)"
+  },
+  {
+    "id": "rainwater_harvesting_rebate",
+    "name": "Rainwater Harvesting System Certification & Property Tax Rebate",
+    "summary": "Certification of functional rainwater harvesting pits to claim up to 10% annual rebate on property tax.",
+    "category": "Utilities & Water",
+    "time": "14\u201320 working days",
+    "cost": "\u20b90 application fee"
+  },
+  {
+    "id": "ration_card_new_application",
+    "name": "New Ration Card (APL / BPL / NFSA / Antyodaya)",
+    "summary": "Issuance of digital household ration card for subsidized food grains and official proof of family tree.",
+    "category": "Certificates & Identity",
+    "time": "15\u201325 working days",
+    "cost": "\u20b950 service fee"
+  },
+  {
+    "id": "rc_ownership_transfer_vehicle",
+    "name": "Vehicle Registration Transfer of Ownership (Form 29 & 30)",
+    "summary": "Transfer of vehicle Registration Certificate (RC) to buyer upon purchase of used two-wheeler or car.",
+    "category": "Transport & Vehicles",
+    "time": "7\u201314 working days",
+    "cost": "\u20b9300 \u2013 \u20b9500 transfer fee"
+  },
+  {
+    "id": "residence_domicile_certificate",
+    "name": "Domicile / Permanent Resident Certificate (PRC)",
+    "summary": "Legal verification of minimum 5 to 15 years continuous residence within the state or union territory.",
+    "category": "Certificates & Identity",
+    "time": "7\u201312 working days",
+    "cost": "\u20b930 \u2013 \u20b950 fee"
+  },
+  {
+    "id": "road_tax_annual_lifetime_payment",
+    "name": "Motor Vehicle Road Tax Payment (Online Vahan)",
+    "summary": "Payment of annual, quarterly, or one-time lifetime motor vehicle road tax online.",
+    "category": "Transport & Vehicles",
+    "time": "Immediate online receipt",
+    "cost": "Calculated based on engine cc / cost of vehicle (3% to 12%)"
+  },
+  {
+    "id": "rooftop_solar_net_metering",
+    "name": "Rooftop Solar Net Metering Connection",
+    "summary": "Interconnection approval and bidirectional solar meter installation under PM Surya Ghar Muft Bijli Yojana.",
+    "category": "Utilities & Water",
+    "time": "20\u201330 working days",
+    "cost": "\u20b91,000 application fee (Subsidies up to \u20b978,000 available)"
+  },
+  {
+    "id": "scrapped_vehicle_certificate_deposit",
+    "name": "Registered Vehicle Scrappage Certificate of Deposit (CoD)",
+    "summary": "Environment-friendly scrappage of end-of-life vehicles (15+ years) granting motor tax rebates on new car purchase.",
+    "category": "Transport & Vehicles",
+    "time": "3\u20135 working days",
+    "cost": "Scrap metal value paid to owner + up to 25% road tax rebate"
+  },
+  {
+    "id": "senior_citizen_identity_card",
+    "name": "Senior Citizen Identity Card",
+    "summary": "Special ID card for citizens aged 60 and above conferring bus travel concessions, healthcare queue priority, and legal aid.",
+    "category": "Certificates & Identity",
+    "time": "5\u20137 working days",
+    "cost": "\u20b90 (Free of Cost)"
+  },
+  {
+    "id": "shops_establishment_act",
+    "name": "Shops & Commercial Establishments Registration (Gumasta)",
+    "summary": "Legal registration required for commercial offices, retail shops, and service establishments employing workers.",
+    "category": "Business & Licenses",
+    "time": "3\u20135 working days",
+    "cost": "\u20b9250 \u2013 \u20b91,500 depending on employee count"
+  },
+  {
+    "id": "signage_advertisement_permission",
+    "name": "Commercial Signboard & Outdoor Advertisement Permission",
+    "summary": "Official permit to erect commercial display boards, neon signs, hoardings, or rooftop advertisement structures.",
+    "category": "Business & Licenses",
+    "time": "7\u201310 working days",
+    "cost": "\u20b9500 application fee + \u20b950/sq.ft annual tax"
+  },
+  {
+    "id": "solid_waste_debris_removal_service",
+    "name": "Construction & Demolition (C&D) Debris Removal",
+    "summary": "On-demand municipal collection service for bulk concrete, brick, and renovation debris to prevent illegal dumping.",
+    "category": "Utilities & Water",
+    "time": "2\u20134 working days",
+    "cost": "\u20b9500 \u2013 \u20b91,500 per tractor trolley load"
+  },
+  {
+    "id": "special_choice_registration_number_auction",
+    "name": "VIP / Fancy Vehicle Registration Number E-Auction",
+    "summary": "Online competitive bidding for prestigious vehicle registration numbers (e.g. 0001, 0007, 9999).",
+    "category": "Transport & Vehicles",
+    "time": "Bidding window 3\u20135 days",
+    "cost": "\u20b910,000 \u2013 \u20b950,000 reserve price + winning bid"
+  },
+  {
+    "id": "stamp_duty_refund_unexecuted_deed",
+    "name": "Refund of Unused / Spoiled E-Stamp Paper Duty",
+    "summary": "Procedure to recover up to 90% of stamp duty paid on cancelled property purchase transactions or spoiled stamp papers.",
+    "category": "Property & Revenue",
+    "time": "30\u201345 working days",
+    "cost": "10% statutory deduction from total stamp value"
+  },
+  {
+    "id": "stand_up_india_sc_st_women_loan",
+    "name": "Stand-Up India Loan for SC/ST and Women Entrepreneurs",
+    "summary": "Bank loans between \u20b910 Lakh and \u20b91 Crore for greenfield enterprises in manufacturing, services, or trading sector.",
+    "category": "Welfare & Schemes",
+    "time": "30\u201345 working days",
+    "cost": "\u20b90 application fee; lowest commercial interest rate"
+  },
+  {
+    "id": "stray_animal_nuisance_complaint",
+    "name": "Stray Cattle & Dog Animal Birth Control (ABC) Request",
+    "summary": "Request for relocation of aggressive stray cattle to gaushalas, or vaccination/sterilization of community dogs under ABC rules.",
+    "category": "Utilities & Water",
+    "time": "24 hours for cattle; 3\u20135 days for ABC dog sterilization",
+    "cost": "\u20b90 (Municipal Public Service)"
+  },
+  {
+    "id": "street_light_complaint_redressal",
+    "name": "Street Light Repair & New Pole Installation",
+    "summary": "Mechanism to report non-functional public LED streetlights or request dark-spot illumination poles.",
+    "category": "Utilities & Water",
+    "time": "24\u201348 hours for repair; 15 days for new pole",
+    "cost": "\u20b90 (Completely Free Municipal Service)"
+  },
+  {
+    "id": "street_vendor_vending_certificate",
+    "name": "Street Vendor Vending Certificate & ID Card",
+    "summary": "Registration under Street Vendors (Protection of Livelihood and Regulation of Street Vending) Act for hawkers and cart operators.",
+    "category": "Business & Licenses",
+    "time": "14\u201321 working days",
+    "cost": "\u20b90 application + \u20b9150\u2013\u20b9500 monthly vending fee"
+  },
+  {
+    "id": "subdivision_plot_amalgamation",
+    "name": "Sub-Division and Amalgamation of Plots",
+    "summary": "Formal approval to split a large land parcel into sub-plots or merge adjacent plots into a single unified title.",
+    "category": "Property & Revenue",
+    "time": "25\u201335 working days",
+    "cost": "\u20b910,000 \u2013 \u20b950,000 based on area"
+  },
+  {
+    "id": "survival_member_legal_heir_certificate",
+    "name": "Legal Heir / Surviving Member Certificate",
+    "summary": "Certificate identifying all surviving legal heirs of a deceased person for bank account closure and PF settlements.",
+    "category": "Certificates & Identity",
+    "time": "15\u201321 working days",
+    "cost": "\u20b950 application fee"
+  },
+  {
+    "id": "tenant_police_verification",
+    "name": "Tenant & Domestic Worker Police Verification",
+    "summary": "Mandatory tenant background verification under Criminal Procedure Code to ensure neighborhood security.",
+    "category": "Certificates & Identity",
+    "time": "3\u20137 working days",
+    "cost": "\u20b90 (Completely Free of Cost)"
+  },
+  {
+    "id": "trade_union_registration",
+    "name": "Trade Union Registration under Trade Unions Act",
+    "summary": "Registration conferring statutory legal status and collective bargaining rights to representative worker associations.",
+    "category": "Business & Licenses",
+    "time": "30\u201345 working days",
+    "cost": "\u20b9100 treasury fee"
+  },
+  {
+    "id": "tree_pruning_removal_permission",
+    "name": "Tree Pruning and Dangerous Branch Removal Permission",
+    "summary": "Permit required before pruning or cutting overgrown trees touching power lines or endangering private structures.",
+    "category": "Utilities & Water",
+    "time": "7\u201312 working days",
+    "cost": "\u20b90 for municipal trees; \u20b9200 fee for private premises"
+  },
+  {
+    "id": "unemployed_youth_registration",
+    "name": "Employment Exchange Registration for Jobseekers",
+    "summary": "Official registration card establishing educational seniority for state government employment drives.",
+    "category": "Welfare & Schemes",
+    "time": "Immediate online certificate",
+    "cost": "\u20b90 (Completely Free)"
+  },
+  {
+    "id": "unique_disability_id_udid",
+    "name": "Unique Disability ID (UDID) & Disability Certificate",
+    "summary": "Universal digital card and medical board certificate recognizing 21 specified disabilities under RPwD Act 2016.",
+    "category": "Certificates & Identity",
+    "time": "15\u201330 working days",
+    "cost": "\u20b90 (Free Government Service)"
+  },
+  {
+    "id": "vehicle_noc_interstate_transfer",
+    "name": "Vehicle No Objection Certificate (NOC) for Inter-State Transfer",
+    "summary": "NOC required under Form 28 to re-register a vehicle in another state or union territory.",
+    "category": "Transport & Vehicles",
+    "time": "10\u201315 working days",
+    "cost": "\u20b9100 application fee"
+  },
+  {
+    "id": "vintage_motor_vehicle_registration",
+    "name": "Vintage Motor Vehicle Special Registration (50+ Years)",
+    "summary": "Special heritage registration series (e.g. 'VA') for preserved vintage cars and two-wheelers older than 50 years.",
+    "category": "Transport & Vehicles",
+    "time": "15\u201320 working days",
+    "cost": "\u20b920,000 (New registration) / \u20b95,000 (Subsequent 10-year renewal)"
+  },
+  {
+    "id": "water_connection",
+    "name": "New Water Connection \u2014 Punjab / Chandigarh",
+    "summary": "A new water connection requires registration on the municipal portal, submission of ownership and identity documents, payment of connection charges, and inspection before activation. Typically 7\u201320 working days.",
+    "category": "Utilities & Water",
+    "time": "7\u201320 working days",
+    "cost": "\u20b91,000 \u2013 \u20b95,000 (varies by connection size)"
+  },
+  {
+    "id": "water_sewerage_rebate_vacant_property",
+    "name": "Water & Sewerage Charge Waiver for Vacant Property",
+    "summary": "Suspension of monthly minimum consumption and sewerage charges for unoccupied residential properties.",
+    "category": "Utilities & Water",
+    "time": "7\u201310 working days",
+    "cost": "\u20b90 application fee"
+  },
+  {
+    "id": "weighing_scale_verification_stamping",
+    "name": "Commercial Weighing Scale Verification & Stamping",
+    "summary": "Mandatory annual calibration and lead-sealing of electronic and mechanical balances used in trade.",
+    "category": "Business & Licenses",
+    "time": "2\u20134 working days",
+    "cost": "\u20b9150 \u2013 \u20b9800 based on scale capacity"
+  },
+  {
+    "id": "widow_destitute_women_pension",
+    "name": "Widow & Destitute Women Pension Scheme",
+    "summary": "Monthly financial pension assistance to widows and destitute women with dependent children.",
+    "category": "Welfare & Schemes",
+    "time": "20\u201330 working days",
+    "cost": "\u20b90 (Free Scheme)"
+  }
+]

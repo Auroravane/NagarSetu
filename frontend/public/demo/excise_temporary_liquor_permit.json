@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Temporary Event Liquor Serving Permit (L-50 / P-10)",
+  "procedure_id": "excise_temporary_liquor_permit",
+  "summary": "Single-day permission to serve alcoholic beverages at private parties, banquets, and commercial corporate events.",
+  "estimated_total_time": "2–3 working days",
+  "estimated_total_cost": "₹2,500 – ₹10,000 per day based on venue capacity",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Book approved banquet or private venue",
+      "description": "Confirm venue reservation and acquire venue owner's letter of permission.",
+      "documents_needed": [
+        "Venue booking receipt",
+        "Owner consent letter"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://excise.gov.in",
+      "source_chunk_ids": [
+        "excise_temporary_liquor_permit__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit online permit application",
+      "description": "Enter event host details, guest count estimate, event date/hours, and liquor source retailer name.",
+      "documents_needed": [
+        "Host Aadhaar & PAN",
+        "Invitation card copy"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://excise.gov.in",
+      "source_chunk_ids": [
+        "excise_temporary_liquor_permit__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Pay permit duty online",
+      "description": "Remit daily event excise duty through state integrated financial management portal.",
+      "documents_needed": [
+        "Challan receipt"
+      ],
+      "fee": "₹2,500 – ₹10,000",
+      "processing_time": "Immediate",
+      "official_link": "https://excise.gov.in",
+      "source_chunk_ids": [
+        "excise_temporary_liquor_permit__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Procure liquor from authorized retailer",
+      "description": "Purchase beverages exclusively from authorized state vends accompanied by serial-numbered invoices.",
+      "documents_needed": [
+        "Authorized excise bill"
+      ],
+      "fee": "Varies",
+      "processing_time": "1 day",
+      "official_link": "https://excise.gov.in",
+      "source_chunk_ids": [
+        "excise_temporary_liquor_permit__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Display permit at bar counter",
+      "description": "Keep physical/digital copy of issued excise permit at the serving bar during the entire event.",
+      "documents_needed": [
+        "Official permit pass"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://excise.gov.in",
+      "source_chunk_ids": [
+        "excise_temporary_liquor_permit__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

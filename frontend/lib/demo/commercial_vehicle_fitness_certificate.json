@@ -1,0 +1,89 @@
+{
+  "procedure_name": "Commercial Vehicle Annual Fitness Certificate (FC)",
+  "procedure_id": "commercial_vehicle_fitness_certificate",
+  "summary": "Mandatory annual roadworthiness testing for taxis, auto-rickshaws, buses, and commercial freight trucks.",
+  "estimated_total_time": "1–2 working days",
+  "estimated_total_cost": "₹600 – ₹1,500 inspection fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Pre-inspection mechanical maintenance",
+      "description": "Check speed governor calibration, retro-reflective tape visibility, emergency panic buttons, and brake pads.",
+      "documents_needed": [
+        "Speed governor certificate",
+        "Fastag",
+        "PUC"
+      ],
+      "fee": "Varies",
+      "processing_time": "1 day",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "commercial_vehicle_fitness_certificate__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Book fitness test slot on Vahan",
+      "description": "Pay fitness test fee online and schedule slot at automated testing station.",
+      "documents_needed": [
+        "RC copy",
+        "Commercial road tax receipt"
+      ],
+      "fee": "₹600 – ₹1,500",
+      "processing_time": "10 minutes",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "commercial_vehicle_fitness_certificate__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Automated lane inspection",
+      "description": "Automated rollers and sensors inspect roller brake force, side-slip, suspension play, headlamp beam alignment, and emission.",
+      "documents_needed": [
+        "Automated lane test log"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 hour",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "commercial_vehicle_fitness_certificate__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Speed governor & vehicle tracking check",
+      "description": "Inspectors verify operational status of AIS-140 GPS tracking unit and panic buttons.",
+      "documents_needed": [
+        "AIS-140 certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "15 minutes",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "commercial_vehicle_fitness_certificate__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Grant of Fitness Certificate",
+      "description": "Receive Form 38 Certificate of Fitness and windshield validity sticker valid for 1 or 2 years.",
+      "documents_needed": [
+        "Form 38 Fitness Certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "commercial_vehicle_fitness_certificate__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

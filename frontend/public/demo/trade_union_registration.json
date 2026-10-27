@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Trade Union Registration under Trade Unions Act",
+  "procedure_id": "trade_union_registration",
+  "summary": "Registration conferring statutory legal status and collective bargaining rights to representative worker associations.",
+  "estimated_total_time": "30–45 working days",
+  "estimated_total_cost": "₹100 treasury fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Adopt constitution & bylaws",
+      "description": "Draft constitution containing union objectives, membership fees, executive committee rules, and election intervals.",
+      "documents_needed": [
+        "Signed constitution document",
+        "Meeting resolution minutes"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://labour.gov.in/trade-unions",
+      "source_chunk_ids": [
+        "trade_union_registration__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Gather minimum 7 subscribing members",
+      "description": "Ensure minimum 10% or 100 workers (whichever is less) are enrolled as active members.",
+      "documents_needed": [
+        "Member subscription register"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://labour.gov.in/trade-unions",
+      "source_chunk_ids": [
+        "trade_union_registration__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Submit Form A application",
+      "description": "Submit application to Registrar of Trade Unions with details of office-bearers, addresses, and parent establishment.",
+      "documents_needed": [
+        "Form A",
+        "Office bearer list"
+      ],
+      "fee": "₹100",
+      "processing_time": "1 day",
+      "official_link": "https://labour.gov.in/trade-unions",
+      "source_chunk_ids": [
+        "trade_union_registration__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Verification of member consent",
+      "description": "Labour officer verifies signatures and confirms absence of duplicate competing union registrations.",
+      "documents_needed": [
+        "Scrutiny report"
+      ],
+      "fee": "₹0",
+      "processing_time": "20 days",
+      "official_link": "https://labour.gov.in/trade-unions",
+      "source_chunk_ids": [
+        "trade_union_registration__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Issuance of Registration Certificate",
+      "description": "Receive Certificate of Registration in Form B with permanent registration number.",
+      "documents_needed": [
+        "Form B Certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "7 days",
+      "official_link": "https://labour.gov.in/trade-unions",
+      "source_chunk_ids": [
+        "trade_union_registration__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

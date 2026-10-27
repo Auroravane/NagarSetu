@@ -1,0 +1,87 @@
+{
+  "procedure_name": "Electricity Load Enhancement / Reduction",
+  "procedure_id": "electricity_load_enhancement",
+  "summary": "Procedure to increase or decrease sanctioned electrical connected load for residential and commercial premises.",
+  "estimated_total_time": "7–10 working days",
+  "estimated_total_cost": "₹300 – ₹1,500 security deposit per kW enhanced",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Calculate total connected wattage",
+      "description": "Add wattage of new air-conditioners, motors, and appliances to determine required kW.",
+      "documents_needed": [
+        "List of appliances"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://cspdcl.co.in",
+      "source_chunk_ids": [
+        "electricity_load_enhancement__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit application on DISCOM portal",
+      "description": "Enter consumer CA number, current sanctioned load, requested load, and upload latest paid electricity bill.",
+      "documents_needed": [
+        "Latest paid electricity bill",
+        "Ownership proof/Lease"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://cspdcl.co.in",
+      "source_chunk_ids": [
+        "electricity_load_enhancement__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Wiring test certificate submission",
+      "description": "For load enhancements exceeding 5 kW, submit wiring test report signed by a licensed electrical contractor.",
+      "documents_needed": [
+        "Licensed contractor test report"
+      ],
+      "fee": "₹250",
+      "processing_time": "2 days",
+      "official_link": "https://cspdcl.co.in",
+      "source_chunk_ids": [
+        "electricity_load_enhancement__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Pay security & service charges",
+      "description": "Pay revised security deposit and meter upgrade fee via integrated net banking or bill desk.",
+      "documents_needed": [
+        "Payment receipt"
+      ],
+      "fee": "₹300 – ₹1,500 / kW",
+      "processing_time": "Immediate",
+      "official_link": "https://cspdcl.co.in",
+      "source_chunk_ids": [
+        "electricity_load_enhancement__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Meter replacement or breaker recalibration",
+      "description": "DISCOM linesman installs appropriate CT meter or adjusts MCB rating at property.",
+      "documents_needed": [
+        "Work completion certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "3–5 days",
+      "official_link": "https://cspdcl.co.in",
+      "source_chunk_ids": [
+        "electricity_load_enhancement__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

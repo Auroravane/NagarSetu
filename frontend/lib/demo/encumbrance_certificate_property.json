@@ -1,0 +1,71 @@
+{
+  "procedure_name": "Encumbrance Certificate (EC) for Property",
+  "procedure_id": "encumbrance_certificate_property",
+  "summary": "Legal document proving property is free from registered financial liabilities, bank mortgages, court attachments, or title claims.",
+  "estimated_total_time": "3–5 working days",
+  "estimated_total_cost": "₹100 – ₹300 search fee based on period",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Identify property survey/khasra number",
+      "description": "Locate exact village, sector, survey/plot number, and previous deed registered numbers.",
+      "documents_needed": [
+        "Previous sale deed copy"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 minutes",
+      "official_link": "https://igrsup.gov.in",
+      "source_chunk_ids": [
+        "encumbrance_certificate_property__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Apply on Sub-Registrar online portal",
+      "description": "Enter search period (e.g. 15 or 30 years), applicant details, and property boundary descriptions.",
+      "documents_needed": [
+        "Aadhaar card"
+      ],
+      "fee": "₹100 – ₹300",
+      "processing_time": "1 day",
+      "official_link": "https://igrsup.gov.in",
+      "source_chunk_ids": [
+        "encumbrance_certificate_property__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Sub-registrar index verification",
+      "description": "Department records examiner searches Book 1 registered property deed archives.",
+      "documents_needed": [
+        "Archive index search"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://igrsup.gov.in",
+      "source_chunk_ids": [
+        "encumbrance_certificate_property__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Download Nil Encumbrance Certificate (Form 15/16)",
+      "description": "Receive digitally signed EC certifying clean title or listing registered mortgages/encumbrances.",
+      "documents_needed": [
+        "Encumbrance Certificate PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://igrsup.gov.in",
+      "source_chunk_ids": [
+        "encumbrance_certificate_property__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

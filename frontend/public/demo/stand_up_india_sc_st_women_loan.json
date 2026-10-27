@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Stand-Up India Loan for SC/ST and Women Entrepreneurs",
+  "procedure_id": "stand_up_india_sc_st_women_loan",
+  "summary": "Bank loans between ₹10 Lakh and ₹1 Crore for greenfield enterprises in manufacturing, services, or trading sector.",
+  "estimated_total_time": "30–45 working days",
+  "estimated_total_cost": "₹0 application fee; lowest commercial interest rate",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Greenfield business project report",
+      "description": "Prepare detailed project report (DPR) showing proposed business, machinery cost, and financial viability.",
+      "documents_needed": [
+        "Detailed Project Report (DPR)",
+        "Quotations for machinery"
+      ],
+      "fee": "Varies",
+      "processing_time": "7 days",
+      "official_link": "https://standupmitra.in",
+      "source_chunk_ids": [
+        "stand_up_india_sc_st_women_loan__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Verify SC/ST or Woman category",
+      "description": "Borrower must be a woman or SC/ST entrepreneur holding at least 51% shareholding in enterprise.",
+      "documents_needed": [
+        "Caste certificate (if SC/ST)",
+        "PAN & Aadhaar"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://standupmitra.in",
+      "source_chunk_ids": [
+        "stand_up_india_sc_st_women_loan__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Apply on Stand-Up Mitra portal",
+      "description": "Submit loan application selecting preferred scheduled commercial bank branch.",
+      "documents_needed": [
+        "Audited balance sheets (if existing) / Net worth statements"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://standupmitra.in",
+      "source_chunk_ids": [
+        "stand_up_india_sc_st_women_loan__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Bank appraisal and credit evaluation",
+      "description": "Bank manager reviews collateral/Credit Guarantee Scheme (CGFSI) and evaluates business model.",
+      "documents_needed": [
+        "Bank sanction appraisal memo"
+      ],
+      "fee": "₹0",
+      "processing_time": "20 days",
+      "official_link": "https://standupmitra.in",
+      "source_chunk_ids": [
+        "stand_up_india_sc_st_women_loan__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Loan sanction and disbursement",
+      "description": "Receive composite loan sanction (term loan + working capital) between ₹10 Lakh and ₹1 Crore.",
+      "documents_needed": [
+        "Loan sanction letter and disbursement"
+      ],
+      "fee": "₹10L – ₹1Cr loan",
+      "processing_time": "Post-documentation",
+      "official_link": "https://standupmitra.in",
+      "source_chunk_ids": [
+        "stand_up_india_sc_st_women_loan__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

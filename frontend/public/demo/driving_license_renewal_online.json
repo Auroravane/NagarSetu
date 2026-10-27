@@ -1,0 +1,87 @@
+{
+  "procedure_name": "Driving License Renewal (Online Faceless Service)",
+  "procedure_id": "driving_license_renewal_online",
+  "summary": "Renewal of expired driving license with medical fitness certification for another 10 to 20 years.",
+  "estimated_total_time": "5–7 working days",
+  "estimated_total_cost": "₹200 renewal fee + ₹200 card fee (Late fee if expired > 1 year)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Medical Form 1A certification",
+      "description": "For drivers aged 40 and above, registered MBBS doctor uploads Form 1A medical fitness certificate digitally on Sarathi.",
+      "documents_needed": [
+        "Eye test & doctor certification"
+      ],
+      "fee": "₹100 – ₹200",
+      "processing_time": "1 day",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "driving_license_renewal_online__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Apply on Sarathi portal",
+      "description": "Authenticate with Aadhaar, enter existing DL number and date of birth, and confirm residential address.",
+      "documents_needed": [
+        "Existing DL card",
+        "Aadhaar"
+      ],
+      "fee": "₹400",
+      "processing_time": "15 minutes",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "driving_license_renewal_online__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Pay renewal charges online",
+      "description": "Pay fee online; no physical RTO visit needed if Aadhaar authentication is successful.",
+      "documents_needed": [
+        "Fee payment receipt"
+      ],
+      "fee": "₹400",
+      "processing_time": "Immediate",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "driving_license_renewal_online__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "RTO approval & printing",
+      "description": "RTO licensing officer approves digital file and sends for smart card embossing.",
+      "documents_needed": [
+        "Digital approval alert"
+      ],
+      "fee": "₹0",
+      "processing_time": "2–3 days",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "driving_license_renewal_online__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Postal delivery",
+      "description": "Renewed driving license delivered to residential address via India Post Speed Post.",
+      "documents_needed": [
+        "Renewed DL Card"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "driving_license_renewal_online__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

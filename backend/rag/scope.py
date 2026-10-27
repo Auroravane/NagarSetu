@@ -34,18 +34,47 @@ OUT_OF_SCOPE_PATTERNS = [
 ]
 
 REFUSAL_MESSAGE = (
-    "I can only answer questions about the procedures I have "
-    "official documents for. Try one of these:"
+    "I can only answer questions about the civic procedures I have "
+    "official documentation for. Try one of these or use the search bar above:"
 )
 
 DEFAULT_SUGGESTIONS = [
+    "How do I get an FSSAI food business registration?",
     "How do I get a trade license in Chandigarh?",
     "How do I apply for a new water connection?",
     "How do I pay my property tax?",
+    "How do I apply for a birth certificate?",
+    "How do I take the Learner's Driving License test online?",
 ]
 
-# The 3 valid procedure_ids — used as the in-scope vocabulary.
-KNOWN_PROCEDURES = {"chandigarh_trade_license", "water_connection", "property_tax"}
+from pathlib import Path
+import json
+
+_CHUNKS_META_PATH = Path(__file__).resolve().parent.parent.parent / "data" / "index" / "chunks_meta.json"
+_CHUNKS_PATH = Path(__file__).resolve().parent.parent.parent / "data" / "processed" / "chunks.jsonl"
+
+def _load_known_procedures() -> set[str]:
+    """Load all valid procedure IDs from the built index or chunks."""
+    known = {"chandigarh_trade_license", "water_connection", "property_tax"}
+    try:
+        if _CHUNKS_META_PATH.exists():
+            with open(_CHUNKS_META_PATH, encoding="utf-8") as f:
+                meta = json.load(f)
+                for c in meta.values():
+                    if c.get("procedure_id"):
+                        known.add(c["procedure_id"])
+        elif _CHUNKS_PATH.exists():
+            with open(_CHUNKS_PATH, encoding="utf-8") as f:
+                for line in f:
+                    if line.strip():
+                        c = json.loads(line)
+                        if c.get("procedure_id"):
+                            known.add(c["procedure_id"])
+    except Exception:
+        pass
+    return known
+
+KNOWN_PROCEDURES = _load_known_procedures()
 
 
 def evaluate_scope(query: str, procedure_id: str | None, chunks: list) -> dict | None:

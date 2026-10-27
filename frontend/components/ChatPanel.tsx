@@ -14,6 +14,7 @@ interface ChatPanelProps {
   sessionId: string;
   language: Language;
   onChecklistUpdate: (response: ChatResponse) => void;
+  initialQuery?: string | null;
 }
 
 const DISCLAIMER = "Navigational aid. Verify with the official department.";
@@ -39,12 +40,18 @@ function BridgeMark({ className }: { className?: string }) {
   );
 }
 
-export function ChatPanel({ sessionId, language, onChecklistUpdate }: ChatPanelProps) {
+export function ChatPanel({
+  sessionId,
+  language,
+  onChecklistUpdate,
+  initialQuery,
+}: ChatPanelProps) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
+  const lastSubmittedQueryRef = useRef<string | null>(null);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -136,13 +143,20 @@ export function ChatPanel({ sessionId, language, onChecklistUpdate }: ChatPanelP
     [input, loading, language, onChecklistUpdate, sessionId]
   );
 
+  useEffect(() => {
+    if (initialQuery && initialQuery !== lastSubmittedQueryRef.current && !loading) {
+      lastSubmittedQueryRef.current = initialQuery;
+      handleSubmit(undefined, initialQuery);
+    }
+  }, [initialQuery, loading, handleSubmit]);
+
   return (
     <div className="flex h-full flex-col bg-white">
       <div
         role="log"
         aria-live="polite"
         aria-label="Conversation"
-        className="flex-1 space-y-4 overflow-y-auto p-4"
+        className="flex-1 space-y-4 overflow-y-auto p-4 custom-scrollbar"
       >
         {messages.length === 0 && (
           <div className="flex min-h-full flex-col items-center justify-center py-8 text-center">

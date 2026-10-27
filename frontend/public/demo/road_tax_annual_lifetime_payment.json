@@ -1,0 +1,71 @@
+{
+  "procedure_name": "Motor Vehicle Road Tax Payment (Online Vahan)",
+  "procedure_id": "road_tax_annual_lifetime_payment",
+  "summary": "Payment of annual, quarterly, or one-time lifetime motor vehicle road tax online.",
+  "estimated_total_time": "Immediate online receipt",
+  "estimated_total_cost": "Calculated based on engine cc / cost of vehicle (3% to 12%)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Enter vehicle registration number",
+      "description": "Input vehicle registration number on Parivahan Vahan Citizen Services portal.",
+      "documents_needed": [
+        "Vehicle number"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://vahan.parivahan.gov.in",
+      "source_chunk_ids": [
+        "road_tax_annual_lifetime_payment__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Review calculated tax demand",
+      "description": "System calculates tax, penalties (if payment delayed), and green cess.",
+      "documents_needed": [
+        "Tax assessment sheet"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 minute",
+      "official_link": "https://vahan.parivahan.gov.in",
+      "source_chunk_ids": [
+        "road_tax_annual_lifetime_payment__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Pay via integrated payment gateway",
+      "description": "Pay tax securely through net banking, debit card, or SBI ePay.",
+      "documents_needed": [
+        "Payment receipt"
+      ],
+      "fee": "Varies by vehicle",
+      "processing_time": "Immediate",
+      "official_link": "https://vahan.parivahan.gov.in",
+      "source_chunk_ids": [
+        "road_tax_annual_lifetime_payment__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Download official motor tax receipt",
+      "description": "Download official Tax Receipt with digital seal; updates Vahan database immediately.",
+      "documents_needed": [
+        "Tax Receipt PDF with QR"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://vahan.parivahan.gov.in",
+      "source_chunk_ids": [
+        "road_tax_annual_lifetime_payment__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

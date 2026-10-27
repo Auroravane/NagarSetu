@@ -1,0 +1,87 @@
+{
+  "procedure_name": "Street Light Repair & New Pole Installation",
+  "procedure_id": "street_light_complaint_redressal",
+  "summary": "Mechanism to report non-functional public LED streetlights or request dark-spot illumination poles.",
+  "estimated_total_time": "24–48 hours for repair; 15 days for new pole",
+  "estimated_total_cost": "₹0 (Completely Free Municipal Service)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Note pole number and landmark",
+      "description": "Find the yellow-stenciled pole code or locate exact spot on municipal GIS mobile map.",
+      "documents_needed": [
+        "Pole serial number",
+        "GPS location pin"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 minutes",
+      "official_link": "https://mcc.chandigarh.gov.in/streetlights",
+      "source_chunk_ids": [
+        "street_light_complaint_redressal__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Log ticket on municipal mobile app",
+      "description": "Submit complaint under 'Street Lighting' category with photo of dark street.",
+      "documents_needed": [
+        "Complaint ticket number"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 minutes",
+      "official_link": "https://mcc.chandigarh.gov.in/streetlights",
+      "source_chunk_ids": [
+        "street_light_complaint_redressal__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Automated dispatch to maintenance van",
+      "description": "System dispatches ticket to designated ward electrician with SMS alert.",
+      "documents_needed": [
+        "Dispatch notification"
+      ],
+      "fee": "₹0",
+      "processing_time": "4 hours",
+      "official_link": "https://mcc.chandigarh.gov.in/streetlights",
+      "source_chunk_ids": [
+        "street_light_complaint_redressal__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Replacement of LED luminaire / cable",
+      "description": "Electrician repairs damaged underground cable or replaces driver/LED luminaire.",
+      "documents_needed": [
+        "Work closure photo"
+      ],
+      "fee": "₹0",
+      "processing_time": "24 hours",
+      "official_link": "https://mcc.chandigarh.gov.in/streetlights",
+      "source_chunk_ids": [
+        "street_light_complaint_redressal__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Citizen closure feedback",
+      "description": "Citizen receives resolution SMS and rates service quality.",
+      "documents_needed": [
+        "Feedback confirmation"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/streetlights",
+      "source_chunk_ids": [
+        "street_light_complaint_redressal__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

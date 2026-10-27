@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Pradhan Mantri Matru Vandana Yojana (PMMVY) Maternity Benefit",
+  "procedure_id": "pm_matru_vandana_yojana_pmvvy",
+  "summary": "Direct cash benefit of ₹5,000 in two installments for pregnant women and lactating mothers for first and second child.",
+  "estimated_total_time": "15–20 working days per installment",
+  "estimated_total_cost": "₹0 (Free Cash Maternity Benefit)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Register pregnancy at Anganwadi / Health Center",
+      "description": "Register pregnancy within 150 days of Last Menstrual Period (LMP) and obtain MCP card.",
+      "documents_needed": [
+        "Mother and Child Protection (MCP) card"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://pmmvy.wcd.gov.in",
+      "source_chunk_ids": [
+        "pm_matru_vandana_yojana_pmvvy__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit Form 1A on PMMVY portal",
+      "description": "Submit MCP card showing at least one antenatal checkup (ANC) for first installment (₹3,000).",
+      "documents_needed": [
+        "Aadhaar of mother and husband",
+        "Mother bank passbook"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://pmmvy.wcd.gov.in",
+      "source_chunk_ids": [
+        "pm_matru_vandana_yojana_pmvvy__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Undergo child birth registration & vaccinations",
+      "description": "Register child birth and complete primary vaccination cycle (BCG, OPV, DPT, Hepatitis B).",
+      "documents_needed": [
+        "Child birth certificate",
+        "Immunization record in MCP card"
+      ],
+      "fee": "₹0",
+      "processing_time": "After birth",
+      "official_link": "https://pmmvy.wcd.gov.in",
+      "source_chunk_ids": [
+        "pm_matru_vandana_yojana_pmvvy__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Submit Form 1B for second installment",
+      "description": "Submit vaccination completion proof to claim second installment (₹2,000).",
+      "documents_needed": [
+        "Vaccination certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://pmmvy.wcd.gov.in",
+      "source_chunk_ids": [
+        "pm_matru_vandana_yojana_pmvvy__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Direct DBT transfer to mother account",
+      "description": "Funds transferred directly to woman's Aadhaar-seeded bank account.",
+      "documents_needed": [
+        "DBT credit alert"
+      ],
+      "fee": "₹5,000 total",
+      "processing_time": "Direct credit",
+      "official_link": "https://pmmvy.wcd.gov.in",
+      "source_chunk_ids": [
+        "pm_matru_vandana_yojana_pmvvy__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Pradhan Mantri Ujjwala Yojana (PMUY) Free LPG Connection",
+  "procedure_id": "pm_ujjwala_yojana_free_lpg",
+  "summary": "Deposit-free LPG cylinder connection, free stove, and initial refill for adult women from poor households.",
+  "estimated_total_time": "7–10 working days",
+  "estimated_total_cost": "₹0 (100% Free Government Connection)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Eligibility check for female adult",
+      "description": "Applicant must be an adult woman belonging to BPL/SC/ST/Pradhan Mantri Awas Yojana household.",
+      "documents_needed": [
+        "BPL ration card",
+        "Woman Aadhaar card"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://pmuy.gov.in",
+      "source_chunk_ids": [
+        "pm_ujjwala_yojana_free_lpg__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit application at nearest gas distributor",
+      "description": "Apply on PMUY portal or submit form at nearest Indane, Bharat Gas, or HP Gas dealership.",
+      "documents_needed": [
+        "Bank passbook showing Aadhaar seeding",
+        "Proof of address"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://pmuy.gov.in",
+      "source_chunk_ids": [
+        "pm_ujjwala_yojana_free_lpg__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "De-duplication check by OMC",
+      "description": "Oil Marketing Company cross-verifies database to ensure household has no existing LPG connection.",
+      "documents_needed": [
+        "National LPG database verification"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://pmuy.gov.in",
+      "source_chunk_ids": [
+        "pm_ujjwala_yojana_free_lpg__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Collection of cylinder and stove",
+      "description": "Dealer supplies free 14.2 kg LPG cylinder, regulator, safety rubber hose, and domestic gas stove.",
+      "documents_needed": [
+        "Ujjwala connection passbook"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day at delivery",
+      "official_link": "https://pmuy.gov.in",
+      "source_chunk_ids": [
+        "pm_ujjwala_yojana_free_lpg__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Targeted cylinder subsidy",
+      "description": "Receive ongoing government targeted subsidy credited directly to bank account on future refills.",
+      "documents_needed": [
+        "Subsidy credit SMS"
+      ],
+      "fee": "Direct subsidy",
+      "processing_time": "On refill",
+      "official_link": "https://pmuy.gov.in",
+      "source_chunk_ids": [
+        "pm_ujjwala_yojana_free_lpg__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

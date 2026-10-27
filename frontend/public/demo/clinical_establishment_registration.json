@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Clinical Establishment Registration (Clinics & Diagnostic Labs)",
+  "procedure_id": "clinical_establishment_registration",
+  "summary": "Statutory registration under Clinical Establishments (Registration and Regulation) Act.",
+  "estimated_total_time": "20–30 working days",
+  "estimated_total_cost": "₹1,000 – ₹5,000 based on beds & services",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Verify doctor qualifications",
+      "description": "Compile medical council registrations (NMC/DCI) for all practicing clinicians and technicians.",
+      "documents_needed": [
+        "Medical registration certificates",
+        "Doctor degrees"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://clinicalestablishments.gov.in",
+      "source_chunk_ids": [
+        "clinical_establishment_registration__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Bio-medical waste agreement",
+      "description": "Execute formal contract with authorized Common Bio-medical Waste Treatment Facility (CBWTF).",
+      "documents_needed": [
+        "BMW agreement copy"
+      ],
+      "fee": "Varies",
+      "processing_time": "2 days",
+      "official_link": "https://clinicalestablishments.gov.in",
+      "source_chunk_ids": [
+        "clinical_establishment_registration__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Online Form A submission",
+      "description": "Enter clinic carpet area, emergency equipment list, staff roster, and tariff transparency board.",
+      "documents_needed": [
+        "Form A",
+        "Premises lease"
+      ],
+      "fee": "₹1,000 – ₹5,000",
+      "processing_time": "1 day",
+      "official_link": "https://clinicalestablishments.gov.in",
+      "source_chunk_ids": [
+        "clinical_establishment_registration__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Civil Surgeon audit",
+      "description": "District inspection committee inspects sterilization autoclaves, drug storage, and waste color bins.",
+      "documents_needed": [
+        "Audit report"
+      ],
+      "fee": "₹0",
+      "processing_time": "10–14 days",
+      "official_link": "https://clinicalestablishments.gov.in",
+      "source_chunk_ids": [
+        "clinical_establishment_registration__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Issuance of Provisional/Permanent Certificate",
+      "description": "Receive certificate of registration valid for display in the reception lobby.",
+      "documents_needed": [
+        "Clinical Establishment Certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://clinicalestablishments.gov.in",
+      "source_chunk_ids": [
+        "clinical_establishment_registration__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

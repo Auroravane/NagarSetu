@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Factory License under Factories Act 1948",
+  "procedure_id": "factory_license_registration",
+  "summary": "Mandatory licensing for industrial premises employing 10+ workers with power or 20+ workers without power.",
+  "estimated_total_time": "20–30 working days",
+  "estimated_total_cost": "₹1,500 – ₹10,000 based on horsepower & headcount",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Site and building plan approval",
+      "description": "Submit manufacturing flowcharts, machinery layout, and ventilation plans for pre-construction clearance.",
+      "documents_needed": [
+        "Plant layout blueprint",
+        "Process flow diagram"
+      ],
+      "fee": "₹1,000",
+      "processing_time": "10 days",
+      "official_link": "https://labour.gov.in/factories",
+      "source_chunk_ids": [
+        "factory_license_registration__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Pollution control consent (CTE)",
+      "description": "Obtain Consent to Establish from State Pollution Control Board before factory operation.",
+      "documents_needed": [
+        "PCB CTE certificate"
+      ],
+      "fee": "Varies",
+      "processing_time": "15 days",
+      "official_link": "https://labour.gov.in/factories",
+      "source_chunk_ids": [
+        "factory_license_registration__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Submit Form 2 application",
+      "description": "Fill online application providing details of installed horsepower, worker capacity, and welfare facilities.",
+      "documents_needed": [
+        "List of machinery",
+        "Safety officer appointment"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://labour.gov.in/factories",
+      "source_chunk_ids": [
+        "factory_license_registration__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Inspectorate on-site audit",
+      "description": "Factory inspector conducts safety audit verifying guards on machinery, sanitation, and first aid provisions.",
+      "documents_needed": [
+        "Compliance inspection report"
+      ],
+      "fee": "₹0",
+      "processing_time": "7 days",
+      "official_link": "https://labour.gov.in/factories",
+      "source_chunk_ids": [
+        "factory_license_registration__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Grant of Factory License",
+      "description": "Obtain Factory License valid for 1 to 5 years with annual renewal option.",
+      "documents_needed": [
+        "Factory license document"
+      ],
+      "fee": "₹1,500 – ₹10,000",
+      "processing_time": "3 days",
+      "official_link": "https://labour.gov.in/factories",
+      "source_chunk_ids": [
+        "factory_license_registration__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,87 @@
+{
+  "procedure_name": "Municipal Community Centre & Park Booking",
+  "procedure_id": "community_hall_park_booking",
+  "summary": "Reservation of air-conditioned community centres, banquet halls, and public parks for family functions and weddings.",
+  "estimated_total_time": "Immediate online confirmation",
+  "estimated_total_cost": "₹5,000 – ₹30,000 + refundable security deposit",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Search venue availability",
+      "description": "Select ward, community centre, event date, and shift (morning/evening/full day) on calendar view.",
+      "documents_needed": [
+        "Date and shift selection"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 minutes",
+      "official_link": "https://mcc.chandigarh.gov.in/community-centres",
+      "source_chunk_ids": [
+        "community_hall_park_booking__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Fill applicant credentials",
+      "description": "Submit Aadhaar of event organizer, residential address, and nature of gathering.",
+      "documents_needed": [
+        "Aadhaar card",
+        "PAN card"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 minutes",
+      "official_link": "https://mcc.chandigarh.gov.in/community-centres",
+      "source_chunk_ids": [
+        "community_hall_park_booking__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Pay rental and security deposit",
+      "description": "Make online payment for booking charges, sanitation fee, and refundable security deposit.",
+      "documents_needed": [
+        "Payment gateway receipt"
+      ],
+      "fee": "₹5,000 – ₹30,000",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/community-centres",
+      "source_chunk_ids": [
+        "community_hall_park_booking__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Obtain booking permit",
+      "description": "Download official allotment letter and gate entry pass to present to security warden.",
+      "documents_needed": [
+        "Allotment letter with QR code"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/community-centres",
+      "source_chunk_ids": [
+        "community_hall_park_booking__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Security deposit refund",
+      "description": "Deposit refunded directly to source bank account within 7 days after function if no property damage occurs.",
+      "documents_needed": [
+        "Bank account IFSC"
+      ],
+      "fee": "₹0",
+      "processing_time": "7 days post-event",
+      "official_link": "https://mcc.chandigarh.gov.in/community-centres",
+      "source_chunk_ids": [
+        "community_hall_park_booking__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

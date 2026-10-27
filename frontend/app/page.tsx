@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { ChatPanel } from "@/components/ChatPanel";
 import { ChecklistCard } from "@/components/ChecklistCard";
+import { CivicSearchHeader, type CivicProcedureItem } from "@/components/CivicSearchHeader";
 import { ProgressBar } from "@/components/ProgressBar";
 import {
   SettingsSidebarAccordion,
@@ -75,6 +76,7 @@ export default function Home() {
   );
 
   const [user, setUser] = useState<{ full_name?: string; email?: string } | null>(null);
+  const [selectedSearchQuery, setSelectedSearchQuery] = useState<string | null>(null);
 
   useEffect(() => {
     setMounted(true);
@@ -168,18 +170,25 @@ export default function Home() {
             style={{ width: "auto" }}
           />
 
-          <div className="flex items-center gap-3">
-            <span className="hidden text-xs text-slate-500 sm:block">
-              {TAGLINE}
-            </span>
+          <div className="mx-2 hidden flex-1 items-center justify-center sm:flex max-w-xl">
+            <CivicSearchHeader
+              onSelectProcedure={(_proc, prompt) => {
+                if (prompt) {
+                  setSelectedSearchQuery(prompt);
+                  setMobileTab("chat");
+                }
+              }}
+            />
+          </div>
 
+          <div className="flex items-center gap-2 sm:gap-3">
             {showGithub && (
               <a
                 href={GITHUB_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="View NagarSetu on GitHub"
-                className="hidden h-8 w-8 items-center justify-center rounded-lg text-slate-600 transition-colors duration-150 ease-out hover:text-brand-700 sm:inline-flex"
+                className="hidden h-8 w-8 items-center justify-center rounded-lg text-slate-600 transition-colors duration-150 ease-out hover:text-brand-700 md:inline-flex"
               >
                 <Github aria-hidden="true" className="h-5 w-5" />
               </a>
@@ -191,18 +200,13 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 title="NagarSetu Browser Companion: AI & BYOK page assistance for government portals"
-                className="hidden md:inline-flex h-8 items-center gap-1.5 rounded-lg border border-slate-200 bg-slate-50/80 px-2.5 py-1 text-xs font-medium text-slate-700 transition hover:border-brand-300 hover:bg-brand-50 hover:text-brand-700"
+                className="hidden xl:inline-flex h-8 items-center gap-1.5 rounded-lg border border-slate-200 bg-slate-50/80 px-2.5 py-1 text-xs font-medium text-slate-700 transition hover:border-brand-300 hover:bg-brand-50 hover:text-brand-700"
               >
                 <Compass className="h-3.5 w-3.5 text-brand-600" />
                 <span>Browser Companion</span>
               </a>
             )}
 
-            {mounted && DEMO_MODE && (
-              <span className="rounded-md bg-accent-100 px-2.5 py-1 text-[11px] font-semibold tracking-[0.12em] text-amber-700">
-                DEMO MODE
-              </span>
-            )}
 
             {/* Auth button (User Email when signed in / Sign In when signed out) */}
             {mounted && (
@@ -325,6 +329,7 @@ export default function Home() {
               sessionId={sessionId}
               language={language}
               onChecklistUpdate={handleChecklistUpdate}
+              initialQuery={selectedSearchQuery}
             />
           </section>
 
@@ -333,7 +338,7 @@ export default function Home() {
             role="tabpanel"
             aria-labelledby="tab-checklist"
             className={cn(
-              "min-h-0 flex-1 overflow-y-auto p-4 lg:block lg:h-full lg:flex-none",
+              "min-h-0 flex-1 overflow-y-auto p-4 custom-scrollbar lg:block lg:h-full lg:flex-none",
               mobileTab === "checklist" ? "block" : "hidden"
             )}
           >

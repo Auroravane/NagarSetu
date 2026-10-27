@@ -1,0 +1,89 @@
+{
+  "procedure_name": "Building Completion & Occupancy Certificate (OC)",
+  "procedure_id": "occupancy_completion_certificate",
+  "summary": "Final legal document certifying that building construction strictly matches approved plans and is safe for human habitation.",
+  "estimated_total_time": "15–21 working days",
+  "estimated_total_cost": "₹500 application fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Obtain Architect Completion Certificate",
+      "description": "Architect and structural engineer sign Form of Completion stating construction follows sanctioned plans.",
+      "documents_needed": [
+        "Architect certificate",
+        "As-built drawings"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://mcc.chandigarh.gov.in/occupancy-certificate",
+      "source_chunk_ids": [
+        "occupancy_completion_certificate__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Obtain utility completion memos",
+      "description": "Procure formal connection memos from sewerage, water supply, and electrical safety wings.",
+      "documents_needed": [
+        "Water connection slip",
+        "Sewerage connection certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://mcc.chandigarh.gov.in/occupancy-certificate",
+      "source_chunk_ids": [
+        "occupancy_completion_certificate__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Submit OC application online",
+      "description": "Submit application on municipal building portal attaching all NOCs and photographs of all elevations.",
+      "documents_needed": [
+        "All elevation photos",
+        "Rainwater harvesting proof"
+      ],
+      "fee": "₹500",
+      "processing_time": "1 day",
+      "official_link": "https://mcc.chandigarh.gov.in/occupancy-certificate",
+      "source_chunk_ids": [
+        "occupancy_completion_certificate__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Joint engineering inspection",
+      "description": "Municipal team measures setbacks, room heights, parking area, and fire exits against approved blueprint.",
+      "documents_needed": [
+        "Site inspection measurement book"
+      ],
+      "fee": "₹0",
+      "processing_time": "7 days",
+      "official_link": "https://mcc.chandigarh.gov.in/occupancy-certificate",
+      "source_chunk_ids": [
+        "occupancy_completion_certificate__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Issuance of Occupancy Certificate",
+      "description": "Municipal Corporation issues Occupancy Certificate enabling permanent utility connections and property sale.",
+      "documents_needed": [
+        "Occupancy Certificate document"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://mcc.chandigarh.gov.in/occupancy-certificate",
+      "source_chunk_ids": [
+        "occupancy_completion_certificate__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

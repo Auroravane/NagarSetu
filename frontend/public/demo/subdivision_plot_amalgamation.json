@@ -1,0 +1,87 @@
+{
+  "procedure_name": "Sub-Division and Amalgamation of Plots",
+  "procedure_id": "subdivision_plot_amalgamation",
+  "summary": "Formal approval to split a large land parcel into sub-plots or merge adjacent plots into a single unified title.",
+  "estimated_total_time": "25–35 working days",
+  "estimated_total_cost": "₹10,000 – ₹50,000 based on area",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Check minimum plot size bylaws",
+      "description": "Verify that resulting sub-plots satisfy minimum frontage and area requirements.",
+      "documents_needed": [
+        "Title deeds of both plots"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://mcc.chandigarh.gov.in/subdivision",
+      "source_chunk_ids": [
+        "subdivision_plot_amalgamation__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit amalgamation/subdivision layout",
+      "description": "Registered town planner drafts revised layout showing utility easements and setbacks.",
+      "documents_needed": [
+        "Draft layout plan",
+        "Structural engineer certificate"
+      ],
+      "fee": "₹2,500",
+      "processing_time": "5 days",
+      "official_link": "https://mcc.chandigarh.gov.in/subdivision",
+      "source_chunk_ids": [
+        "subdivision_plot_amalgamation__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Joint engineering scrutiny",
+      "description": "Municipal planning cell examines access road width and water/sewer network capacity.",
+      "documents_needed": [
+        "Scrutiny report"
+      ],
+      "fee": "₹0",
+      "processing_time": "14 days",
+      "official_link": "https://mcc.chandigarh.gov.in/subdivision",
+      "source_chunk_ids": [
+        "subdivision_plot_amalgamation__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Pay amalgamation fee",
+      "description": "Pay development and regularization charges at municipal treasury.",
+      "documents_needed": [
+        "Treasury challan"
+      ],
+      "fee": "₹10,000 – ₹50,000",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/subdivision",
+      "source_chunk_ids": [
+        "subdivision_plot_amalgamation__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Issuance of unified property ID",
+      "description": "Receive revised allotment letter and single consolidated property tax assessment ID.",
+      "documents_needed": [
+        "Unified Property Allotment Letter"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://mcc.chandigarh.gov.in/subdivision",
+      "source_chunk_ids": [
+        "subdivision_plot_amalgamation__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

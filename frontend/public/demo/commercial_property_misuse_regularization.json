@@ -1,0 +1,87 @@
+{
+  "procedure_name": "Property Misuse Regularization & Penalty Clearance",
+  "procedure_id": "commercial_property_misuse_regularization",
+  "summary": "Removal of misuse violation notices or regularization of permitted non-conforming activities in designated sectors.",
+  "estimated_total_time": "15–20 working days",
+  "estimated_total_cost": "Penalty calculated per sq. ft. per month of violation",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Rectify violation on site",
+      "description": "Restore premises to sanctioned use (e.g. remove commercial storage from residential basement).",
+      "documents_needed": [
+        "Photographs of cleared area"
+      ],
+      "fee": "Varies",
+      "processing_time": "3 days",
+      "official_link": "https://estateoffice.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "commercial_property_misuse_regularization__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit compliance affidavit",
+      "description": "Submit notarized undertaking on stamp paper stating non-recurrence of violation.",
+      "documents_needed": [
+        "Notarized undertaking",
+        "Violation notice copy"
+      ],
+      "fee": "₹100",
+      "processing_time": "1 day",
+      "official_link": "https://estateoffice.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "commercial_property_misuse_regularization__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Enforcement inspector re-inspection",
+      "description": "Building inspector re-inspects premises, measures area, and takes geo-tagged photos.",
+      "documents_needed": [
+        "Re-inspection report"
+      ],
+      "fee": "₹0",
+      "processing_time": "7 days",
+      "official_link": "https://estateoffice.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "commercial_property_misuse_regularization__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Pay assessed compounding penalty",
+      "description": "Pay compounding penalty determined by the Assistant Estate Officer.",
+      "documents_needed": [
+        "Payment receipt"
+      ],
+      "fee": "Varies",
+      "processing_time": "Immediate",
+      "official_link": "https://estateoffice.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "commercial_property_misuse_regularization__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Discharge of misuse show-cause notice",
+      "description": "Estate Office issues formal closure letter revoking resumption/misuse proceedings.",
+      "documents_needed": [
+        "Revocation / Clean Chit Letter"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://estateoffice.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "commercial_property_misuse_regularization__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

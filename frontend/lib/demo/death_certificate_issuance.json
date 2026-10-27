@@ -1,0 +1,73 @@
+{
+  "procedure_name": "Death Certificate Issuance & Cremation Record",
+  "procedure_id": "death_certificate_issuance",
+  "summary": "Statutory registration of demise required for succession, life insurance claims, and bank account settlements.",
+  "estimated_total_time": "3–5 working days",
+  "estimated_total_cost": "₹0 within 21 days",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Cremation/burial slip",
+      "description": "Collect cremation ground receipt or burial ground entry counterfoil signed by ground caretaker.",
+      "documents_needed": [
+        "Crematorium receipt",
+        "Hospital medical cause of death Form 4"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://crsorgi.gov.in",
+      "source_chunk_ids": [
+        "death_certificate_issuance__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Apply online on CRS portal",
+      "description": "Submit deceased identity details, date, exact place of death, and applicant relation proof.",
+      "documents_needed": [
+        "Deceased Aadhaar",
+        "Applicant Aadhaar"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://crsorgi.gov.in",
+      "source_chunk_ids": [
+        "death_certificate_issuance__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Registrar scrutiny",
+      "description": "Health department officer crosses-references cremation logbook records.",
+      "documents_needed": [
+        "Verification check"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://crsorgi.gov.in",
+      "source_chunk_ids": [
+        "death_certificate_issuance__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Download official death certificate",
+      "description": "Obtain official digitally signed Death Certificate with unique registration number.",
+      "documents_needed": [
+        "Death Certificate PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://crsorgi.gov.in",
+      "source_chunk_ids": [
+        "death_certificate_issuance__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,90 @@
+{
+  "procedure_name": "Vehicle No Objection Certificate (NOC) for Inter-State Transfer",
+  "procedure_id": "vehicle_noc_interstate_transfer",
+  "summary": "NOC required under Form 28 to re-register a vehicle in another state or union territory.",
+  "estimated_total_time": "10–15 working days",
+  "estimated_total_cost": "₹100 application fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Pencil chassis print on Form 28",
+      "description": "Take clear physical pencil impression of vehicle's metallic chassis number on 3 copies of Form 28.",
+      "documents_needed": [
+        "3 copies Form 28",
+        "Pencil chassis print"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 hour",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "vehicle_noc_interstate_transfer__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Check traffic challan and hypothecation",
+      "description": "Clear all pending electronic traffic challans and obtain bank loan closure NOC if previously financed.",
+      "documents_needed": [
+        "Zero challan clearance report",
+        "Bank loan NOC"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "vehicle_noc_interstate_transfer__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Apply online on Vahan portal",
+      "description": "Submit destination state and destination RTO jurisdiction code where vehicle will be moved.",
+      "documents_needed": [
+        "Original RC",
+        "Valid insurance",
+        "PUC"
+      ],
+      "fee": "₹100",
+      "processing_time": "1 day",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "vehicle_noc_interstate_transfer__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Crime Records Bureau (NCRB) verification",
+      "description": "RTO checks national stolen vehicle database to ensure vehicle is not subject to police alert.",
+      "documents_needed": [
+        "NCRB verification clearance"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "vehicle_noc_interstate_transfer__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Collect Form 28 NOC certificate",
+      "description": "Obtain official stamped NOC certificate valid for re-registration in destination state.",
+      "documents_needed": [
+        "Form 28 NOC certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "vehicle_noc_interstate_transfer__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Shops & Commercial Establishments Registration (Gumasta)",
+  "procedure_id": "shops_establishment_act",
+  "summary": "Legal registration required for commercial offices, retail shops, and service establishments employing workers.",
+  "estimated_total_time": "3–5 working days",
+  "estimated_total_cost": "₹250 – ₹1,500 depending on employee count",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Register on state labour portal",
+      "description": "Create profile on state unified labour/single-window clearance portal with business details.",
+      "documents_needed": [
+        "Aadhaar",
+        "PAN"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://labour.gov.in",
+      "source_chunk_ids": [
+        "shops_establishment_act__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Fill application form",
+      "description": "Enter establishment name, full postal address, category of business, number of male/female employees, and working hours.",
+      "documents_needed": [
+        "Rent agreement or property tax receipt"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://labour.gov.in",
+      "source_chunk_ids": [
+        "shops_establishment_act__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Upload identity and address proofs",
+      "description": "Attach photo of proprietor with shop signboard displaying name clearly in regional language & English.",
+      "documents_needed": [
+        "Signboard photograph",
+        "Electricity bill"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://labour.gov.in",
+      "source_chunk_ids": [
+        "shops_establishment_act__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Pay statutory registration fees",
+      "description": "Submit fee calculated based on employee bracket via integrated portal gateway.",
+      "documents_needed": [
+        "Challan receipt"
+      ],
+      "fee": "₹250 – ₹1,500",
+      "processing_time": "Immediate",
+      "official_link": "https://labour.gov.in",
+      "source_chunk_ids": [
+        "shops_establishment_act__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Download digital certificate",
+      "description": "Receive digitally signed Shops & Establishment Certificate without physical inspection for low-risk units.",
+      "documents_needed": [
+        "Application reference"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 working days",
+      "official_link": "https://labour.gov.in",
+      "source_chunk_ids": [
+        "shops_establishment_act__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

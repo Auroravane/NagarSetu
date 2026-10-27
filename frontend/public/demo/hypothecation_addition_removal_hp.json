@@ -1,0 +1,89 @@
+{
+  "procedure_name": "Vehicle Loan Hypothecation Removal (HP Termination / Form 35)",
+  "procedure_id": "hypothecation_addition_removal_hp",
+  "summary": "Removing bank finance lien from vehicle Registration Certificate after full repayment of vehicle loan.",
+  "estimated_total_time": "5–7 working days",
+  "estimated_total_cost": "₹100 – ₹200 fee + new smart card charge",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Obtain bank loan closure kit",
+      "description": "Collect Form 35 (two copies signed by bank officer) and Bank No Objection Certificate (NOC).",
+      "documents_needed": [
+        "Bank Form 35",
+        "Bank NOC letter"
+      ],
+      "fee": "₹0",
+      "processing_time": "From bank",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "hypothecation_addition_removal_hp__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit HP cancellation on Vahan",
+      "description": "Enter vehicle number, upload Bank NOC and signed Form 35, and pay smart card fee.",
+      "documents_needed": [
+        "Original RC",
+        "Valid insurance",
+        "PUC"
+      ],
+      "fee": "₹200",
+      "processing_time": "15 minutes",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "hypothecation_addition_removal_hp__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Bank electronic endorsement",
+      "description": "Financier approves electronic loan clearance on national Vahan banking portal.",
+      "documents_needed": [
+        "Online bank clearance"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "hypothecation_addition_removal_hp__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Submit original RC to RTO",
+      "description": "Hand over physical RC to RTO counter or send via registered post.",
+      "documents_needed": [
+        "Original RC smart card"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "hypothecation_addition_removal_hp__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Receive clean RC smart card",
+      "description": "Receive brand new Registration Certificate showing clean ownership without bank hypothecation.",
+      "documents_needed": [
+        "Updated RC Smart Card"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://parivahan.gov.in/parivahan",
+      "source_chunk_ids": [
+        "hypothecation_addition_removal_hp__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

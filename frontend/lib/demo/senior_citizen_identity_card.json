@@ -1,0 +1,73 @@
+{
+  "procedure_name": "Senior Citizen Identity Card",
+  "procedure_id": "senior_citizen_identity_card",
+  "summary": "Special ID card for citizens aged 60 and above conferring bus travel concessions, healthcare queue priority, and legal aid.",
+  "estimated_total_time": "5–7 working days",
+  "estimated_total_cost": "₹0 (Free of Cost)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Age verification",
+      "description": "Provide passport, voter ID, matriculation certificate, or Aadhaar proving completion of 60 years.",
+      "documents_needed": [
+        "Age proof document",
+        "Address proof"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://socialwelfare.gov.in",
+      "source_chunk_ids": [
+        "senior_citizen_identity_card__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Medical blood group card",
+      "description": "Attach blood group report and emergency family doctor/next-of-kin contact details.",
+      "documents_needed": [
+        "Blood group report",
+        "2 passport photos"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://socialwelfare.gov.in",
+      "source_chunk_ids": [
+        "senior_citizen_identity_card__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Submit online or at Senior Citizen Home",
+      "description": "Register on state senior citizen portal or submit at municipal social welfare counter.",
+      "documents_needed": [
+        "Application form"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://socialwelfare.gov.in",
+      "source_chunk_ids": [
+        "senior_citizen_identity_card__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Collect Senior Citizen Smart Card",
+      "description": "Download digital card or collect PVC laminated card with photo and blood group.",
+      "documents_needed": [
+        "Senior Citizen Card"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://socialwelfare.gov.in",
+      "source_chunk_ids": [
+        "senior_citizen_identity_card__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

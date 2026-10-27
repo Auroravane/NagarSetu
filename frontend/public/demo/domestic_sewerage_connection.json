@@ -1,0 +1,87 @@
+{
+  "procedure_name": "New Underground Sewerage Connection",
+  "procedure_id": "domestic_sewerage_connection",
+  "summary": "Sanction to connect household drainage pipe to municipal underground sewer mains.",
+  "estimated_total_time": "10–15 working days",
+  "estimated_total_cost": "₹1,200 – ₹3,500 connection & road cutting fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Prepare internal plumbing blueprint",
+      "description": "Plumbing map showing inspection chambers, slope gradients, and gully trap locations.",
+      "documents_needed": [
+        "Plumber layout plan"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://mcc.chandigarh.gov.in/sewerage",
+      "source_chunk_ids": [
+        "domestic_sewerage_connection__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit municipal application",
+      "description": "Submit building sanction letter, water connection receipt, and road cutting permission request.",
+      "documents_needed": [
+        "Water connection bill",
+        "Building completion copy"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://mcc.chandigarh.gov.in/sewerage",
+      "source_chunk_ids": [
+        "domestic_sewerage_connection__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Junior Engineer field inspection",
+      "description": "JE measures distance from property boundary to sewer manhole and estimates road restoration fee.",
+      "documents_needed": [
+        "JE site measurement"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://mcc.chandigarh.gov.in/sewerage",
+      "source_chunk_ids": [
+        "domestic_sewerage_connection__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Payment of road restoration charges",
+      "description": "Pay connection fee and road restoration deposit at municipal citizen service counter.",
+      "documents_needed": [
+        "Municipal receipt"
+      ],
+      "fee": "₹1,200 – ₹3,500",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/sewerage",
+      "source_chunk_ids": [
+        "domestic_sewerage_connection__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Supervised connection & sealing",
+      "description": "Licensed plumber executes pipeline hookup to municipal manhole under junior engineer supervision.",
+      "documents_needed": [
+        "Connection completion memo"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://mcc.chandigarh.gov.in/sewerage",
+      "source_chunk_ids": [
+        "domestic_sewerage_connection__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

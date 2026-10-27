@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Borewell Drilling & Groundwater Extraction NOC",
+  "procedure_id": "domestic_borewell_drilling_permission",
+  "summary": "Mandatory prior permission to drill deep borewells or tubewells to extract groundwater.",
+  "estimated_total_time": "30–45 working days",
+  "estimated_total_cost": "₹1,000 application fee + abstraction charges",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Verify groundwater notification zone",
+      "description": "Check whether property falls in 'Safe', 'Semi-Critical', or 'Over-Exploited/Notified' zone.",
+      "documents_needed": [
+        "Zone advisory status"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://cgwa-noc.gov.in",
+      "source_chunk_ids": [
+        "domestic_borewell_drilling_permission__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit hydrogeological report",
+      "description": "Upload hydrogeological feasibility report prepared by accredited groundwater consultant.",
+      "documents_needed": [
+        "Consultant report",
+        "Proposed depth and diameter"
+      ],
+      "fee": "Varies",
+      "processing_time": "5 days",
+      "official_link": "https://cgwa-noc.gov.in",
+      "source_chunk_ids": [
+        "domestic_borewell_drilling_permission__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Submit online application on CGWA portal",
+      "description": "Attach property land ownership documents, water requirement calculation, and flow meter proposal.",
+      "documents_needed": [
+        "Khasra/Khatauni or Registry",
+        "Digital flow meter invoice"
+      ],
+      "fee": "₹1,000",
+      "processing_time": "2 days",
+      "official_link": "https://cgwa-noc.gov.in",
+      "source_chunk_ids": [
+        "domestic_borewell_drilling_permission__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "District advisory committee scrutiny",
+      "description": "District Ground Water Cell scrutinizes non-availability of piped water supply before granting permit.",
+      "documents_needed": [
+        "Committee evaluation report"
+      ],
+      "fee": "₹0",
+      "processing_time": "20 days",
+      "official_link": "https://cgwa-noc.gov.in",
+      "source_chunk_ids": [
+        "domestic_borewell_drilling_permission__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Drilling permission with telemetry condition",
+      "description": "Obtain formal drilling permit with mandatory condition of installing tamper-proof digital flow meter.",
+      "documents_needed": [
+        "NOC Certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://cgwa-noc.gov.in",
+      "source_chunk_ids": [
+        "domestic_borewell_drilling_permission__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,90 @@
+{
+  "procedure_name": "Post-Matric Scholarship for SC/ST/OBC Students",
+  "procedure_id": "post_matric_scholarship_sc_st_obc",
+  "summary": "100% tuition fee reimbursement and monthly maintenance allowance for post-secondary and college students.",
+  "estimated_total_time": "30–45 working days",
+  "estimated_total_cost": "₹0 application fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "College admission verification",
+      "description": "Secure admission in recognized college, university, or polytechnic institution.",
+      "documents_needed": [
+        "College fee receipt",
+        "Admission allotment letter"
+      ],
+      "fee": "₹0",
+      "processing_time": "At admission",
+      "official_link": "https://scholarships.gov.in",
+      "source_chunk_ids": [
+        "post_matric_scholarship_sc_st_obc__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit application on National Scholarship Portal",
+      "description": "Register using OTR (One Time Registration) via Aadhaar Face RD app.",
+      "documents_needed": [
+        "Aadhaar number",
+        "Mobile"
+      ],
+      "fee": "₹0",
+      "processing_time": "15 minutes",
+      "official_link": "https://scholarships.gov.in",
+      "source_chunk_ids": [
+        "post_matric_scholarship_sc_st_obc__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Upload scholarship documents",
+      "description": "Upload caste certificate, parent income certificate (under ₹2.5 Lakh), and previous class marksheet.",
+      "documents_needed": [
+        "Caste certificate",
+        "Income certificate",
+        "Previous class marksheet"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://scholarships.gov.in",
+      "source_chunk_ids": [
+        "post_matric_scholarship_sc_st_obc__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "College level verification (Level 1)",
+      "description": "College scholarship nodal officer inspects attendance and verifies course fee structure online.",
+      "documents_needed": [
+        "Institute online approval"
+      ],
+      "fee": "₹0",
+      "processing_time": "7 days",
+      "official_link": "https://scholarships.gov.in",
+      "source_chunk_ids": [
+        "post_matric_scholarship_sc_st_obc__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "District social welfare officer approval (Level 2)",
+      "description": "State department approves scholarship and releases DBT payments directly to student account and college.",
+      "documents_needed": [
+        "PFMS credit alert"
+      ],
+      "fee": "Full tuition + allowance",
+      "processing_time": "Direct credit",
+      "official_link": "https://scholarships.gov.in",
+      "source_chunk_ids": [
+        "post_matric_scholarship_sc_st_obc__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

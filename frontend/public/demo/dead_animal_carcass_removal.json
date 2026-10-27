@@ -1,0 +1,71 @@
+{
+  "procedure_name": "Carcass and Dead Animal Removal Service",
+  "procedure_id": "dead_animal_carcass_removal",
+  "summary": "Emergency hygienic lifting and scientific disposal of dead cattle, dogs, and domestic animals.",
+  "estimated_total_time": "2–6 hours emergency response",
+  "estimated_total_cost": "₹0 for public roads; nominal fee for large farm animals",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Call municipal toll-free control room",
+      "description": "Dial municipal 24x7 control room or submit emergency ticket on municipal portal.",
+      "documents_needed": [
+        "Exact landmark and animal description"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/sanitation",
+      "source_chunk_ids": [
+        "dead_animal_carcass_removal__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Ticket generation & GPS tagging",
+      "description": "Control room operator logs emergency request with geo-tagging for the sanitation fleet.",
+      "documents_needed": [
+        "Emergency ticket SMS"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 minutes",
+      "official_link": "https://mcc.chandigarh.gov.in/sanitation",
+      "source_chunk_ids": [
+        "dead_animal_carcass_removal__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Dedicated carcass recovery van arrival",
+      "description": "Sanitation crew equipped with protective gear and disinfectants loads animal carcass.",
+      "documents_needed": [
+        "Disinfectant spray log"
+      ],
+      "fee": "₹0",
+      "processing_time": "2–4 hours",
+      "official_link": "https://mcc.chandigarh.gov.in/sanitation",
+      "source_chunk_ids": [
+        "dead_animal_carcass_removal__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Bleaching powder sanitization",
+      "description": "Crew sprays sodium hypochlorite / bleaching powder on the area to prevent infection spread.",
+      "documents_needed": [
+        "Site sanitization"
+      ],
+      "fee": "₹0",
+      "processing_time": "15 minutes",
+      "official_link": "https://mcc.chandigarh.gov.in/sanitation",
+      "source_chunk_ids": [
+        "dead_animal_carcass_removal__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

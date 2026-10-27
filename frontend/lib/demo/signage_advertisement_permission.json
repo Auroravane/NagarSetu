@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Commercial Signboard & Outdoor Advertisement Permission",
+  "procedure_id": "signage_advertisement_permission",
+  "summary": "Official permit to erect commercial display boards, neon signs, hoardings, or rooftop advertisement structures.",
+  "estimated_total_time": "7–10 working days",
+  "estimated_total_cost": "₹500 application fee + ₹50/sq.ft annual tax",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Measure signboard dimensions",
+      "description": "Calculate exact display area (length x height) and ensure adherence to city standard building bylaws.",
+      "documents_needed": [
+        "Dimension drawings",
+        "Color mockup photograph"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://mcc.chandigarh.gov.in/advertisement",
+      "source_chunk_ids": [
+        "signage_advertisement_permission__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit online request",
+      "description": "Submit premises ownership proof, commercial trade license number, and structural stability certificate for large hoardings.",
+      "documents_needed": [
+        "Trade license copy",
+        "Structural engineer certificate"
+      ],
+      "fee": "₹500",
+      "processing_time": "1 day",
+      "official_link": "https://mcc.chandigarh.gov.in/advertisement",
+      "source_chunk_ids": [
+        "signage_advertisement_permission__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Zonal officer inspection",
+      "description": "Municipal field inspector verifies that the sign does not obstruct traffic view, electrical lines, or pedestrians.",
+      "documents_needed": [
+        "Site verification log"
+      ],
+      "fee": "₹0",
+      "processing_time": "3–5 days",
+      "official_link": "https://mcc.chandigarh.gov.in/advertisement",
+      "source_chunk_ids": [
+        "signage_advertisement_permission__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Payment of advertisement tax",
+      "description": "Pay annual ground rent/advertisement tax calculated based on square footage.",
+      "documents_needed": [
+        "Tax assessment order"
+      ],
+      "fee": "₹500 – ₹5,000",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/advertisement",
+      "source_chunk_ids": [
+        "signage_advertisement_permission__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Receive permission letter",
+      "description": "Obtain official permit sticker and permit order valid for 1 financial year.",
+      "documents_needed": [
+        "Permission letter"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://mcc.chandigarh.gov.in/advertisement",
+      "source_chunk_ids": [
+        "signage_advertisement_permission__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

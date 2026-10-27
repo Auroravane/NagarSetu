@@ -1,0 +1,89 @@
+{
+  "procedure_name": "Cinema Hall & Multiplex Exhibition License",
+  "procedure_id": "cinematograph_theatre_license",
+  "summary": "Mandatory operating license for public cinema theatres, multiplexes, and open-air movie projection venues.",
+  "estimated_total_time": "30–45 working days",
+  "estimated_total_cost": "₹5,000 – ₹20,000 annual license fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Obtain multi-department NOCs",
+      "description": "Acquire clearances from Electrical Inspector, PWD Structural, Fire Safety Department, and Municipal Health.",
+      "documents_needed": [
+        "PWD stability certificate",
+        "Fire NOC",
+        "Electrical safety certificate"
+      ],
+      "fee": "Varies",
+      "processing_time": "15 days",
+      "official_link": "https://district.gov.in",
+      "source_chunk_ids": [
+        "cinematograph_theatre_license__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit Form B application",
+      "description": "Apply to District Magistrate submitting cinema hall layout, seating capacity, exit pathways, and air-conditioning plans.",
+      "documents_needed": [
+        "Building plans",
+        "Ownership documents"
+      ],
+      "fee": "₹1,000",
+      "processing_time": "2 days",
+      "official_link": "https://district.gov.in",
+      "source_chunk_ids": [
+        "cinematograph_theatre_license__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Joint multi-agency inspection",
+      "description": "Magisterial committee inspects auditorium acoustics, fire suppression, emergency lighting, and parking facilities.",
+      "documents_needed": [
+        "Joint inspection minutes"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 days",
+      "official_link": "https://district.gov.in",
+      "source_chunk_ids": [
+        "cinematograph_theatre_license__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Pay annual license fee",
+      "description": "Remit state entertainment tax / cinematography license fee at government treasury.",
+      "documents_needed": [
+        "Treasury receipt"
+      ],
+      "fee": "₹5,000 – ₹20,000",
+      "processing_time": "Immediate",
+      "official_link": "https://district.gov.in",
+      "source_chunk_ids": [
+        "cinematograph_theatre_license__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Issuance of Form C License",
+      "description": "District Magistrate issues official operating license specifying approved seating count.",
+      "documents_needed": [
+        "Form C Cinema License"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://district.gov.in",
+      "source_chunk_ids": [
+        "cinematograph_theatre_license__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

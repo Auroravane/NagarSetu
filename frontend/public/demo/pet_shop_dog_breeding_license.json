@@ -1,0 +1,73 @@
+{
+  "procedure_name": "Pet Shop & Dog Breeding Establishment License",
+  "procedure_id": "pet_shop_dog_breeding_license",
+  "summary": "Mandatory license under Prevention of Cruelty to Animals (Pet Shop & Dog Breeding) Rules.",
+  "estimated_total_time": "21–30 working days",
+  "estimated_total_cost": "₹5,000 registration fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Facility standard compliance",
+      "description": "Ensure adequate enclosure dimensions, temperature regulation, quarantine cages, and sanitary ventilation.",
+      "documents_needed": [
+        "Facility layout diagram",
+        "Veterinary care tie-up agreement"
+      ],
+      "fee": "Varies",
+      "processing_time": "3 days",
+      "official_link": "https://animalwelfareboard.parivesh.nic.in",
+      "source_chunk_ids": [
+        "pet_shop_dog_breeding_license__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit Form I to State Animal Welfare Board",
+      "description": "Apply online with photographs of housing pens, grooming areas, and waste disposal mechanisms.",
+      "documents_needed": [
+        "Aadhaar",
+        "Veterinarian consent letter"
+      ],
+      "fee": "₹5,000",
+      "processing_time": "2 days",
+      "official_link": "https://animalwelfareboard.parivesh.nic.in",
+      "source_chunk_ids": [
+        "pet_shop_dog_breeding_license__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Veterinary inspection committee",
+      "description": "Authorized veterinary officer inspects animal welfare protocols, microchipping, and vaccination logs.",
+      "documents_needed": [
+        "Inspection audit sheet"
+      ],
+      "fee": "₹0",
+      "processing_time": "14 days",
+      "official_link": "https://animalwelfareboard.parivesh.nic.in",
+      "source_chunk_ids": [
+        "pet_shop_dog_breeding_license__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Certificate grant",
+      "description": "Receive Animal Welfare Board registration certificate valid for 2 calendar years.",
+      "documents_needed": [
+        "Pet shop registration certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://animalwelfareboard.parivesh.nic.in",
+      "source_chunk_ids": [
+        "pet_shop_dog_breeding_license__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

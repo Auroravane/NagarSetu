@@ -1,0 +1,73 @@
+{
+  "procedure_name": "Legal Metrology Packaged Commodities (LMPC) Registration",
+  "procedure_id": "packaged_commodity_packer_registration",
+  "summary": "Mandatory license for manufacturers, packers, and importers of pre-packaged goods sold to retail consumers.",
+  "estimated_total_time": "10–15 working days",
+  "estimated_total_cost": "₹500 government fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Review mandatory label declarations",
+      "description": "Ensure product packaging specifies manufacturer name, net weight, MRP, date of packaging, and customer care details.",
+      "documents_needed": [
+        "Sample packaging artwork",
+        "Product specification sheet"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://consumeraffairs.nic.in",
+      "source_chunk_ids": [
+        "packaged_commodity_packer_registration__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit Rule 27 application",
+      "description": "Apply online on Legal Metrology portal submitting business registration and manufacturing unit location.",
+      "documents_needed": [
+        "GST registration",
+        "Premises lease"
+      ],
+      "fee": "₹500",
+      "processing_time": "1 day",
+      "official_link": "https://consumeraffairs.nic.in",
+      "source_chunk_ids": [
+        "packaged_commodity_packer_registration__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Sample verification",
+      "description": "Legal Metrology inspector verifies declarations against standard metric units (g, kg, ml, l).",
+      "documents_needed": [
+        "Packaged sample"
+      ],
+      "fee": "₹0",
+      "processing_time": "5–7 days",
+      "official_link": "https://consumeraffairs.nic.in",
+      "source_chunk_ids": [
+        "packaged_commodity_packer_registration__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Certificate grant",
+      "description": "Receive manufacturer/packer registration certificate with official registration number.",
+      "documents_needed": [
+        "LMPC Certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://consumeraffairs.nic.in",
+      "source_chunk_ids": [
+        "packaged_commodity_packer_registration__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

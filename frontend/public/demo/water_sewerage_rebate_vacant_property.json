@@ -1,0 +1,72 @@
+{
+  "procedure_name": "Water & Sewerage Charge Waiver for Vacant Property",
+  "procedure_id": "water_sewerage_rebate_vacant_property",
+  "summary": "Suspension of monthly minimum consumption and sewerage charges for unoccupied residential properties.",
+  "estimated_total_time": "7–10 working days",
+  "estimated_total_cost": "₹0 application fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Ensure electricity meter disconnection / zero usage",
+      "description": "Provide electricity bills showing zero power units consumed during the vacant period.",
+      "documents_needed": [
+        "Last 2 power bills"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://mcc.chandigarh.gov.in/vacant-property",
+      "source_chunk_ids": [
+        "water_sewerage_rebate_vacant_property__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Apply for vacant status endorsement",
+      "description": "Submit sworn affidavit from homeowner affirming that property remains locked and uninhabited.",
+      "documents_needed": [
+        "Owner affidavit",
+        "Water bill copy"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://mcc.chandigarh.gov.in/vacant-property",
+      "source_chunk_ids": [
+        "water_sewerage_rebate_vacant_property__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Inspection by meter reader",
+      "description": "Meter reader visits house to confirm locked status and record final dial reading.",
+      "documents_needed": [
+        "Field inspection note"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://mcc.chandigarh.gov.in/vacant-property",
+      "source_chunk_ids": [
+        "water_sewerage_rebate_vacant_property__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Approval of billing suspension",
+      "description": "Executive Engineer endorses vacant status, pausing recurring fixed sewage and meter charges.",
+      "documents_needed": [
+        "Billing adjustment order"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://mcc.chandigarh.gov.in/vacant-property",
+      "source_chunk_ids": [
+        "water_sewerage_rebate_vacant_property__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

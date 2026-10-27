@@ -1,0 +1,89 @@
+{
+  "procedure_name": "Contract Carriage Auto-Rickshaw & Taxi Permit",
+  "procedure_id": "auto_taxi_contract_carriage_permit",
+  "summary": "Permit authorizing commercial passenger transport within municipal city limits or regional tricity zones.",
+  "estimated_total_time": "15–21 working days",
+  "estimated_total_cost": "₹1,000 – ₹3,500 permit fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Vehicle eligibility check",
+      "description": "Ensure vehicle model conforms to BS-VI emission or Electric/CNG clean fuel criteria.",
+      "documents_needed": [
+        "Vehicle invoice / RC",
+        "Valid commercial insurance"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://sta.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "auto_taxi_contract_carriage_permit__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Driver commercial badge verification",
+      "description": "Driver must hold valid commercial driving license endorsement and PSV badge.",
+      "documents_needed": [
+        "Commercial DL",
+        "PSV badge certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://sta.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "auto_taxi_contract_carriage_permit__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Submit permit application on Vahan",
+      "description": "Apply under Contract Carriage category specifying operating radius or tricity permit agreement.",
+      "documents_needed": [
+        "Aadhaar",
+        "Fare meter calibration receipt"
+      ],
+      "fee": "₹1,000 – ₹3,500",
+      "processing_time": "1 day",
+      "official_link": "https://sta.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "auto_taxi_contract_carriage_permit__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Transport authority board approval",
+      "description": "STA board examines ceiling quota and vehicle safety compliance.",
+      "documents_needed": [
+        "STA board approval resolution"
+      ],
+      "fee": "₹0",
+      "processing_time": "10 days",
+      "official_link": "https://sta.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "auto_taxi_contract_carriage_permit__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Issuance of Permit (Form P.Co.C.)",
+      "description": "Collect printed permit slip to be kept in vehicle with tariff card.",
+      "documents_needed": [
+        "Contract Carriage Permit document"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://sta.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "auto_taxi_contract_carriage_permit__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

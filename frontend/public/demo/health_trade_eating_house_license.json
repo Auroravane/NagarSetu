@@ -1,0 +1,87 @@
+{
+  "procedure_name": "Health Trade License (Restaurants, Cafes & Bakeries)",
+  "procedure_id": "health_trade_eating_house_license",
+  "summary": "Public health clearance certifying water quality, pest control, waste disposal, and hygiene standards for eateries.",
+  "estimated_total_time": "10–14 working days",
+  "estimated_total_cost": "₹1,500 – ₹5,000 depending on seating capacity",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Arrange water test & pest control contracts",
+      "description": "Obtain potable water laboratory test certificate and quarterly pest control vendor agreement.",
+      "documents_needed": [
+        "Water bacteriological report",
+        "Pest control contract"
+      ],
+      "fee": "Varies",
+      "processing_time": "3 days",
+      "official_link": "https://mcc.chandigarh.gov.in/health-trade",
+      "source_chunk_ids": [
+        "health_trade_eating_house_license__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit premises kitchen plan",
+      "description": "Upload blueprint showing cooking area, grease traps, cold storage, handwash stations, and waste segregation bins.",
+      "documents_needed": [
+        "Kitchen layout map"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://mcc.chandigarh.gov.in/health-trade",
+      "source_chunk_ids": [
+        "health_trade_eating_house_license__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Health officer kitchen inspection",
+      "description": "Medical Officer of Health (MOH) conducts surprise inspection of food storage, drainage, and staff hygiene.",
+      "documents_needed": [
+        "Inspection remarks"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 working days",
+      "official_link": "https://mcc.chandigarh.gov.in/health-trade",
+      "source_chunk_ids": [
+        "health_trade_eating_house_license__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Pay health license fee",
+      "description": "Remit municipal fee online upon satisfaction of inspection report.",
+      "documents_needed": [
+        "Payment confirmation"
+      ],
+      "fee": "₹1,500 – ₹5,000",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/health-trade",
+      "source_chunk_ids": [
+        "health_trade_eating_house_license__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Download Health Trade License",
+      "description": "Obtain certificate to be visibly displayed at restaurant cashier counter.",
+      "documents_needed": [
+        "Health Trade License"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://mcc.chandigarh.gov.in/health-trade",
+      "source_chunk_ids": [
+        "health_trade_eating_house_license__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

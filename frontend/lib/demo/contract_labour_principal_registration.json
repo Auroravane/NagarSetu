@@ -1,0 +1,87 @@
+{
+  "procedure_name": "Contract Labour Principal Employer Registration",
+  "procedure_id": "contract_labour_principal_registration",
+  "summary": "Mandatory registration for employers engaging 20 or more contract workers on any single day.",
+  "estimated_total_time": "7–14 working days",
+  "estimated_total_cost": "₹500 – ₹2,500",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Prepare Form I statement",
+      "description": "Compile contractor agreements, maximum headcounts per contractor, and project duration.",
+      "documents_needed": [
+        "Contractor service agreements"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://shramsuvidha.gov.in",
+      "source_chunk_ids": [
+        "contract_labour_principal_registration__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Online registration on Shram Suvidha",
+      "description": "Submit LIN (Labour Identification Number) and register establishment details.",
+      "documents_needed": [
+        "PAN",
+        "Certificate of incorporation"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://shramsuvidha.gov.in",
+      "source_chunk_ids": [
+        "contract_labour_principal_registration__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Fee payment based on headcount",
+      "description": "Pay fee scale according to total maximum contract workers employed.",
+      "documents_needed": [
+        "Treasury challan"
+      ],
+      "fee": "₹500 – ₹2,500",
+      "processing_time": "Immediate",
+      "official_link": "https://shramsuvidha.gov.in",
+      "source_chunk_ids": [
+        "contract_labour_principal_registration__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Review by Assistant Labour Commissioner",
+      "description": "Department examines application for wage protection guarantees and statutory compliance.",
+      "documents_needed": [
+        "Application verification"
+      ],
+      "fee": "₹0",
+      "processing_time": "5–7 days",
+      "official_link": "https://shramsuvidha.gov.in",
+      "source_chunk_ids": [
+        "contract_labour_principal_registration__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Issuance of Form II Registration",
+      "description": "Download certificate of registration as Principal Employer.",
+      "documents_needed": [
+        "Form II Certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://shramsuvidha.gov.in",
+      "source_chunk_ids": [
+        "contract_labour_principal_registration__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Widow & Destitute Women Pension Scheme",
+  "procedure_id": "widow_destitute_women_pension",
+  "summary": "Monthly financial pension assistance to widows and destitute women with dependent children.",
+  "estimated_total_time": "20–30 working days",
+  "estimated_total_cost": "₹0 (Free Scheme)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Procure husband's death certificate",
+      "description": "Obtain official government death certificate of late spouse.",
+      "documents_needed": [
+        "Husband's death certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://wcd.nic.in",
+      "source_chunk_ids": [
+        "widow_destitute_women_pension__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Self-declaration of non-remarriage",
+      "description": "Provide affidavit affirming that the applicant has not remarried.",
+      "documents_needed": [
+        "Notarized affidavit"
+      ],
+      "fee": "₹50",
+      "processing_time": "1 day",
+      "official_link": "https://wcd.nic.in",
+      "source_chunk_ids": [
+        "widow_destitute_women_pension__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Submit online application",
+      "description": "Submit application on state social security portal with family income proof and children birth certificates.",
+      "documents_needed": [
+        "Income certificate",
+        "Children school/birth certificates",
+        "Aadhaar"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://wcd.nic.in",
+      "source_chunk_ids": [
+        "widow_destitute_women_pension__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Social welfare committee scrutiny",
+      "description": "District social welfare officer reviews records and verifies non-employment status.",
+      "documents_needed": [
+        "Verification report"
+      ],
+      "fee": "₹0",
+      "processing_time": "14 days",
+      "official_link": "https://wcd.nic.in",
+      "source_chunk_ids": [
+        "widow_destitute_women_pension__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Monthly pension disbursement",
+      "description": "Receive pension sanction book and monthly direct benefit transfer into savings account.",
+      "documents_needed": [
+        "Pension Sanction ID"
+      ],
+      "fee": "Monthly transfer",
+      "processing_time": "Immediate post-approval",
+      "official_link": "https://wcd.nic.in",
+      "source_chunk_ids": [
+        "widow_destitute_women_pension__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

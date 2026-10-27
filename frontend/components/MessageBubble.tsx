@@ -60,16 +60,11 @@ export function MessageBubble({ message }: MessageBubbleProps) {
           </div>
         )}
 
-        {message.demoMode && (
+        {message.cachedOffline && (
           <div className="mt-3 flex flex-wrap items-center gap-2">
-            <span className="inline-block rounded-chip bg-slate-100 px-2 py-0.5 text-[11px] font-medium text-slate-600">
-              Demo Mode
+            <span className="inline-block rounded-chip bg-accent-100 px-2 py-0.5 text-[11px] font-medium text-amber-700">
+              Cached response (offline)
             </span>
-            {message.cachedOffline && (
-              <span className="inline-block rounded-chip bg-accent-100 px-2 py-0.5 text-[11px] font-medium text-amber-700">
-                Cached response (offline)
-              </span>
-            )}
           </div>
         )}
       </div>

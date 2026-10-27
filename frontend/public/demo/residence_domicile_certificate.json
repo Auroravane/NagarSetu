@@ -1,0 +1,74 @@
+{
+  "procedure_name": "Domicile / Permanent Resident Certificate (PRC)",
+  "procedure_id": "residence_domicile_certificate",
+  "summary": "Legal verification of minimum 5 to 15 years continuous residence within the state or union territory.",
+  "estimated_total_time": "7–12 working days",
+  "estimated_total_cost": "₹30 – ₹50 fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Continuous residence documentation",
+      "description": "Provide 10-year education certificates, property ownership registry, or consecutive voter identity card records.",
+      "documents_needed": [
+        "10 years school/college certificates",
+        "Voter list extracts"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "residence_domicile_certificate__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit online e-District request",
+      "description": "Upload self-attested copies of birth certificate, parent residence proofs, and passport photograph.",
+      "documents_needed": [
+        "Aadhaar",
+        "Birth certificate",
+        "Parent domicile copy"
+      ],
+      "fee": "₹30",
+      "processing_time": "1 day",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "residence_domicile_certificate__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Police/Revenue background inquiry",
+      "description": "Police or revenue inspector verifies permanent residency claims.",
+      "documents_needed": [
+        "Verification verification log"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "residence_domicile_certificate__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Issuance of Domicile Certificate",
+      "description": "Receive lifetime valid Domicile Certificate essential for state quota college admissions.",
+      "documents_needed": [
+        "Domicile Certificate PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "residence_domicile_certificate__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,89 @@
+{
+  "procedure_name": "Residential Building Plan Approval (Naksha Sanction)",
+  "procedure_id": "building_plan_approval_sanction",
+  "summary": "Mandatory architectural drawing sanction before commencing construction or structural alteration of residential houses.",
+  "estimated_total_time": "15–21 working days",
+  "estimated_total_cost": "₹15 – ₹30 per square yard scrutiny fee + labor cess",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Engage registered architect",
+      "description": "Architect prepares computer-aided CAD drawings conforming to FAR, setbacks, height, and parking bylaws.",
+      "documents_needed": [
+        "Architectural CAD drawings",
+        "Structural stability certificate"
+      ],
+      "fee": "Varies",
+      "processing_time": "5–7 days",
+      "official_link": "https://mcc.chandigarh.gov.in/building-plans",
+      "source_chunk_ids": [
+        "building_plan_approval_sanction__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit via Online Building Plan Approval System (OBPAS)",
+      "description": "Upload CAD drawings; automated system runs algorithmic rule-checking against city master plan bylaws.",
+      "documents_needed": [
+        "Title deed",
+        "Possession certificate",
+        "Demarcation plan"
+      ],
+      "fee": "₹1,500 – ₹5,000",
+      "processing_time": "1 day",
+      "official_link": "https://mcc.chandigarh.gov.in/building-plans",
+      "source_chunk_ids": [
+        "building_plan_approval_sanction__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Multi-department scrutiny",
+      "description": "Fire department, public health engineering, and structural division review clearances simultaneously.",
+      "documents_needed": [
+        "Online scrutiny report"
+      ],
+      "fee": "₹0",
+      "processing_time": "7–10 days",
+      "official_link": "https://mcc.chandigarh.gov.in/building-plans",
+      "source_chunk_ids": [
+        "building_plan_approval_sanction__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Pay building permit fee & labor cess",
+      "description": "Remit approved sanction fees, external development charges, and 1% building workers welfare cess.",
+      "documents_needed": [
+        "Challan receipt"
+      ],
+      "fee": "Calculated online",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/building-plans",
+      "source_chunk_ids": [
+        "building_plan_approval_sanction__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Download sanctioned building permit",
+      "description": "Download digitally stamped Naksha blueprint with QR verification code valid for 3 years.",
+      "documents_needed": [
+        "Sanctioned Plan PDF"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://mcc.chandigarh.gov.in/building-plans",
+      "source_chunk_ids": [
+        "building_plan_approval_sanction__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

@@ -144,32 +144,53 @@ export function StepItem({ step, completed, onToggle, sources }: StepItemProps) 
                 </div>
               )}
 
-              <div className="flex flex-wrap items-center gap-2 text-xs">
-                {!step.fee || step.fee === "MOCK" || !step.processing_time || !step.official_link ? (
+              <div className="flex flex-wrap items-center gap-2 pt-1 text-xs">
+                {step.fee && step.fee !== "MOCK" && (
+                  step.fee === "₹0" ? (
+                    <Badge className="rounded-full bg-success-100 px-2.5 py-1 text-[13px] font-medium text-emerald-700 hover:bg-success-100">
+                      Free
+                    </Badge>
+                  ) : (
+                    <Badge className="rounded-full bg-slate-100 px-2.5 py-1 text-[13px] font-medium text-slate-700 hover:bg-slate-100">
+                      Fee: {step.fee}
+                    </Badge>
+                  )
+                )}
+
+                {step.processing_time && step.processing_time !== "MOCK" && (
+                  <Badge className="rounded-full bg-slate-100 px-2.5 py-1 text-[13px] font-medium text-slate-700 hover:bg-slate-100">
+                    {step.processing_time}
+                  </Badge>
+                )}
+
+                {/* Direct live link to official government portal */}
+                {step.official_link &&
+                  step.official_link !== "MOCK" &&
+                  /^https?:\/\//.test(step.official_link) && (
+                    <a
+                      href={step.official_link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 rounded-full border border-brand-200 bg-brand-50/80 px-3 py-1 text-xs font-semibold text-brand-700 shadow-xs transition hover:border-brand-300 hover:bg-brand-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500"
+                      title={`Open official portal: ${step.official_link}`}
+                    >
+                      <ExternalLink aria-hidden="true" className="h-3 w-3" />
+                      Official Portal
+                    </a>
+                  )}
+
+                {/* Citation Popovers for each grounded source chunk */}
+                {step.source_chunk_ids.map((chunkId) => (
+                  <SourcePopover key={chunkId} chunkId={chunkId} sources={sources} />
+                ))}
+
+                {(!step.fee || step.fee === "MOCK" || !step.processing_time || !step.official_link) && (
                   <FieldWarning
                     officialLink={step.official_link}
                     sourceChunkIds={step.source_chunk_ids}
                     sources={sources}
                   />
-                ) : (
-                  <>
-                    {step.fee === "₹0" ? (
-                      <Badge className="rounded-full bg-success-100 px-2.5 py-1 text-[13px] font-medium text-emerald-700 hover:bg-success-100">
-                        Free
-                      </Badge>
-                    ) : (
-                      <Badge className="rounded-full bg-slate-100 px-2.5 py-1 text-[13px] font-medium text-slate-700 hover:bg-slate-100">
-                        Fee: {step.fee}
-                      </Badge>
-                    )}
-                    <Badge className="rounded-full bg-slate-100 px-2.5 py-1 text-[13px] font-medium text-slate-700 hover:bg-slate-100">
-                      {step.processing_time}
-                    </Badge>
-                  </>
                 )}
-                {step.source_chunk_ids.map((chunkId) => (
-                  <SourcePopover key={chunkId} chunkId={chunkId} sources={sources} />
-                ))}
               </div>
             </div>
           )}

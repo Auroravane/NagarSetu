@@ -1,0 +1,87 @@
+{
+  "procedure_name": "VIP / Fancy Vehicle Registration Number E-Auction",
+  "procedure_id": "special_choice_registration_number_auction",
+  "summary": "Online competitive bidding for prestigious vehicle registration numbers (e.g. 0001, 0007, 9999).",
+  "estimated_total_time": "Bidding window 3–5 days",
+  "estimated_total_cost": "₹10,000 – ₹50,000 reserve price + winning bid",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Register on Parivahan Fancy Number Portal",
+      "description": "Create bidder profile with Aadhaar and deposit non-refundable registration fee.",
+      "documents_needed": [
+        "Aadhaar",
+        "PAN"
+      ],
+      "fee": "₹1,000",
+      "processing_time": "10 minutes",
+      "official_link": "https://fancy.parivahan.gov.in",
+      "source_chunk_ids": [
+        "special_choice_registration_number_auction__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Select desired registration number",
+      "description": "Search number availability in the active newly opened registration series.",
+      "documents_needed": [
+        "Number selection"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 minutes",
+      "official_link": "https://fancy.parivahan.gov.in",
+      "source_chunk_ids": [
+        "special_choice_registration_number_auction__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Deposit reserve price earnest money (EMD)",
+      "description": "Pay reserve price demand draft or online payment into auction escrow.",
+      "documents_needed": [
+        "Payment receipt"
+      ],
+      "fee": "₹10,000 – ₹50,000",
+      "processing_time": "Immediate",
+      "official_link": "https://fancy.parivahan.gov.in",
+      "source_chunk_ids": [
+        "special_choice_registration_number_auction__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Participate in live e-auction bidding",
+      "description": "Place incremental bids during active 48-hour auction bidding period.",
+      "documents_needed": [
+        "Online bidding screen"
+      ],
+      "fee": "Bid amounts",
+      "processing_time": "2 days",
+      "official_link": "https://fancy.parivahan.gov.in",
+      "source_chunk_ids": [
+        "special_choice_registration_number_auction__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Collect Allotment Letter",
+      "description": "Highest bidder pays balance within 5 days and receives official Number Allotment Letter for vehicle registration.",
+      "documents_needed": [
+        "Allotment Order"
+      ],
+      "fee": "Winning bid",
+      "processing_time": "Same day",
+      "official_link": "https://fancy.parivahan.gov.in",
+      "source_chunk_ids": [
+        "special_choice_registration_number_auction__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

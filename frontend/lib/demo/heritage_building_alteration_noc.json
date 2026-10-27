@@ -1,0 +1,73 @@
+{
+  "procedure_name": "Heritage Building Renovation & Alteration Clearance",
+  "procedure_id": "heritage_building_alteration_noc",
+  "summary": "Special permission required before undertaking repair, painting, or window replacement on notified heritage facade structures.",
+  "estimated_total_time": "30–60 working days",
+  "estimated_total_cost": "₹1,000 application fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Prepare heritage impact assessment",
+      "description": "Architectural conservationist prepares structural report preserving character-defining elements.",
+      "documents_needed": [
+        "Conservation report",
+        "Historical photographs"
+      ],
+      "fee": "Varies",
+      "processing_time": "7 days",
+      "official_link": "https://urbanplanning.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "heritage_building_alteration_noc__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit proposal to Heritage Committee",
+      "description": "Submit proposed materials, paint swatches matching original exposed brick/concrete aesthetic.",
+      "documents_needed": [
+        "Material specifications",
+        "Elevation mockups"
+      ],
+      "fee": "₹1,000",
+      "processing_time": "2 days",
+      "official_link": "https://urbanplanning.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "heritage_building_alteration_noc__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Heritage Conservation Committee review",
+      "description": "Panel of architects and historians assesses whether facade integrity is preserved.",
+      "documents_needed": [
+        "Committee meeting minutes"
+      ],
+      "fee": "₹0",
+      "processing_time": "20 days",
+      "official_link": "https://urbanplanning.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "heritage_building_alteration_noc__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Issuance of Facade Clearance NOC",
+      "description": "Obtain conditional approval letter with strict preservation directives.",
+      "documents_needed": [
+        "Heritage NOC"
+      ],
+      "fee": "₹0",
+      "processing_time": "5 days",
+      "official_link": "https://urbanplanning.chandigarh.gov.in",
+      "source_chunk_ids": [
+        "heritage_building_alteration_noc__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

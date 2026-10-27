@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Old Age Pension Scheme (NSAP / Vridha Pension)",
+  "procedure_id": "old_age_pension_scheme",
+  "summary": "Monthly direct benefit financial assistance for senior citizens living below poverty line or with limited family support.",
+  "estimated_total_time": "20–30 working days",
+  "estimated_total_cost": "₹0 (Free Government Welfare Scheme)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Verify age & income eligibility",
+      "description": "Applicant must be aged 60 or above, with annual family income below state poverty threshold.",
+      "documents_needed": [
+        "Aadhaar card",
+        "Voter ID card"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://nsap.nic.in",
+      "source_chunk_ids": [
+        "old_age_pension_scheme__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Bank account Aadhaar seeding",
+      "description": "Ensure bank savings account is active and seeded with Aadhaar for Direct Benefit Transfer (DBT).",
+      "documents_needed": [
+        "Bank passbook showing Aadhaar NPCI link"
+      ],
+      "fee": "₹0",
+      "processing_time": "Same day",
+      "official_link": "https://nsap.nic.in",
+      "source_chunk_ids": [
+        "old_age_pension_scheme__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Submit application on Social Security portal",
+      "description": "Apply online or submit at nearest citizen service center (CSC / e-Sewa).",
+      "documents_needed": [
+        "Income certificate",
+        "Passport size photograph"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://nsap.nic.in",
+      "source_chunk_ids": [
+        "old_age_pension_scheme__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Field social worker inquiry",
+      "description": "Social welfare officer or Anganwadi worker verifies applicant living conditions.",
+      "documents_needed": [
+        "Field verification report"
+      ],
+      "fee": "₹0",
+      "processing_time": "10–14 days",
+      "official_link": "https://nsap.nic.in",
+      "source_chunk_ids": [
+        "old_age_pension_scheme__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Sanction and monthly DBT credit",
+      "description": "Sanction letter issued; monthly pension (₹1,500 – ₹3,000/month) credited directly to bank account.",
+      "documents_needed": [
+        "Pension sanction order"
+      ],
+      "fee": "Direct credit",
+      "processing_time": "Monthly",
+      "official_link": "https://nsap.nic.in",
+      "source_chunk_ids": [
+        "old_age_pension_scheme__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,87 @@
+{
+  "procedure_name": "Domestic Piped Natural Gas (PNG) Connection",
+  "procedure_id": "png_piped_gas_connection",
+  "summary": "Piped natural gas pipeline installation for domestic cooking and water geysers.",
+  "estimated_total_time": "10–14 working days",
+  "estimated_total_cost": "₹5,000 – ₹7,000 (Refundable security deposit)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Check pipeline network availability",
+      "description": "Verify whether gas pipeline riser has been laid in your residential lane or apartment tower.",
+      "documents_needed": [
+        "Address proof"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://gailonline.com",
+      "source_chunk_ids": [
+        "png_piped_gas_connection__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Submit online connection request",
+      "description": "Submit ownership proof or NOC from landlord along with identity details.",
+      "documents_needed": [
+        "Rent agreement / Sale deed",
+        "PAN / Aadhaar"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://gailonline.com",
+      "source_chunk_ids": [
+        "png_piped_gas_connection__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Pay refundable connection deposit",
+      "description": "Pay security deposit online or opt for installments integrated into bimonthly gas bills.",
+      "documents_needed": [
+        "Payment receipt"
+      ],
+      "fee": "₹5,000 – ₹7,000",
+      "processing_time": "Immediate",
+      "official_link": "https://gailonline.com",
+      "source_chunk_ids": [
+        "png_piped_gas_connection__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Internal kitchen piping installation",
+      "description": "Utility technician installs yellow GI pipeline, copper tubing, gas isolation valve, and digital meter.",
+      "documents_needed": [
+        "Installation safety certificate"
+      ],
+      "fee": "₹0",
+      "processing_time": "3–5 days",
+      "official_link": "https://gailonline.com",
+      "source_chunk_ids": [
+        "png_piped_gas_connection__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Stove conversion and gas commissioning",
+      "description": "Technician adjusts stove nozzle from LPG to PNG and commissions gas flow safely.",
+      "documents_needed": [
+        "Commissioning slip"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://gailonline.com",
+      "source_chunk_ids": [
+        "png_piped_gas_connection__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

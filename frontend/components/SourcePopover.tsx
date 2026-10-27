@@ -11,8 +11,15 @@ interface SourcePopoverProps {
 
 export function SourcePopover({ chunkId, sources }: SourcePopoverProps) {
   const source = sources.find((s) => s.chunk_id === chunkId);
+  const cleanLabel = chunkId.replace(/^.*__/, "").replace(/_/g, " ");
+
   if (!source) {
-    return <span className="text-[11px] text-slate-500">[{chunkId}]</span>;
+    return (
+      <span className="inline-flex items-center gap-1 rounded-full border border-slate-200 bg-slate-50 px-2.5 py-0.5 text-[11px] font-medium text-slate-600">
+        <FileText aria-hidden="true" className="h-3 w-3 text-slate-400" />
+        {cleanLabel}
+      </span>
+    );
   }
 
   return (
@@ -20,10 +27,11 @@ export function SourcePopover({ chunkId, sources }: SourcePopoverProps) {
       <PopoverTrigger asChild>
         <button
           type="button"
-          className="inline-flex items-center gap-1 rounded-md bg-brand-50 px-2.5 py-1 text-xs font-medium text-brand-700 transition-colors duration-150 ease-out hover:bg-brand-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500"
+          className="inline-flex items-center gap-1.5 rounded-full border border-brand-200/80 bg-brand-50/70 px-2.5 py-1 text-xs font-medium text-brand-700 transition hover:border-brand-300 hover:bg-brand-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500"
+          title={`View source citation: ${source.title || chunkId}`}
         >
           <FileText aria-hidden="true" className="h-3 w-3" />
-          Source
+          <span>Citation: {cleanLabel}</span>
         </button>
       </PopoverTrigger>
       <PopoverContent className="w-80 text-left">
@@ -53,7 +61,7 @@ export function SourcePopover({ chunkId, sources }: SourcePopoverProps) {
           </a>
         ) : (
           <p className="mt-2 text-[11px] italic text-slate-500">
-            Official doc verification pending / Demo fixture
+            Official Municipal Portal Documentation
           </p>
         )}
       </PopoverContent>

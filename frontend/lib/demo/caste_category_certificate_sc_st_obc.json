@@ -1,0 +1,74 @@
+{
+  "procedure_name": "Caste Certificate (SC / ST / OBC / EWS)",
+  "procedure_id": "caste_category_certificate_sc_st_obc",
+  "summary": "Government certificate authenticating reservation category status for education admissions and public recruitment.",
+  "estimated_total_time": "10–15 working days",
+  "estimated_total_cost": "₹30 – ₹60 service fee",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Paternal lineage proof",
+      "description": "Father's caste certificate or revenue land records before 1966 proving state ancestral residency.",
+      "documents_needed": [
+        "Father's caste certificate",
+        "Old lineage records"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "caste_category_certificate_sc_st_obc__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Apply online on e-District",
+      "description": "Upload applicant Aadhaar, school leaving certificate, and non-creamy layer income certificate (for OBC/EWS).",
+      "documents_needed": [
+        "Applicant Aadhaar",
+        "Income certificate",
+        "Family ration card"
+      ],
+      "fee": "₹30",
+      "processing_time": "1 day",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "caste_category_certificate_sc_st_obc__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Field inquiry by Patwari",
+      "description": "Halqa Patwari and Kanungo verify applicant's family history in ancestral village.",
+      "documents_needed": [
+        "Patwari verification report"
+      ],
+      "fee": "₹0",
+      "processing_time": "5–7 days",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "caste_category_certificate_sc_st_obc__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Tehsildar approval and certificate generation",
+      "description": "Tehsildar sanctions certificate with unique central/state serial number.",
+      "documents_needed": [
+        "Caste Certificate PDF with QR"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://edistrict.gov.in",
+      "source_chunk_ids": [
+        "caste_category_certificate_sc_st_obc__step_04"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

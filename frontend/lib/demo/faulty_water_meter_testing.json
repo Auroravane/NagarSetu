@@ -1,0 +1,86 @@
+{
+  "procedure_name": "Testing and Replacement of Faulty Water Meter",
+  "procedure_id": "faulty_water_meter_testing",
+  "summary": "Official laboratory accuracy testing of water meters reporting excessively high readings.",
+  "estimated_total_time": "7–10 working days",
+  "estimated_total_cost": "₹150 testing fee (Refunded if meter found defective)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Lodge excessive billing complaint",
+      "description": "Register dispute citing previous 3 billing cycles on water portal.",
+      "documents_needed": [
+        "Previous 3 water bills"
+      ],
+      "fee": "₹0",
+      "processing_time": "1 day",
+      "official_link": "https://mcc.chandigarh.gov.in/water-meter",
+      "source_chunk_ids": [
+        "faulty_water_meter_testing__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Pay lab test deposit",
+      "description": "Deposit standard laboratory testing fee at municipal cash counter.",
+      "documents_needed": [
+        "Fee receipt"
+      ],
+      "fee": "₹150",
+      "processing_time": "Immediate",
+      "official_link": "https://mcc.chandigarh.gov.in/water-meter",
+      "source_chunk_ids": [
+        "faulty_water_meter_testing__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Meter removal under seal",
+      "description": "Municipal plumber visits site, disconnects meter in presence of consumer, and applies tamper seal.",
+      "documents_needed": [
+        "Removal memo with initial reading"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://mcc.chandigarh.gov.in/water-meter",
+      "source_chunk_ids": [
+        "faulty_water_meter_testing__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Laboratory flow calibration test",
+      "description": "Meter tested at test bench across slow, medium, and high flow rates.",
+      "documents_needed": [
+        "Calibration test report"
+      ],
+      "fee": "₹0",
+      "processing_time": "3 days",
+      "official_link": "https://mcc.chandigarh.gov.in/water-meter",
+      "source_chunk_ids": [
+        "faulty_water_meter_testing__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Replacement and bill adjustment",
+      "description": "If error > 5%, meter replaced with calibrated unit and excess billing adjusted in next bill cycle.",
+      "documents_needed": [
+        "Revised billing advice"
+      ],
+      "fee": "₹0",
+      "processing_time": "2 days",
+      "official_link": "https://mcc.chandigarh.gov.in/water-meter",
+      "source_chunk_ids": [
+        "faulty_water_meter_testing__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}

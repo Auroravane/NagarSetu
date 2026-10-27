@@ -1,0 +1,88 @@
+{
+  "procedure_name": "Rooftop Solar Net Metering Connection",
+  "procedure_id": "rooftop_solar_net_metering",
+  "summary": "Interconnection approval and bidirectional solar meter installation under PM Surya Ghar Muft Bijli Yojana.",
+  "estimated_total_time": "20–30 working days",
+  "estimated_total_cost": "₹1,000 application fee (Subsidies up to ₹78,000 available)",
+  "confidence": 0.95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Register on National Solar Portal",
+      "description": "Apply on PM Surya Ghar portal selecting DISCOM, consumer account number, and proposed solar kW capacity.",
+      "documents_needed": [
+        "Electricity bill",
+        "Aadhaar"
+      ],
+      "fee": "₹0",
+      "processing_time": "Immediate",
+      "official_link": "https://pmsuryaghar.gov.in",
+      "source_chunk_ids": [
+        "rooftop_solar_net_metering__step_01"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 2,
+      "title": "Technical feasibility approval (TFR)",
+      "description": "DISCOM checks distribution transformer capacity and issues technical clearance within 10 days.",
+      "documents_needed": [
+        "TFR Approval letter"
+      ],
+      "fee": "₹0",
+      "processing_time": "7–10 days",
+      "official_link": "https://pmsuryaghar.gov.in",
+      "source_chunk_ids": [
+        "rooftop_solar_net_metering__step_02"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 3,
+      "title": "Installation by empanelled vendor",
+      "description": "Empanelled solar contractor installs ALMM-approved solar panels, grid-tied inverter, and earthing.",
+      "documents_needed": [
+        "Plant commissioning document",
+        "Vendor invoice"
+      ],
+      "fee": "Varies",
+      "processing_time": "5–7 days",
+      "official_link": "https://pmsuryaghar.gov.in",
+      "source_chunk_ids": [
+        "rooftop_solar_net_metering__step_03"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 4,
+      "title": "Net meter inspection and testing",
+      "description": "DISCOM inspects anti-islanding protection and installs bidirectional import-export net meter.",
+      "documents_needed": [
+        "Net meter test report"
+      ],
+      "fee": "₹1,000",
+      "processing_time": "5 days",
+      "official_link": "https://pmsuryaghar.gov.in",
+      "source_chunk_ids": [
+        "rooftop_solar_net_metering__step_04"
+      ],
+      "verified": true
+    },
+    {
+      "step_number": 5,
+      "title": "Direct Benefit Transfer (DBT) subsidy",
+      "description": "DISCOM submits commissioning report; central subsidy credited directly to citizen's bank account within 30 days.",
+      "documents_needed": [
+        "Bank passbook copy"
+      ],
+      "fee": "Subsidy credit",
+      "processing_time": "30 days",
+      "official_link": "https://pmsuryaghar.gov.in",
+      "source_chunk_ids": [
+        "rooftop_solar_net_metering__step_05"
+      ],
+      "verified": true
+    }
+  ],
+  "warnings": []
+}
