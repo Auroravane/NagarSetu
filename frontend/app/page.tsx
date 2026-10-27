@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
 import {
   ClipboardList,
+  Compass,
   Github,
   LogIn,
   LogOut,
@@ -181,6 +182,19 @@ export default function Home() {
                 className="hidden h-8 w-8 items-center justify-center rounded-lg text-slate-600 transition-colors duration-150 ease-out hover:text-brand-700 sm:inline-flex"
               >
                 <Github aria-hidden="true" className="h-5 w-5" />
+              </a>
+            )}
+
+            {mounted && (
+              <a
+                href="https://github.com/Auroravane/NagarSetu/tree/main/extension#readme"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="NagarSetu Browser Companion: AI & BYOK page assistance for government portals"
+                className="hidden md:inline-flex h-8 items-center gap-1.5 rounded-lg border border-slate-200 bg-slate-50/80 px-2.5 py-1 text-xs font-medium text-slate-700 transition hover:border-brand-300 hover:bg-brand-50 hover:text-brand-700"
+              >
+                <Compass className="h-3.5 w-3.5 text-brand-600" />
+                <span>Browser Companion</span>
               </a>
             )}
 

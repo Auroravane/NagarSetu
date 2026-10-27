@@ -302,6 +302,24 @@ The repository includes additional documentation in the `docs/` folder:
 - `docs/implementation-baseline.md` — project architecture and baseline notes
 - `docs/security-findings.md` — security review and findings
 - `docs/testing.md` — testing guidance and validation notes
+- `extension/README.md` — NagarSetu Browser Companion Chrome extension architecture, BYOK, and installation guide
+
+## Chrome Extension & Companion API Contracts
+
+NagarSetu is fully equipped to support the **NagarSetu Browser Companion** Chrome Extension:
+
+- **Dual-Token Authentication**: All authenticated endpoints support both the web app's `nagarsetu_session` cookie and standard `Authorization: Bearer <token>` headers for cross-origin extension requests.
+- **CORS Support**: Extension origins (`chrome-extension://*`) are recognized with CORS middleware regex and preflight support.
+- **Shared Civic Procedures**:
+  - `GET /api/procedures`: List the authenticated user's or demo session's saved procedures.
+  - `POST /api/procedures`: Save a civic procedure to the user's account from anywhere on the web.
+  - `GET /api/procedures/{id}`: Fetch single procedure details and step checklist.
+  - `DELETE /api/procedures/{id}`: Remove or archive a saved procedure.
+  - `POST /api/progress`: Persist checklist step completion.
+  - `GET /api/progress`: Fetch checklist step completion.
+- **BYOK (Bring Your Own Key) & Civic Grounding Separation**:
+  - The extension handles user-supplied LLM API keys directly for lightweight tasks (translation, summarization, explanation).
+  - The NagarSetu backend retains authoritative responsibility for hybrid RAG retrieval, jurisdiction enforcement, official citations, and groundedness verification.
 
 ## Project Goals
 

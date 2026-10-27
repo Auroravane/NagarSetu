@@ -218,3 +218,60 @@ export async function fetchProgress(
   if (!res.ok) throw new Error(`Progress fetch failed (${res.status})`);
   return (await res.json()) as ProgressResponse;
 }
+
+export interface SavedProcedure {
+  id: string;
+  procedure_id: string;
+  procedure_name: string;
+  jurisdiction: string;
+  status: string;
+  completed_steps: number[];
+  total_steps: number;
+  created_at: string;
+  updated_at: string;
+}
+
+export async function listSavedProcedures(
+  sessionId?: string
+): Promise<{ procedures: SavedProcedure[]; count: number }> {
+  const params = sessionId ? `?session_id=${encodeURIComponent(sessionId)}` : "";
+  const res = await fetch(`${API_URL}/api/procedures${params}`, {
+    credentials: "include",
+  });
+  if (!res.ok) throw new Error(`Failed to list procedures (${res.status})`);
+  return (await res.json()) as { procedures: SavedProcedure[]; count: number };
+}
+
+export async function saveProcedure(
+  procedureId: string,
+  procedureName?: string,
+  jurisdiction?: string,
+  sessionId?: string
+): Promise<SavedProcedure> {
+  const res = await fetch(`${API_URL}/api/procedures`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    credentials: "include",
+    body: JSON.stringify({
+      procedure_id: procedureId,
+      procedure_name: procedureName,
+      jurisdiction: jurisdiction || "Chandigarh",
+      session_id: sessionId,
+    }),
+  });
+  if (!res.ok) throw new Error(`Failed to save procedure (${res.status})`);
+  return (await res.json()) as SavedProcedure;
+}
+
+export async function deleteSavedProcedure(
+  procedureId: string,
+  sessionId?: string
+): Promise<{ ok: boolean; deleted: string }> {
+  const params = sessionId ? `?session_id=${encodeURIComponent(sessionId)}` : "";
+  const res = await fetch(`${API_URL}/api/procedures/${procedureId}${params}`, {
+    method: "DELETE",
+    credentials: "include",
+  });
+  if (!res.ok) throw new Error(`Failed to delete procedure (${res.status})`);
+  return (await res.json()) as { ok: boolean; deleted: string };
+}

@@ -170,3 +170,87 @@ export async function fetchProcedureProgress(procedureId, sessionId = "ext-sess-
 
   return await res.json();
 }
+
+/**
+ * List saved procedures for authenticated user or demo session
+ */
+export async function listSavedProcedures(sessionId = "ext-sess-1") {
+  const baseUrl = await getBackendBaseUrl();
+  const token = await getAuthToken();
+
+  const headers = {};
+  if (token) {
+    headers["Authorization"] = `Bearer ${token}`;
+  }
+
+  const params = new URLSearchParams({ session_id: sessionId });
+  const res = await fetch(`${baseUrl}/api/procedures?${params.toString()}`, {
+    method: "GET",
+    headers,
+    credentials: "include",
+  });
+
+  if (!res.ok) {
+    throw new Error(`Failed to list procedures (${res.status})`);
+  }
+
+  return await res.json();
+}
+
+/**
+ * Save or sync a procedure to the user's account
+ */
+export async function saveProcedure({ procedureId, procedureName, jurisdiction, sessionId = "ext-sess-1" }) {
+  const baseUrl = await getBackendBaseUrl();
+  const token = await getAuthToken();
+
+  const headers = { "Content-Type": "application/json" };
+  if (token) {
+    headers["Authorization"] = `Bearer ${token}`;
+  }
+
+  const res = await fetch(`${baseUrl}/api/procedures`, {
+    method: "POST",
+    headers,
+    credentials: "include",
+    body: JSON.stringify({
+      procedure_id: procedureId,
+      procedure_name: procedureName,
+      jurisdiction: jurisdiction || "Chandigarh",
+      session_id: sessionId,
+    }),
+  });
+
+  if (!res.ok) {
+    throw new Error(`Failed to save procedure (${res.status})`);
+  }
+
+  return await res.json();
+}
+
+/**
+ * Delete a saved procedure from the user's account
+ */
+export async function deleteSavedProcedure(procedureId, sessionId = "ext-sess-1") {
+  const baseUrl = await getBackendBaseUrl();
+  const token = await getAuthToken();
+
+  const headers = {};
+  if (token) {
+    headers["Authorization"] = `Bearer ${token}`;
+  }
+
+  const params = new URLSearchParams({ session_id: sessionId });
+  const res = await fetch(`${baseUrl}/api/procedures/${procedureId}?${params.toString()}`, {
+    method: "DELETE",
+    headers,
+    credentials: "include",
+  });
+
+  if (!res.ok) {
+    throw new Error(`Failed to delete procedure (${res.status})`);
+  }
+
+  return await res.json();
+}
+

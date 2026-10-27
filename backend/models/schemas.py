@@ -14,7 +14,7 @@ Validation rules implemented (§6.2):
     forces confidence < 0.6 and prepends a warning (§6.2, §8.5)
 """
 
-from typing import List
+from typing import List, Optional
 
 from pydantic import BaseModel, Field, field_validator
 
@@ -119,3 +119,33 @@ class ExportRequest(BaseModel):
     session_id: str
     procedure_id: str
     format: str = Field(default="pdf", pattern="^pdf$")
+
+
+class SavedProcedureCreate(BaseModel):
+    """POST /api/procedures request body."""
+
+    procedure_id: str = Field(..., min_length=1, max_length=100)
+    procedure_name: Optional[str] = Field(default=None, max_length=200)
+    jurisdiction: Optional[str] = Field(default="Chandigarh", max_length=100)
+    session_id: Optional[str] = Field(default=None, max_length=128)
+
+
+class SavedProcedureItem(BaseModel):
+    """Summary record for a user's saved procedure."""
+
+    id: str
+    procedure_id: str
+    procedure_name: str
+    jurisdiction: str
+    status: str
+    completed_steps: List[int] = Field(default_factory=list)
+    total_steps: int
+    created_at: str
+    updated_at: str
+
+
+class SavedProcedureList(BaseModel):
+    """GET /api/procedures response."""
+
+    procedures: List[SavedProcedureItem]
+    count: int

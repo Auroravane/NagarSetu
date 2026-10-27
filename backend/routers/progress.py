@@ -20,11 +20,21 @@ from fastapi import APIRouter, Cookie, Header, HTTPException, status
 from backend.db.progress import (
     DEMO_PRINCIPAL_PREFIX,
     SUPPORTED_PROCEDURES,
+    delete_saved_procedure,
     get_progress,
+    get_saved_procedure,
+    list_saved_procedures,
+    save_procedure,
     upsert_progress,
     validate_procedure_and_step,
 )
-from backend.models.schemas import ProgressResponse, ProgressUpdate
+from backend.models.schemas import (
+    ProgressResponse,
+    ProgressUpdate,
+    SavedProcedureCreate,
+    SavedProcedureItem,
+    SavedProcedureList,
+)
 from backend.routers.auth import SESSION_COOKIE, _extract_token, _load_user
 
 router = APIRouter()
@@ -101,3 +111,79 @@ def read_progress(
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(e))
 
     return ProgressResponse(completed_steps=completed, total_steps=total)
+
+
+@router.get("/api/procedures", response_model=SavedProcedureList)
+def list_procedures(
+    session_id: Optional[str] = None,
+    session_token: Optional[str] = Cookie(default=None, alias=SESSION_COOKIE),
+    authorization: Optional[str] = Header(default=None),
+) -> SavedProcedureList:
+    effective_token = _extract_token(session_token, authorization)
+    principal = _resolve_principal(effective_token, session_id)
+
+    items = list_saved_procedures(principal)
+    return SavedProcedureList(
+        procedures=[SavedProcedureItem(**item) for item in items],
+        count=len(items),
+    )
+
+
+@router.post("/api/procedures", response_model=SavedProcedureItem)
+def create_or_update_procedure(
+    req: SavedProcedureCreate,
+    session_token: Optional[str] = Cookie(default=None, alias=SESSION_COOKIE),
+    authorization: Optional[str] = Header(default=None),
+) -> SavedProcedureItem:
+    effective_token = _extract_token(session_token, authorization)
+    principal = _resolve_principal(effective_token, req.session_id)
+
+    try:
+        saved = save_procedure(
+            principal_id=principal,
+            procedure_id=req.procedure_id,
+            procedure_name=req.procedure_name,
+            jurisdiction=req.jurisdiction,
+        )
+    except ValueError as e:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(e))
+
+    return SavedProcedureItem(**saved)
+
+
+@router.get("/api/procedures/{procedure_id}", response_model=SavedProcedureItem)
+def get_procedure_detail(
+    procedure_id: str,
+    session_id: Optional[str] = None,
+    session_token: Optional[str] = Cookie(default=None, alias=SESSION_COOKIE),
+    authorization: Optional[str] = Header(default=None),
+) -> SavedProcedureItem:
+    effective_token = _extract_token(session_token, authorization)
+    principal = _resolve_principal(effective_token, session_id)
+
+    item = get_saved_procedure(principal, procedure_id)
+    if not item:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Saved procedure '{procedure_id}' not found.",
+        )
+    return SavedProcedureItem(**item)
+
+
+@router.delete("/api/procedures/{procedure_id}")
+def remove_procedure(
+    procedure_id: str,
+    session_id: Optional[str] = None,
+    session_token: Optional[str] = Cookie(default=None, alias=SESSION_COOKIE),
+    authorization: Optional[str] = Header(default=None),
+) -> dict:
+    effective_token = _extract_token(session_token, authorization)
+    principal = _resolve_principal(effective_token, session_id)
+
+    deleted = delete_saved_procedure(principal, procedure_id)
+    if not deleted:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Procedure '{procedure_id}' not found or already deleted.",
+        )
+    return {"ok": True, "deleted": procedure_id}

@@ -57,8 +57,23 @@ CREATE TABLE IF NOT EXISTS progress (
   UNIQUE(session_id, procedure_id, step_number)
 );
 
+CREATE TABLE IF NOT EXISTS saved_procedures (
+  id TEXT PRIMARY KEY,
+  principal_id TEXT NOT NULL,
+  procedure_id TEXT NOT NULL,
+  procedure_name TEXT NOT NULL,
+  jurisdiction TEXT DEFAULT 'Chandigarh',
+  status TEXT DEFAULT 'in_progress',
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE(principal_id, procedure_id)
+);
+
 CREATE INDEX IF NOT EXISTS idx_progress_lookup 
   ON progress(session_id, procedure_id);
+
+CREATE INDEX IF NOT EXISTS idx_saved_procedures_lookup
+  ON saved_procedures(principal_id);
 """
 
 SQLITE_SCHEMA = """
@@ -79,8 +94,23 @@ CREATE TABLE IF NOT EXISTS progress (
   FOREIGN KEY (session_id) REFERENCES sessions(session_id)
 );
 
+CREATE TABLE IF NOT EXISTS saved_procedures (
+  id TEXT PRIMARY KEY,
+  principal_id TEXT NOT NULL,
+  procedure_id TEXT NOT NULL,
+  procedure_name TEXT NOT NULL,
+  jurisdiction TEXT DEFAULT 'Chandigarh',
+  status TEXT DEFAULT 'in_progress',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE(principal_id, procedure_id)
+);
+
 CREATE INDEX IF NOT EXISTS idx_progress_lookup 
   ON progress(session_id, procedure_id);
+
+CREATE INDEX IF NOT EXISTS idx_saved_procedures_lookup
+  ON saved_procedures(principal_id);
 """
 
 
@@ -241,3 +271,241 @@ def get_progress(principal_id: str, procedure_id: str) -> tuple[list[int], int]:
     completed = [r[0] for r in rows if r[1]]
     configured_total = SUPPORTED_PROCEDURES[procedure_id]["max_steps"]
     return completed, configured_total
+
+
+def save_procedure(
+    principal_id: str,
+    procedure_id: str,
+    procedure_name: Optional[str] = None,
+    jurisdiction: Optional[str] = "Chandigarh",
+) -> dict:
+    """Save or update a procedure for a verified principal."""
+    validate_procedure_and_step(procedure_id)
+    ensure_session(principal_id)
+
+    name = procedure_name or SUPPORTED_PROCEDURES[procedure_id]["name"]
+    proc_uuid = f"proc-{principal_id.replace(':', '-')}-{procedure_id}"
+    now_iso = datetime.now(timezone.utc).isoformat()
+
+    if is_postgres():
+        try:
+            db_url = os.environ["DATABASE_URL"].strip("'\"")
+            with psycopg.connect(db_url) as conn:
+                _init_pg(conn)
+                with conn.cursor() as cur:
+                    cur.execute(
+                        """
+                        INSERT INTO saved_procedures (id, principal_id, procedure_id, procedure_name, jurisdiction, updated_at)
+                        VALUES (%s, %s, %s, %s, %s, CURRENT_TIMESTAMP)
+                        ON CONFLICT (principal_id, procedure_id)
+                        DO UPDATE SET procedure_name = EXCLUDED.procedure_name,
+                                      jurisdiction = EXCLUDED.jurisdiction,
+                                      updated_at = CURRENT_TIMESTAMP
+                        RETURNING id, procedure_id, procedure_name, jurisdiction, status, created_at, updated_at
+                        """,
+                        (proc_uuid, principal_id, procedure_id, name, jurisdiction or "Chandigarh"),
+                    )
+                    row = cur.fetchone()
+                conn.commit()
+                if row:
+                    completed, total = get_progress(principal_id, procedure_id)
+                    return {
+                        "id": row[0],
+                        "procedure_id": row[1],
+                        "procedure_name": row[2],
+                        "jurisdiction": row[3],
+                        "status": row[4],
+                        "completed_steps": completed,
+                        "total_steps": total,
+                        "created_at": str(row[5]),
+                        "updated_at": str(row[6]),
+                    }
+        except Exception:
+            pass
+
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.execute("PRAGMA foreign_keys = ON")
+        conn.executescript(SQLITE_SCHEMA)
+        conn.execute(
+            """
+            INSERT INTO saved_procedures (id, principal_id, procedure_id, procedure_name, jurisdiction, created_at, updated_at)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT (principal_id, procedure_id)
+            DO UPDATE SET procedure_name = excluded.procedure_name,
+                          jurisdiction = excluded.jurisdiction,
+                          updated_at = excluded.updated_at
+            """,
+            (proc_uuid, principal_id, procedure_id, name, jurisdiction or "Chandigarh", now_iso, now_iso),
+        )
+        row = conn.execute(
+            "SELECT id, procedure_id, procedure_name, jurisdiction, status, created_at, updated_at "
+            "FROM saved_procedures WHERE principal_id = ? AND procedure_id = ?",
+            (principal_id, procedure_id),
+        ).fetchone()
+
+    completed, total = get_progress(principal_id, procedure_id)
+    return {
+        "id": row[0],
+        "procedure_id": row[1],
+        "procedure_name": row[2],
+        "jurisdiction": row[3],
+        "status": row[4],
+        "completed_steps": completed,
+        "total_steps": total,
+        "created_at": str(row[5]),
+        "updated_at": str(row[6]),
+    }
+
+
+def list_saved_procedures(principal_id: str) -> list[dict]:
+    """List all saved procedures for a principal."""
+    if is_postgres():
+        try:
+            db_url = os.environ["DATABASE_URL"].strip("'\"")
+            with psycopg.connect(db_url) as conn:
+                _init_pg(conn)
+                with conn.cursor() as cur:
+                    cur.execute(
+                        """
+                        SELECT id, procedure_id, procedure_name, jurisdiction, status, created_at, updated_at
+                        FROM saved_procedures
+                        WHERE principal_id = %s
+                        ORDER BY updated_at DESC
+                        """,
+                        (principal_id,),
+                    )
+                    rows = cur.fetchall()
+            results = []
+            for r in rows:
+                completed, total = get_progress(principal_id, r[1])
+                results.append({
+                    "id": r[0],
+                    "procedure_id": r[1],
+                    "procedure_name": r[2],
+                    "jurisdiction": r[3],
+                    "status": r[4],
+                    "completed_steps": completed,
+                    "total_steps": total,
+                    "created_at": str(r[5]),
+                    "updated_at": str(r[6]),
+                })
+            return results
+        except Exception:
+            pass
+
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.execute("PRAGMA foreign_keys = ON")
+        conn.executescript(SQLITE_SCHEMA)
+        rows = conn.execute(
+            "SELECT id, procedure_id, procedure_name, jurisdiction, status, created_at, updated_at "
+            "FROM saved_procedures WHERE principal_id = ? ORDER BY updated_at DESC",
+            (principal_id,),
+        ).fetchall()
+
+    results = []
+    for r in rows:
+        completed, total = get_progress(principal_id, r[1])
+        results.append({
+            "id": r[0],
+            "procedure_id": r[1],
+            "procedure_name": r[2],
+            "jurisdiction": r[3],
+            "status": r[4],
+            "completed_steps": completed,
+            "total_steps": total,
+            "created_at": str(r[5]),
+            "updated_at": str(r[6]),
+        })
+    return results
+
+
+def get_saved_procedure(principal_id: str, procedure_id: str) -> Optional[dict]:
+    """Retrieve single procedure for principal."""
+    validate_procedure_and_step(procedure_id)
+    if is_postgres():
+        try:
+            db_url = os.environ["DATABASE_URL"].strip("'\"")
+            with psycopg.connect(db_url) as conn:
+                _init_pg(conn)
+                with conn.cursor() as cur:
+                    cur.execute(
+                        """
+                        SELECT id, procedure_id, procedure_name, jurisdiction, status, created_at, updated_at
+                        FROM saved_procedures
+                        WHERE principal_id = %s AND (procedure_id = %s OR id = %s)
+                        """,
+                        (principal_id, procedure_id, procedure_id),
+                    )
+                    r = cur.fetchone()
+            if r:
+                completed, total = get_progress(principal_id, r[1])
+                return {
+                    "id": r[0],
+                    "procedure_id": r[1],
+                    "procedure_name": r[2],
+                    "jurisdiction": r[3],
+                    "status": r[4],
+                    "completed_steps": completed,
+                    "total_steps": total,
+                    "created_at": str(r[5]),
+                    "updated_at": str(r[6]),
+                }
+            return None
+        except Exception:
+            pass
+
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.execute("PRAGMA foreign_keys = ON")
+        conn.executescript(SQLITE_SCHEMA)
+        r = conn.execute(
+            "SELECT id, procedure_id, procedure_name, jurisdiction, status, created_at, updated_at "
+            "FROM saved_procedures WHERE principal_id = ? AND (procedure_id = ? OR id = ?)",
+            (principal_id, procedure_id, procedure_id),
+        ).fetchone()
+
+    if not r:
+        return None
+    completed, total = get_progress(principal_id, r[1])
+    return {
+        "id": r[0],
+        "procedure_id": r[1],
+        "procedure_name": r[2],
+        "jurisdiction": r[3],
+        "status": r[4],
+        "completed_steps": completed,
+        "total_steps": total,
+        "created_at": str(r[5]),
+        "updated_at": str(r[6]),
+    }
+
+
+def delete_saved_procedure(principal_id: str, procedure_id: str) -> bool:
+    """Delete a saved procedure for principal."""
+    if is_postgres():
+        try:
+            db_url = os.environ["DATABASE_URL"].strip("'\"")
+            with psycopg.connect(db_url) as conn:
+                _init_pg(conn)
+                with conn.cursor() as cur:
+                    cur.execute(
+                        "DELETE FROM saved_procedures WHERE principal_id = %s AND (procedure_id = %s OR id = %s)",
+                        (principal_id, procedure_id, procedure_id),
+                    )
+                    deleted = cur.rowcount > 0
+                conn.commit()
+            return deleted
+        except Exception:
+            pass
+
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.execute("PRAGMA foreign_keys = ON")
+        conn.executescript(SQLITE_SCHEMA)
+        cur = conn.execute(
+            "DELETE FROM saved_procedures WHERE principal_id = ? AND (procedure_id = ? OR id = ?)",
+            (principal_id, procedure_id, procedure_id),
+        )
+        return cur.rowcount > 0
