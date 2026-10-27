@@ -15,7 +15,7 @@ from pathlib import Path
 from typing import Iterator, Literal
 from urllib.parse import quote
 
-from fastapi import APIRouter, Cookie, HTTPException, Request, Response, status
+from fastapi import APIRouter, Cookie, Header, HTTPException, Request, Response, status
 from pydantic import BaseModel, Field, field_validator
 
 from backend.db.progress import DB_PATH
@@ -354,6 +354,14 @@ def _user_response(user: sqlite3.Row) -> dict[str, str]:
     }
 
 
+def _extract_token(session_token: str | None = None, auth_header: str | None = None) -> str | None:
+    if session_token:
+        return session_token.strip()
+    if auth_header and auth_header.strip().lower().startswith("bearer "):
+        return auth_header.strip()[7:].strip()
+    return None
+
+
 def _load_user(token: str | None) -> dict[str, str]:
     if not token:
         raise HTTPException(
@@ -382,7 +390,7 @@ def _load_user(token: str | None) -> dict[str, str]:
 @router.post("/register", status_code=status.HTTP_201_CREATED)
 def register(
     request: RegistrationRequest, response: Response, http_request: Request
-) -> dict[str, dict[str, str]]:
+) -> dict[str, object]:
     user_id = str(uuid.uuid4())
     try:
         with _connection() as connection:
@@ -417,7 +425,7 @@ def register(
         raise
 
     _set_session_cookie(response, token)
-    return {"user": _user_response(user)}
+    return {"user": _user_response(user), "token": token}
 
 
 @router.post("/login")
@@ -461,7 +469,7 @@ def login(
         _record_login(connection, user["user_id"], http_request)
 
     _set_session_cookie(response, token)
-    return {"user": _user_response(user)}
+    return {"user": _user_response(user), "token": token}
 
 
 @router.post("/login/two-factor")
@@ -704,8 +712,10 @@ def disable_two_factor(
 @router.get("/me")
 def current_user(
     session_token: str | None = Cookie(default=None, alias=SESSION_COOKIE),
+    authorization: str | None = Header(default=None),
 ) -> dict[str, dict[str, str]]:
-    return {"user": _load_user(session_token)}
+    token = _extract_token(session_token, authorization)
+    return {"user": _load_user(token)}
 
 
 @router.patch("/me")

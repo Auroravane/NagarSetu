@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NagarSetu Civic Side Panel</title>
+  <link rel="stylesheet" href="sidepanel.css" />
+</head>
+<body>
+  <div class="panel-layout">
+    <!-- Top Header -->
+    <header class="panel-header">
+      <div class="brand">
+        <span class="brand-icon">🏛️</span>
+        <div>
+          <h1 class="brand-title">NagarSetu</h1>
+          <p class="brand-sub">Civic Intelligence</p>
+        </div>
+      </div>
+      <div class="header-controls">
+        <div id="liveBadge" class="badge badge-neutral">Connecting...</div>
+        <button id="btnTabNav" class="icon-btn" title="Navigation Views">⚙️</button>
+      </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-bar">
+      <button class="nav-tab active" data-view="chat">Civic Chat</button>
+      <button class="nav-tab" data-view="page">Page Analysis</button>
+      <button class="nav-tab" data-view="checklist">Saved Checklist</button>
+      <button class="nav-tab" data-view="settings">Settings / BYOK</button>
+    </nav>
+
+    <!-- Main Viewports -->
+    <main class="panel-body">
+      <!-- 1. Civic Chat View -->
+      <section id="viewChat" class="view-panel active">
+        <div id="chatMessages" class="chat-messages">
+          <div class="msg msg-assistant">
+            <p><strong>Namaste!</strong> I am your NagarSetu Civic Assistant.</p>
+            <p>Ask me about official municipal procedures (e.g., Trade License, Water Connection, Property Tax), or select any text on a government webpage and click <em>Explain Selection</em>.</p>
+          </div>
+        </div>
+
+        <div class="chat-input-area">
+          <form id="chatForm" class="chat-form">
+            <textarea
+              id="chatInput"
+              placeholder="Ask about a government procedure..."
+              rows="2"
+              required
+            ></textarea>
+            <div class="input-actions">
+              <span id="charCount" class="char-count">0/2000</span>
+              <button type="submit" id="btnSendChat" class="btn btn-send">Send</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- 2. On-Demand Page Analysis View -->
+      <section id="viewPage" class="view-panel">
+        <div class="page-meta-box">
+          <div class="page-meta-header">
+            <span class="page-meta-icon">📄</span>
+            <div class="page-meta-titles">
+              <h3 id="activePageTitle" class="page-title-text">Active Tab</h3>
+              <p id="activePageUrl" class="page-url-text">Loading page info...</p>
+            </div>
+          </div>
+          <button id="btnTriggerAnalysis" class="btn btn-primary full-width">
+            <span>Scan & Analyze Page Requirements</span>
+          </button>
+        </div>
+
+        <div id="analysisLoading" class="loading-state hidden">
+          <div class="spinner"></div>
+          <p>Extracting official text and analyzing civic requirements...</p>
+        </div>
+
+        <div id="analysisResult" class="analysis-container hidden">
+          <!-- Dynamic Analysis Content Injected by JS -->
+        </div>
+      </section>
+
+      <!-- 3. Saved Checklist & Progress View -->
+      <section id="viewChecklist" class="view-panel">
+        <div class="checklist-header">
+          <div>
+            <h2 id="checklistTitle" class="checklist-title">No Active Checklist</h2>
+            <p id="checklistSubtitle" class="checklist-sub">Ask about a procedure or select from saved workflows.</p>
+          </div>
+          <div id="checklistProgressBadge" class="progress-badge">0%</div>
+        </div>
+
+        <div id="authStatusBanner" class="auth-banner">
+          <span id="authStatusText">Signed in as Demo User</span>
+          <a href="#" id="linkAuthAction" class="auth-action-link">Sync with Account</a>
+        </div>
+
+        <div id="checklistItemsList" class="checklist-items">
+          <div class="empty-state">
+            <p>No checklist loaded. Ask a procedure question in the <strong>Civic Chat</strong> tab to generate an actionable, step-by-step checklist.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Settings & BYOK View -->
+      <section id="viewSettings" class="view-panel">
+        <h2 class="section-title">AI Provider & Backend Settings</h2>
+        <p class="section-desc">Bring Your Own Key (BYOK) for direct page explanation and summarization. Your credentials stay stored locally in your browser.</p>
+
+        <form id="settingsForm" class="settings-form">
+          <div class="form-group">
+            <label for="selectProvider">AI Provider</label>
+            <select id="selectProvider" class="form-control">
+              <option value="groq">Groq Cloud (Recommended, fast & affordable)</option>
+              <option value="gemini">Google Gemini</option>
+              <option value="openai">OpenAI</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="inputApiKey">API Key</label>
+            <input
+              type="password"
+              id="inputApiKey"
+              class="form-control"
+              placeholder="Enter your API key..."
+              autocomplete="off"
+            />
+            <small class="form-help">
+              <a href="#" id="providerDocsLink" target="_blank">Get an API key &rarr;</a>
+            </small>
+          </div>
+
+          <div class="form-group">
+            <label for="selectModel">Model</label>
+            <select id="selectModel" class="form-control"></select>
+          </div>
+
+          <div class="form-group">
+            <label for="inputBackendUrl">NagarSetu Backend API Endpoint</label>
+            <input
+              type="url"
+              id="inputBackendUrl"
+              class="form-control"
+              placeholder="https://nagarsetu-jco2.onrender.com"
+            />
+            <small class="form-help">Default: https://nagarsetu-jco2.onrender.com (or http://localhost:8000 for local dev)</small>
+          </div>
+
+          <div class="form-group">
+            <label for="inputAuthToken">Account Session Token (Optional Bearer Auth)</label>
+            <input
+              type="password"
+              id="inputAuthToken"
+              class="form-control"
+              placeholder="Paste token or sign in via web app"
+            />
+            <small class="form-help">Synchronizes saved checklist progress with your NagarSetu account.</small>
+          </div>
+
+          <div class="settings-actions">
+            <button type="submit" class="btn btn-primary">Save Settings</button>
+            <button type="button" id="btnTestBYOK" class="btn btn-secondary">Test Connection</button>
+            <button type="button" id="btnClearCredentials" class="btn btn-danger">Clear Credentials</button>
+          </div>
+
+          <div id="settingsFeedback" class="feedback-banner hidden"></div>
+        </form>
+      </section>
+    </main>
+  </div>
+  <script type="module" src="sidepanel.js"></script>
+</body>
+</html>

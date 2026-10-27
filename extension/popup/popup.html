@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NagarSetu Quick Assistant</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup-container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo-badge">🏛️</div>
+        <div>
+          <h1 class="title">NagarSetu</h1>
+          <p class="subtitle">Civic Companion</p>
+        </div>
+      </div>
+      <div id="statusBadge" class="status-pill status-connecting">Checking...</div>
+    </header>
+
+    <main class="actions-list">
+      <button id="btnOpenSidepanel" class="btn btn-primary">
+        <span class="icon">📑</span>
+        <span>Open Civic Side Panel</span>
+      </button>
+
+      <button id="btnAnalyzePage" class="btn btn-secondary">
+        <span class="icon">🔍</span>
+        <span>Analyze Current Webpage</span>
+      </button>
+
+      <button id="btnExplainSelection" class="btn btn-secondary">
+        <span class="icon">💡</span>
+        <span>Explain Selected Text</span>
+      </button>
+
+      <button id="btnOpenWebApp" class="btn btn-outline">
+        <span class="icon">🌐</span>
+        <span>Open NagarSetu Web App</span>
+      </button>
+    </main>
+
+    <footer class="footer">
+      <div id="providerStatus" class="provider-info">BYOK: Checking...</div>
+      <a href="#" id="linkOpenSettings" class="settings-link">⚙️ Settings</a>
+    </footer>
+  </div>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

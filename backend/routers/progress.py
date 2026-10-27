@@ -25,7 +25,7 @@ from backend.db.progress import (
     validate_procedure_and_step,
 )
 from backend.models.schemas import ProgressResponse, ProgressUpdate
-from backend.routers.auth import SESSION_COOKIE, _load_user
+from backend.routers.auth import SESSION_COOKIE, _extract_token, _load_user
 
 router = APIRouter()
 
@@ -67,8 +67,10 @@ def _resolve_principal(
 def update_progress(
     req: ProgressUpdate,
     session_token: Optional[str] = Cookie(default=None, alias=SESSION_COOKIE),
+    authorization: Optional[str] = Header(default=None),
 ) -> dict:
-    principal = _resolve_principal(session_token, req.session_id)
+    effective_token = _extract_token(session_token, authorization)
+    principal = _resolve_principal(effective_token, req.session_id)
 
     try:
         upsert_progress(
@@ -88,8 +90,10 @@ def read_progress(
     procedure_id: str,
     session_id: Optional[str] = None,
     session_token: Optional[str] = Cookie(default=None, alias=SESSION_COOKIE),
+    authorization: Optional[str] = Header(default=None),
 ) -> ProgressResponse:
-    principal = _resolve_principal(session_token, session_id)
+    effective_token = _extract_token(session_token, authorization)
+    principal = _resolve_principal(effective_token, session_id)
 
     try:
         completed, total = get_progress(principal, procedure_id)
